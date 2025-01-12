@@ -1,5 +1,7 @@
-import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-static';
+
+import config from './scr/lib/config.json' with { type: json };
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

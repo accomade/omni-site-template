@@ -1,0 +1,1008 @@
+{
+	"settings": {
+		"ACCOMADE_USER_ID": "template1",
+		"PUBLIC_SUPABASE_URL": "https://ipajhcabityibeaqfzju.supabase.co"
+	},
+	"cookies": {
+		"types": [
+			"necessary",
+			"preferences"
+		],
+		"showIcon": true
+	},
+	"fonts": {
+		"main": {
+			"shortName": "helvetica",
+			"cssName": "Helvetica",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": false
+		},
+		"nav": {
+			"shortName": "system-ui",
+			"cssName": "system-ui",
+			"variant": "small-caps",
+			"fallback": "sans-serif",
+			"fontsource": false
+		},
+		"pageTitle": {
+			"shortName": "arizonia",
+			"cssName": "Arizonia",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": true
+		},
+		"landingTitle": {
+			"shortName": "raleway",
+			"cssName": "Raleway",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": true
+		},
+		"header": {
+			"shortName": "carrois-gothic",
+			"cssName": "Carrois Gothic",
+			"variant": "small-caps",
+			"fallback": "sans-serif",
+			"fontsource": true
+		}
+	},
+	"nav": {
+		"footer": [
+			{
+				"external": false,
+				"key": "home",
+				"path": "/"
+			},
+			{
+				"external": false,
+				"key": "imprint",
+				"path": "/imprint"
+			},
+			{
+				"external": false,
+				"key": "terms",
+				"path": "/terms"
+			}
+		],
+		"main": [
+			{
+				"external": false,
+				"key": "home",
+				"path": "/"
+			},
+			{
+				"external": false,
+				"key": "accomodations",
+				"path": "/accomodations"
+			},
+			{
+				"acco": "83cd06fd-858d-4e21-994f-325778812713",
+				"external": false,
+				"key": "83cd06fd-858d-4e21-994f-325778812713",
+				"path": "/accomodations/83cd06fd-858d-4e21-994f-325778812713",
+				"sub": true
+			}
+		]
+	},
+	"pages": {
+		"/": {
+			"headerPhoto": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/a04d9149-d9cf-4ae4-9bcd-681856955231",
+			"sections": [
+				{
+					"blocks": [
+						{
+							"content": {
+								"textFontSize": "1.1rem",
+								"headerFontSize": "1.4rem",
+								"minHeight": "2rem",
+								"ref": "excellent-coakum"
+							},
+							"kind": "text",
+							"id": "printed-marsh-ragwort"
+						},
+						{
+							"content": {
+								"alt": "rich-black-eyed-susan",
+								"attribution": "",
+								"height": "30vh",
+								"link": "",
+								"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/299435a8-7844-48ca-b8c2-167bc6ce6389"
+							},
+							"kind": "photo",
+							"id": "long-carolina-azolla"
+						}
+					],
+					"columnCount": 2,
+					"header": "town",
+					"padding": "10vw"
+				},
+				{
+					"blocks": [
+						{
+							"content": {
+								"location": "54d0514d00/koserow/",
+								"header1": "nasty-thin-leaved-coneflower-block-compact-swamp-hellebore",
+								"header2": "nasty-thin-leaved-coneflower-block-devoted-mango"
+							},
+							"kind": "weather",
+							"id": "available-birds-nest-plant"
+						}
+					],
+					"columnCount": 1,
+					"header": "weather",
+					"padding": "0"
+				},
+				{
+					"blocks": [
+						{
+							"content": {
+								"gridPhotoWidth": 500,
+								"photos": [
+									{
+										"kind": "photo",
+										"id": "some-id-2",
+										"content": {
+											"alt": "some-alt",
+											"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/f883c950-da8d-4b07-ad79-44260e847c02"
+										}
+									},
+									{
+										"kind": "photo",
+										"id": "some-id-3",
+										"content": {
+											"alt": "some-alt",
+											"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/05b30839-e37b-4788-857a-43f2c3042598"
+										}
+									},
+									{
+										"kind": "photo",
+										"id": "some-id-4",
+										"content": {
+											"alt": "some-alt",
+											"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/a04d9149-d9cf-4ae4-9bcd-681856955231"
+										}
+									},
+									{
+										"kind": "photo",
+										"id": "some-id-5",
+										"content": {
+											"alt": "some-alt",
+											"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/3656e302-28e9-46b0-926f-60f6dae4aa86"
+										}
+									},
+									{
+										"kind": "photo",
+										"id": "some-id-6",
+										"content": {
+											"alt": "some-alt",
+											"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/e5056f8f-5402-41d7-bda4-befda567d64b"
+										}
+									}
+								]
+							},
+							"kind": "gallery",
+							"id": "varying-hedge-plant"
+						}
+					],
+					"columnCount": 1,
+					"header": "impressions",
+					"padding": "0"
+				},
+				{
+					"blocks": [
+						{
+							"content": {
+								"address": "Achterstr. 3, 17459 Koserow",
+								"lat": "54.048225890957866",
+								"long": "13.997402242070073",
+								"zoom": 17
+							},
+							"kind": "leaflet-map",
+							"id": "still-trillium"
+						}
+					],
+					"columnCount": 1,
+					"header": "directions",
+					"padding": "10vw"
+				}
+			]
+		},
+		"/imprint": {},
+		"/tos": {},
+		"/accomodations/haus_1": {
+			"id": "multiple-decidiuous-holly",
+			"cardContent": {
+				"blocks": [
+					{
+						"id": "proposed-sycamore-arizona",
+						"acco": "83cd06fd-858d-4e21-994f-325778812713",
+						"content": {
+							"accoPath": "83cd06fd-858d-4e21-994f-325778812713",
+							"peopleMin": 2,
+							"peopleMax": 4,
+							"size": 45,
+							"bedRooms": 2,
+							"bathRooms": 1,
+							"pets": true,
+							"wifi": true,
+							"smoking": false,
+							"ac": false,
+							"tv": true,
+							"parking": true,
+							"showPets": true,
+							"showWifi": true,
+							"showSmoking": true,
+							"showAc": false,
+							"showTv": true,
+							"showParking": true
+						},
+						"kind": "amenities-core"
+					},
+					{
+						"id": "grotesque-great-ragweed",
+						"acco": "83cd06fd-858d-4e21-994f-325778812713",
+						"content": {
+							"accoPath": "83cd06fd-858d-4e21-994f-325778812713",
+							"showMaximum": true,
+							"showMinimum": true,
+							"footnote": "delicate-broadleaf",
+							"entries": [
+								{
+									"from": "2024-09-01T02:00:00.000+02:00",
+									"to": "2025-06-30T00:00:00.000Z",
+									"entry": {
+										"perNightPrice": {
+											"amount": 5000,
+											"currency": {
+												"code": "EUR",
+												"base": 10,
+												"exponent": 2
+											},
+											"scale": 2
+										},
+										"minNumberOfNights": 3,
+										"firstNightPrice": {
+											"amount": 8000,
+											"currency": {
+												"code": "EUR",
+												"base": 10,
+												"exponent": 2
+											},
+											"scale": 2
+										}
+									}
+								},
+								{
+									"from": "2025-09-01T02:00:00.000+02:00",
+									"to": "2026-06-30T00:00:00.000Z",
+									"entry": {
+										"perNightPrice": {
+											"amount": 5000,
+											"currency": {
+												"code": "EUR",
+												"base": 10,
+												"exponent": 2
+											},
+											"scale": 2
+										},
+										"minNumberOfNights": 3,
+										"firstNightPrice": {
+											"amount": 8000,
+											"currency": {
+												"code": "EUR",
+												"base": 10,
+												"exponent": 2
+											},
+											"scale": 2
+										}
+									}
+								}
+							],
+							"global": {
+								"perNightPrice": {
+									"amount": 7000,
+									"currency": {
+										"code": "EUR",
+										"base": 10,
+										"exponent": 2
+									},
+									"scale": 2
+								},
+								"minNumberOfNights": 5,
+								"firstNightPrice": {
+									"amount": 10000,
+									"currency": {
+										"code": "EUR",
+										"base": 10,
+										"exponent": 2
+									},
+									"scale": 2
+								}
+							}
+						},
+						"kind": "pricing-short"
+					},
+					{
+						"id": "plastic-clover",
+						"acco": "83cd06fd-858d-4e21-994f-325778812713",
+						"content": {
+							"accoPath": "83cd06fd-858d-4e21-994f-325778812713",
+							"calUrl": "https://popnapdkcdnabruxkjti.supabase.co/storage/v1/object/public/ical/81e66599-ac3c-4ad6-b261-fceeb784f9e9/83cd06fd-858d-4e21-994f-325778812713",
+							"search": [
+								3,
+								7,
+								14
+							]
+						},
+						"kind": "calendar-available"
+					}
+				],
+				"coverPhoto": {
+					"alt": "acco_default_alt",
+					"external": false,
+					"link": "accomodations/83cd06fd-858d-4e21-994f-325778812713",
+					"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/94bdc010-15d1-4c03-adcd-0d86eebaa885"
+				},
+				"slug": "acco_card_slug"
+			},
+			"displayName": "Wohnung 1 Ferienhaus",
+			"path": "/accomodations/83cd06fd-858d-4e21-994f-325778812713",
+			"siteContent": [
+				{
+					"id": "some-new-id-1",
+					"blocks": [
+						{
+							"id": "fake-block-id-3",
+							"content": {
+								"minHeight": "5rem",
+								"textFontSize": "1.2rem",
+								"headerFontSize": "2rem",
+								"ref": "equal-black-cap"
+							},
+							"kind": "text"
+						},
+						{
+							"id": "fake-block-id-4",
+							"acco": "83cd06fd-858d-4e21-994f-325778812713",
+							"content": {
+								"accoPath": "83cd06fd-858d-4e21-994f-325778812713",
+								"calUrl": "https://popnapdkcdnabruxkjti.supabase.co/storage/v1/object/public/ical/81e66599-ac3c-4ad6-b261-fceeb784f9e9/83cd06fd-858d-4e21-994f-325778812713"
+							},
+							"kind": "calendar"
+						}
+					],
+					"columnCount": 2,
+					"header": "major-swinies",
+					"padding": "10vw"
+				}
+			]
+		}
+	},
+	"lang": {
+		"defaultLang": "en",
+		"supportedLangs": [
+			"en",
+			"de",
+			"pl",
+			"es",
+			"fr"
+		],
+		"translations": {
+			"de": {
+				"calendar": {
+					"monthLabels": {
+						"1": "Jan",
+						"2": "Feb",
+						"3": "Mär",
+						"4": "Apr",
+						"5": "Mai",
+						"6": "Jun",
+						"7": "Jul",
+						"8": "Aug",
+						"9": "Sep",
+						"10": "Okt",
+						"11": "Nov",
+						"12": "Dez"
+					},
+					"typeNames": {
+						"defaultOccupationTypeName": "Belegt"
+					},
+					"weekdayLabels": {
+						"1": "Mo",
+						"2": "Di",
+						"3": "Mi",
+						"4": "Do",
+						"5": "Fr",
+						"6": "Sa",
+						"7": "So"
+					},
+					"weekendLabel": "Wochenende"
+				},
+				"cookies": {
+					"acceptLabel": "Alle akzeptieren",
+					"closeLabel": "Schließen & Speichern",
+					"cookieDescriptions": {
+						"analytics": "Analyse-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.",
+						"marketing": "Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu folgen. Die Absicht ist, Anzeigen zu zeigen, die relevant und ansprechend für den einzelnen Benutzer sind und daher wertvoller für Publisher und werbetreibende Drittparteien sind.",
+						"necessary": "Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.",
+						"preferences": "Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden."
+					},
+					"cookieLabels": {
+						"analytics": "Analyse-Cookies",
+						"marketing": "Marketing-Cookies",
+						"necessary": "Notwendige Cookies",
+						"preferences": "Präferenz-Cookies"
+					},
+					"description": "Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.",
+					"editLabel": "Einstellungen anpassen",
+					"heading": "Diese Webseite verwendet Cookies",
+					"rejectLabel": "Nur Essentielle",
+					"settingsLabel": "Cookie Einstellungen"
+				},
+				"site": {
+					"050edcb4-680e-4542-96df-3ae4a2af89a5": "Wohnung 2 Freienhaus",
+					"83cd06fd-858d-4e21-994f-325778812713": "Wohnung 1 Ferienhaus",
+					"acco_card_slug": "Weitere Informationen finden Sie auf der Seite dieser Unterkunft.",
+					"acco_default_alt": "Foto der Unterkunft",
+					"accomodations": "Ferienwohnungen",
+					"adults": "Erwachsene",
+					"availability": "Verfügbarkeit",
+					"calendarHeader": "Buchungsplan",
+					"de": "Deutsch",
+					"directions": "Anfahrt",
+					"e5cace58-d435-420f-a1dc-17e844469e7e": "Wohnung DG",
+					"eachNight": "Jede weitere Nacht",
+					"en": "English",
+					"es": "Español",
+					"excellent-coakum": "<p>Willkommen in unseren schönen Ferienwohnungen im ruhigen Dorf Koserow, direkt an der atemberaubenden Ostsee! Mit der Natur direkt vor der Haustür haben Sie die Freiheit, die üppige Umgebung zu erkunden oder einen gemütlichen Spaziergang an unserem wunderschönen Sandstrand zu machen.</p><p>Koserow hat eine reiche Geschichte, die sicherlich faszinieren und begeistern wird. Entdecken Sie die lokale Kultur und erkunden Sie unsere charmante Dorfkirche. Welcher Ort könnte besser für Ihren Urlaub geeignet sein als ein Ort, der natürliche Schönheit mit historischem Charme vereint.</p><p>Wir können es kaum erwarten, Sie für Ihren unvergesslichsten Urlaub zu beherbergen!</p>",
+					"extraPerson": "Zus. Gast",
+					"firstNight": "Erste Nacht",
+					"footer_html": "\n      <p><strong>Kontakt:</strong><br>\n        Kordula Schumacher<br>\n        Achterstr. 3<br>\n        <br>\n        17459 Koserow - Deutschland<br>\n        Telefon: +49 038375 20562<br>\n        \n        E-Mail: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n      </p>",
+					"fr": "Français",
+					"from": "Von",
+					"globalAdditionalPerson": "Zusätzlicher Gast",
+					"globalMinimumStay": "Mindestaufenthalt",
+					"globalNightlyRate": "Pro Nacht",
+					"globalPeopleCount": "Anzahl der Gäste",
+					"globalPricing": "Allgemeine Preise",
+					"headerSlug": "Entspannung und Sonnenschein",
+					"headerTitle": "Ferienunterkünfte",
+					"home": "Home",
+					"impressions": "Einige Eindrücke",
+					"imprint": "Impressum",
+					"imprint_html": "\n      <h1>Impressum</h1>\n      <section class=\"contact\">\n        <h2>Verantwortlich für den Inhalt</h2>\n        <p>\n        <strong>Kordula Schumacher</strong>\n        </p>\n        <p>\n          Achterstr. 3<br>\n          <br>\n          17459 Koserow - Deutschland <br>\n          Telefon: +49 038375 20562<br>\n          \n          E-Mail: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n        </p>\n      </section>\n      <section>\n        <h2>Haftungsausschluss</h2>\n        <p>\n          Trotz sorgfältiger Kontrolle übernimmt Kordula Schumacher (der Betreiber der Website) keine Haftung für den Inhalt externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.\n        </p>\n      </section>\n      <section>\n        <h2>Urheberrechtshinweis</h2>\n        <p>\n          Die vom Betreiber dieser Seiten erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.\n        </p>\n        <p>\n          Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.\n        </p>\n        <p>\n          Alle auf dieser Website verwendeten Fotografien sind das Eigentum der jeweiligen Künstler und unterliegen dem internationalen Urheberrecht. Die Fotografien dürfen ohne die vorherige schriftliche Genehmigung des Künstlers in keiner Weise verwendet, kopiert, reproduziert, manipuliert oder verteilt werden.\n        </p>\n        <p>\n          Von Dritten erstellte Fotografien sind Eigentum der jeweiligen Eigentümer und werden auf dieser Website mit Genehmigung verwendet. Die Verwendung dieser Fotografien impliziert keine Billigung des Betreibers der Website durch die Fotografen oder die Eigentümer der Fotografien. Fotografien, die Dritten gehören, sind als solche gekennzeichnet.\n        </p>\n        <p>\n          Unmarkierte Fotografien werden vom Betreiber der Website erstellt oder sind das ausschließliche Eigentum des Betreibers und unterliegen dem internationalen Urheberrecht.\n        </p>\n        <p>\n          Wenn Sie die Rechte an einer der auf dieser Website angezeigten Fotografien lizenzieren oder erwerben möchten, wenden Sie sich bitte direkt an den jeweiligen Künstler.\n        </p>\n        <p>\n          Wir möchten uns bei den talentierten Fotografen bedanken, die uns erlaubt haben, ihre Arbeit auf unserer Website zu präsentieren. Ihre Beiträge sind sehr geschätzt.\n        </p>\n      </section>\n      <section>\n        <h2>Europäische Online-Streitbeilegung (ODR)</h2>\n        <p>\n          Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a> finden.\n        </p>\n        <p>\n          Bitte beachten Sie, dass der Betreiber dieser Website nicht am Europäischen Online-Streitbeilegungsverfahren (ODR) teilnimmt und nicht dazu verpflichtet ist. Daher können wir nicht für Streitigkeiten haftbar gemacht werden, die aus unseren Produkten oder Dienstleistungen resultieren.\n        </p>\n        <p>\n          Wir ermutigen alle Kunden, sich im Falle eines Streits direkt an uns zu wenden. Wir sind bestrebt, eine faire und gegenseitig akzeptable Lösung für alle Probleme zu finden.\n        </p>\n        <p>\n          Wenn Sie Fragen oder Bedenken haben, zögern Sie bitte nicht, uns zu kontaktieren:\n        </p>\n        <p>\n          <strong>Kordula Schumacher</strong><br>\n          Achterstr. 3<br>\n          <br>\n          17459 Koserow - Deutschland<br>\n          Telefon: +49 038375 20562<br>\n          E-Mail <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n        </p>\n      </section>\n    ",
+					"landing_town_html": "",
+					"lang": "Sprache",
+					"location": "Ort",
+					"minNumNights": "Min. Aufenthalt",
+					"missing_cal_url": "unbekannt",
+					"peopleNum": "Anzahl der Gäste",
+					"pl": "Polski",
+					"pricing": "Termine und Preise",
+					"resonant-horsetail-milkweed": "<p>Freuen Sie sich auf eine hochwertig ausgestattete, exklusive Ferienwohnung, die Ihren Aufenthalt zu einem ganz besonderen Erlebnis macht. Mit 60 Quadratmetern bietet die Wohnung viel Platz zum Entspannen und Genießen. Sie ist mit einer modernen und angenehmen Fußbodenheizung ausgestattet, die für ein gemütliches Raumklima sorgt.</p><p>Eine besondere Attraktion ist der Schlafraum als Gallerie, der Ihnen das Gefühl vermittelt, in einer luxuriösen Suite zu schlafen. Hier finden Sie ein bequemes Doppelbett zum Ausruhen und Träumen. Ein besonderes Highlight ist der eingebaute LED-TV, mit dem Sie von Ihrem Bett aus entspannt fernsehen können.</p><p>Der offene, helle Wohnraum ist mit einer Einbauküche ausgestattet, die keine Wünsche offen lässt. Ob Herd, Geschirrspüler, Mikrowelle oder ein Design-Kühlschrank - es ist alles da, was Sie brauchen. Gemeinsam Kochen und anschließend auf dem gemütlichen Sofa Platz nehmen, lässt Sie den Abend entspannt ausklingen. Einem Filmabend steht nichts mehr im Wege, da ein 50-Zoll-Großbild-TV mit Internetzugang sowie HDTV-Sat-Empfang vorhanden ist. Auch für Musikliebhaber ist mit einer HiFi-Anlage mit DVD gesorgt.</p><p>Für Gäste ist zudem eine Aufbettung auf der Eckpolstergarnitur möglich.</p><p>Das großräumige Bad bietet sowohl eine Dusche als auch eine Eckbadewanne. Nach einem langen Tag können Sie sich hier entspannen und Ihre Batterien wieder aufladen. Verfügbar ist dazu ein weiterer LED-TV.</p><p>Die eigene Dach-Terrasse bietet Ihnen einen fantastischen Ausblick und lädt zum Verweilen ein. Hier befindet sich neben den gemütlichen Gartenmöbeln auch ein eigener Elektrogrill, der für gesellige Grillabende bereit steht. Ein hochwertiger Strandkorb rundet das Angebot ab und vermittelt ein Urlaubsgefühl der ganz besonderen Art.</p><p>Für Ihren PKW steht ein Stellplatz unter dem Carport zur Verfügung. Da uns Ihr Komfort sehr am Herzen liegt, bieten wir Ihnen außerdem ein kostenloses WLAN an.</p><p>Die Preise beinhalten neben Bettwäsche und Handtüchern selbstverständlich auch alle Nebenkosten (Energie und Wasser).</p><p>Kurz gesagt, diese Ferienwohnung ist der ideale Ort, um sich zu erholen und die schönste Zeit des Jahres zu genießen. Wir freuen uns bereits auf Ihren Besuch!</p>",
+					"rich-black-eyed-susan": "Kirche",
+					"shortPriceLabel": "Preisspanne",
+					"steady-european-weeping-birch-block-homely-rhubarb": "Koserow",
+					"steady-european-weeping-birch-block-written-baobab": "Wetter",
+					"terms": "AGB",
+					"timeRange": "Bereich",
+					"title": "Willkommen in Ihrem Urlaub",
+					"to": "Bis",
+					"tos_html": "<h1>Allgemeine Geschäftsbedingungen - Vermietung</h1><h2>Einführung</h2><p>Willkommen auf unserer Ferienwohnungen-Website (im Folgenden als \"Website\" bezeichnet), auf der Sie eine Ferienwohnung finden und Ihre nächste Auszeit buchen können. Durch die Nutzung unserer Website erklären Sie sich damit einverstanden, diese allgemeinen Geschäftsbedingungen zu akzeptieren, die Ihre Nutzung unserer Website und die von uns bereitgestellten Dienste regeln.</p><h2>Buchung und Bezahlung</h2><p>Um eine Buchung vorzunehmen, kontaktieren Sie uns bitte per E-Mail oder Telefon.</p><h2>Stornierung und Erstattungen</h2><p>Sie können jederzeit bis 60 Tage vor Ihrem Anreisetag kostenlos stornieren. Wenn Sie innerhalb dieses Zeitrahmens stornieren, werden alle bereits geleisteten Zahlungen erstattet. Wenn Sie danach stornieren, behalten wir uns vor 60% der vollständigen Buchungskosten einzufordern.</p><h2>An- und Abreise</h2><p>Ihre Wohnung steht Ihnen am Anreisetag ab 14:00 Uhr zur Verfügung und muss bis spätestens 10:00 Uhr am Abreisetag geräumt sein. Später Check-out und früherer Check-in kann je nach Verfügbarkeit und gegen eine Gebühr vereinbart werden.</p><h2>Schaden und Verlust</h2><p>Sie sind verantwortlich für jeglichen Schaden oder Verlust, der an der Wohnung oder den zur Verfügung gestellten Gegenständen während Ihres Aufenthalts entsteht. Sie sind haftbar für die Kosten der Reparatur oder des Ersatzes solcher Schäden oder Verluste.</p><h2>Haftung</h2><p>Wir haften nicht für Schäden oder Verluste, die Ihnen aufgrund Ihrer Nutzung unseres Mietobjekts oder sonstiger angebotener Dienste entstehen, es sei denn, es ist gesetzlich vorgeschrieben.</p><h2>Änderungen der Allgemeinen Geschäftsbedingungen</h2><p>Wir behalten uns das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern. Mit der weiteren Nutzung unseres Angebotes nach solchen Änderungen erklären Sie sich mit den neuen Allgemeinen Geschäftsbedingungen einverstanden.</p><h1>Nutzungsbedingungen - Webseite</h1><p>Diese Website wird von uns betrieben, verwendet Dienste Dritter (siehe unten) und wird Ihnen zu Ihrem persönlichen Gebrauch unter den folgenden Nutzungsbedingungen (im Folgenden als „Bedingungen“ bezeichnet) zur Verfügung gestellt.</p><h2>Zweck der Website</h2><p>Unsere Website bietet Informationen über Ferienwohnungen, die zur Miete stehen, einschließlich ihrer Preise und Verfügbarkeit. Diese Website bietet auch Links zu anderen Websites, die für Sie von Interesse sein können.</p><h2>Nutzung der Website</h2><p>Sie dürfen die Website nur für rechtmäßige Zwecke und in Übereinstimmung mit den Bedingungen nutzen. Sie stimmen zu, die Website nicht zu nutzen:</p><ul><li><p>Auf irgendeine Weise, die gegen geltende Bundes-, Landes-, lokale oder internationale Gesetze oder Bestimmungen verstößt.</p></li><li><p>Zum Zweck der Ausbeutung, Schädigung oder Versuch der Ausbeutung oder Schädigung von Minderjährigen auf irgendeine Weise, indem sie ihnen unangemessene Inhalte vorstellen, nach persönlichen identifizierbaren Informationen fragen oder auf andere Weise.</p></li><li><p>Zur Übertragung oder Erhalt der Übertragung jeglicher Werbung oder sonstiger Werbematerialien, einschließlich jeglicher „Werbung“, „Kettenbriefe“, „Spam“ oder jegliche andere ähnliche Anfragen.</p></li><li><p>Zur Imitation oder zum Versuch der Imitation einer anderen Person oder einer anderen Einheit.</p></li></ul><h2>Haftungsausschluss</h2><p>Unsere Website wird „wie sie ist“ und „wie verfügbar“ ohne jegliche Gewährleistung jeglicher Art, ausdrücklich oder stillschweigend, einschließlich, aber nicht beschränkt auf die stillschweigenden Gewährleistungen der Marktgängigkeit, Eignung für einen bestimmten Zweck und Nichtverletzung bereitgestellt.</p><h2>Haftungsbeschränkung</h2><p>In keinem Fall haften wir für Schäden, die aus der Nutzung der Website entstehen, einschließlich, aber nicht beschränkt auf indirekte, zufällige, besondere, strafrechtliche oder Folgeschäden, Gewinnverluste oder Daten oder Verlust des guten Willens.</p><h2>Externe Links</h2><p>Unsere Website kann Links zu Websites oder Diensten Dritter enthalten, die nicht von uns besessen oder kontrolliert werden. Wir haben keine Kontrolle über und übernehmen keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder die Praktiken von Websites oder Diensten Dritter. Sie bestätigen und erklären sich damit einverstanden, dass wir nicht verantwortlich oder haftbar sind, direkt oder indirekt, für jeglichen Schaden oder Verlust, der durch oder im Zusammenhang mit der Nutzung oder dem Vertrauen auf solche Inhalte, Waren oder Dienstleistungen, die auf oder über solche Websites oder Dienste verfügbar sind, entstanden ist oder angeblich entstanden ist.</p><h2>Änderungen der Bedingungen</h2><p>Wir behalten uns das Recht vor, diese Bedingungen jederzeit ohne vorherige Ankündigung zu ändern. Ihre fortgesetzte Nutzung der Website nach solchen Änderungen stellt Ihre Annahme der neuen Bedingungen dar.</p><h2>Geltendes Recht</h2><p>Diese Bedingungen unterliegen und werden in Übereinstimmung mit den Gesetzen des Staates ausgelegt, in dem der Eigentümer der Wohnungen seinen Hauptwohnsitz hat, unter Ausschluss der Kollisionsnormen.</p><h1>Datenschutzrichtlinie</h1><h2>Einführung</h2><p>Wir respektieren Ihre Privatsphäre und sind bestrebt, Ihre personenbezogenen Daten zu schützen. Diese Datenschutzrichtlinie erklärt, wie wir Ihre personenbezogenen Daten erheben, verwenden und offenlegen.</p><h2>Erhebung von Informationen</h2><p>Wir erheben personenbezogene Daten wie Ihren Namen, Ihre Adresse, Ihre E-Mail-Adresse und Ihre Telefonnummer, wenn Sie eine Buchung anfordern oder vornehmen oder sich für andere von uns angebotene Dienste wie unseren Newsletter registrieren. Wir erheben auch Informationen über Ihre Buchung, einschließlich An- und Abreisedatum, Anzahl der Gäste, ggf. spezielle Bedürfnisse (Allergien, oder Ähnliches) und Zahlungsinformationen.</p><h2>Verwendung von Informationen</h2><p>Wir verwenden Ihre personenbezogenen Daten, um Ihre Buchungsanfrage, Ihre Buchung zu bearbeiten, mit Ihnen zu kommunizieren und Ihnen Updates über unsere Dienstleistungen und Sonderangebote zu liefern. Wir verwenden Ihre anonymisierten Informationen auch für interne Zwecke wie Auswertungen und Analysen.</p><p>Während Ihres Aufenthalts werden wir Ihre schriftliche Zustimmung hierzu einholen, wenn Sie damit einverstanden sind.</p><h2>Offenlegung von Informationen</h2><p>Wir geben Ihre personenbezogenen Daten nicht an Dritte weiter, es sei denn, es ist gesetzlich vorgeschrieben oder zur Bearbeitung Ihrer Buchung erforderlich.</p><h2>Datensicherheit</h2><p>Wir treffen angemessene Maßnahmen, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Nutzung oder Offenlegung zu schützen.</p><h2>Änderungen der Datenschutzrichtlinie</h2><p>Wir behalten uns das Recht vor, diese Datenschutzrichtlinie jederzeit zu ändern. Mit der fortgesetzten Nutzung unserer Services nach solchen Änderungen erklären Sie sich mit der neuen Datenschutzrichtlinie automatisch einverstanden.</p><h1>Hinweis zu Open-Source-Software</h1><p>Unsere Website nutzt verschiedene Open-Source-Softwarelösungen, die unter den MIT- oder Apache-Lizenzen veröffentlicht werden. Durch die Verwendung dieser Lösungen können wir unsere Dienste effizient und zuverlässig bereitstellen.</p><p>Wir möchten diese Gelegenheit nutzen, um allen Entwicklern, die an diesen Projekten beteiligt sind und sie verfügbar machen, unseren Dank auszusprechen.</p><p>Die ursprünglichen Lizenzbedingungen für die verwendete Software finden Sie unter den folgenden Links:</p><ul><li><p>MIT-Lizenz: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></p></li><li><p>Apache-Lizenz: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></p></li></ul><p>Bitte beachten Sie, dass diese Lizenzbedingungen Teil der Nutzungsbedingungen für unsere Website sind und eingehalten werden müssen, um unsere Dienste nutzen zu können.</p><p>Diese Seite verwendet hauptsächlich <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"https://kit.svelte.dev/\">SvelteKit</a>. Eine vollständige Liste der verwendeten Open-Source-Bibliotheken und -Frameworks erhalten Sie bei den <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:dirk@accoma.de\">Entwicklern</a>.</p><h1>3rd Party Services</h1><p>Diese Website wird mit oder macht direkten Gebrauch von Cloud-Diensten, die von den folgenden Unternehmen bereitgestellt werden (in keiner bestimmten Reihenfolge). Durch die Verwendung dieser Website können Sie bestimmte Nutzungsinformationen an diese Unternehmen weitergeben. Wir haben keine Kontrolle darüber und können weder direkt noch indirekt für Schäden oder Verluste haftbar gemacht werden, die durch diese Weitergabe verursacht oder angeblich verursacht wurden:</p><ul><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vercel.com/\">Vercel</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://render.com/\">Render</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.twicpics.com/\">TwicPics</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://supabase.com/\">Supabase</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openai.com/\">OpenAI</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/\">Github</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://gitlab.com/\">Gitlab</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openstreetmap.org\">Open Street Map</a></p></li></ul>",
+					"town": "Ort",
+					"weather": "Wetter",
+					"nasty-thin-leaved-coneflower-block-compact-swamp-hellebore": "Koserow",
+					"nasty-thin-leaved-coneflower-block-devoted-mango": "Wetter",
+					"equal-black-cap": "<p>Herzlich willkommen in unserer gemütlichen und komfortablen Ferienwohnung, die sich perfekt für Ihren nächsten Familienurlaub eignet! Mit einer Größe von 45 Quadratmetern bietet sie ganzjährig genügend Raum und Behaglichkeit für bis zu vier Gäste.</p><p>In den zwei Schlafzimmern finden Sie moderne LCD-Satellitenfernseher vor, damit Sie auch im Urlaub nicht auf Ihre Lieblingssendungen verzichten müssen. Jedes der beiden Schlafzimmer ist mit einem bequemen Doppelbett ausgestattet, sodass Ihnen geruhsame Nächte sicher sind. Für unsere kleinen Gäste stellen wir gerne zusätzlich ein praktisches Kinderbett bereit.</p><p>Im Wohnbereich erwartet Sie ein erstklassiges Unterhaltungsprogramm dank eines Großbildfernsehers mit DVD HiFi-Anlage und digitalem Satellitenempfang. Egal, ob Sie einen gemütlichen Filmabend mit der Familie planen oder einfach nur entspannt Musik hören möchten - unsere technische Ausstattung lässt keine Wünsche offen.</p><p>Zum Herzstück unserer Ferienwohnung zählt die voll integrierte Küche. Hier finden Sie moderne Einbaugeräte, inklusive einem Geschirrspüler, einem Herd mit Backofen und einem Kühlschrank – perfekt, um köstliche Mahlzeiten zuzubereiten und Ihren Urlaub in vollen Zügen zu genießen.</p><p>Das Bad unserer Ferienwohnung beeindruckt mit einer komfortablen Dusche, einem WC und einer angenehmen Fußbodenheizung. Nach einem langen Tag in der Natur können Sie sich hier wunderbar entspannen und neue Energie tanken.</p><p>Direkt an die Wohnung schließt eine einladende Terrasse an. Dort finden Sie einen Grillkamin und bequeme Gartenmöbel vor - der perfekte Ort, um die lauen Sommerabende ausklingen zu lassen. Ihr Auto parken Sie während Ihres Aufenthalts einfach direkt vor unserem Haus.</p><p>Unsere Preise beinhalten selbstverständlich Bettwäsche und Handtücher, sowie alle Nebenkosten wie Energie und Wasser. Außerdem stehen Ihnen während Ihres Aufenthalts kostenfreies WLAN und die Nutzung einer Waschmaschine sowie eines Trockners zur Verfügung.</p><p>Für den Fall, dass Sie sich während Ihres Aufenthalts einmal richtig verwöhnen lassen möchten, können Sie gegen einen Aufpreis unsere hauseigene Sauna  mit zugehörigem Badezimmer nutzen.</p>",
+					"substantial-silky-dogwood": "<p>Unsere komfortable Ferienwohnung ist nicht nur ein Platz zum Verweilen, es ist Ihr zweites Zuhause. Mit einer Fläche von etwa 55 Quadratmetern bietet die Wohnung Raum für bis zu vier Personen und ist ganzjährig nutzbar. Hier können Sie sich nach einem langen Tag voller Abenteuer und Entdeckungen entspannen und neue Energie für den nächsten Tag sammeln.</p><p>Diese gepflegte Wohnung verfügt über zwei Schlafzimmer, beide ausgestattet mit komfortablen Doppelbetten und Satellitenfernsehen, das Ihnen eine spannende Fernsehzeit bietet. Wir bieten auch eine zusätzliche Aufbettung (Kinderbett), um den Bedürfnissen und dem Komfort aller unserer Gäste gerecht zu werden.</p><p>Das Wohnzimmer der Wohnung lädt dazu ein, am Kaminfeuer zu entspannen. In der kompletten Einbauküche, die mit einem Geschirrspüler, einem Herd und einem Einbaukühlschrank und vielem mehr ausgestattet ist, können Sie Ihre kulinarischen Fähigkeiten unter Beweis stellen. Der separate Esstisch eignet sich perfekt für ein gemütliches Abendessen oder Frühstück mit Ihren Liebsten.</p><p>Unsere Wohnung bietet Ihnen mehr als nur Unterkunft, sie bietet Ihnen Unterhaltung nach Lust und Laune. Hier finden Sie einen Sat-TV, eine Hi-Fi-Anlage und einen DVD-Player für Ihre Lieblingsfilme, Musik oder TV-Shows.</p><p>Das Badezimmer ist ein weiterer Ort zum Entspannen; es ist mit einer Dusche und Fußbodenheizung ausgestattet, die Sie an kalten Tagen warm und gemütlich hält.</p><p>Wir bieten einen reservierten Parkplatz direkt am Haus, sodass Sie sich keine Sorgen um die Parkplatzsuche machen müssen. Genießen Sie ein BBQ auf Ihrer eigenen Terrasse mit Grillkamin und Gartenmöbeln oder genießen Sie einfach die ruhige Atmosphäre und die Schönheit der Natur. In unserer Ferienwohnung bleiben Sie immer verbunden. Wir bieten Ihnen kostenloses WLAN, damit Sie in Kontakt mit Ihren Liebsten bleiben, Büroarbeiten erledigen oder Ihre Tagesaktivitäten planen können. Die Waschmaschine steht Ihnen ebenfalls kostenlos zur Verfügung.</p><p>Unsere Preise beinhalten die Bereitstellung von Bettwäsche und Handtüchern. Nebenkosten, wie zum Beispiel Energie- und Wasserverbrauch, sind ebenfalls im Preis inbegriffen. Sie brauchen sich also keine Sorgen über zusätzliche Kosten zu machen.</p>"
+				}
+			},
+			"en": {
+				"calendar": {
+					"monthLabels": {
+						"1": "Jan",
+						"2": "Feb",
+						"3": "Mar",
+						"4": "Apr",
+						"5": "May",
+						"6": "Jun",
+						"7": "Jul",
+						"8": "Aug",
+						"9": "Sep",
+						"10": "Oct",
+						"11": "Nov",
+						"12": "Dec"
+					},
+					"typeNames": {
+						"defaultOccupationTypeName": "Occupied"
+					},
+					"weekdayLabels": {
+						"1": "Mo",
+						"2": "Tu",
+						"3": "We",
+						"4": "Th",
+						"5": "Fr",
+						"6": "Sa",
+						"7": "Su"
+					},
+					"weekendLabel": "Weekend"
+				},
+				"cookies": {
+					"acceptLabel": "Accept all cookies",
+					"closeLabel": "Save & close settings",
+					"cookieDescriptions": {
+						"analytics": "Analytics cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.",
+						"marketing": "Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.",
+						"necessary": "Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.",
+						"preferences": "Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in."
+					},
+					"cookieLabels": {
+						"analytics": "Analytics cookies",
+						"marketing": "Marketing cookies",
+						"necessary": "Necessary cookies",
+						"preferences": "Preference cookies"
+					},
+					"description": "We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.",
+					"editLabel": "Edit cookie settings",
+					"heading": "This site uses cookies",
+					"rejectLabel": "Only necessary cookies",
+					"settingsLabel": "Cookie settings"
+				},
+				"site": {
+					"050edcb4-680e-4542-96df-3ae4a2af89a5": "Wohnung 2 Freienhaus",
+					"83cd06fd-858d-4e21-994f-325778812713": "Wohnung 1 Ferienhaus",
+					"acco_card_slug": "For details please visit this accomodation's page.",
+					"acco_default_alt": "Photo of Accomodation",
+					"accomodations": "Apartments",
+					"adults": "Adults",
+					"availability": "Availability",
+					"calendarHeader": "Occupancy Plan",
+					"de": "Deutsch",
+					"directions": "Directions",
+					"e5cace58-d435-420f-a1dc-17e844469e7e": "Wohnung DG",
+					"eachNight": "Every Other Night",
+					"en": "English",
+					"es": "Español",
+					"excellent-coakum": "<p>Welcome to our lovely holiday apartments located in the peaceful Koserow village, right on the stunning Baltic Sea! With nature right at your doorstep, you have the freedom to explore the lush surroundings or take a leisurely stroll on our beautiful sandy beach.</p><p>Koserow has a rich history that is sure to captivate and delight. Discover the local culture and explore our charming village church. What better location for your holidays than a place combining natural beauty with historical charm.</p><p>We can't wait to host you for your most memorable holiday yet!</p>",
+					"extraPerson": "Add. Guest",
+					"firstNight": "First Night",
+					"footer_html": "\n      <p><strong>Contact:</strong><br>\n        Kordula Schumacher<br>\n        Achterstr. 3<br>\n        <br>\n        17459 Koserow - Deutschland<br>\n        Phone: +49 038375 20562<br>\n        \n        Email: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n      </p>",
+					"fr": "Français",
+					"from": "From",
+					"globalAdditionalPerson": "Additional Guest",
+					"globalMinimumStay": "Minimum Nights to Stay",
+					"globalNightlyRate": "Per Night",
+					"globalPeopleCount": "Number Of Guests",
+					"globalPricing": "Common Prices",
+					"headerSlug": "Relax and enjoy the sunshine.",
+					"headerTitle": "Holiday Accomodations",
+					"home": "Home",
+					"impressions": "Some Impressions",
+					"imprint": "Imprint",
+					"imprint_html": "<h1>Imprint</h1><h2>Responsible for the content</h2><p><strong>Kordula Schumacher</strong></p><p>Achterstr. 3<br><br>17459 Koserow - Deutschland <br>Phone: +49 038375 20562<br>E-Mail: <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a></p><h2>Disclaimer</h2><p>Despite careful control of the content, Kordula Schumacher (the site operator) does not assume any liability for the content of external links. The content of linked pages is the sole responsibility of their operators.</p><h2>Copyright Notice</h2><p>The content and works created by the site operator on these pages are subject to German copyright law. The reproduction, processing, distribution and any kind of exploitation outside the limits of copyright require the written consent of the respective author or creator. Downloads and copies of these pages are only permitted for private, non-commercial use.</p><p>As far as the contents on this site were not created by the operator, the copyrights of third parties are observed. In particular, contents of third parties are marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately.</p><p>All photographs used on this website are the property of their respective artists and are protected under international copyright laws. The photographs may not be used, copied, reproduced, manipulated, or distributed in any way without the prior written permission of the artist.</p><p>Photographs created by third-party artists are the property of their respective owners and are used on this website with permission. The use of these photographs does not imply endorsement of the site operator by the photographers or the owners of the photographs. Photographs owned by third parties are labeled as such.</p><p>Unlabeled photographs are created or owned by the site operator, are the exclusive property of the site operator and are protected under international copyright laws.</p><p>If you would like to license or purchase the rights to any of the photographs displayed on this website, please contact the respective artists directly.</p><p>We would like to express our gratitude to the talented photographers who have allowed us to showcase their work on our website. Their contributions are greatly appreciated.</p><h2>European Online Dispute Resolution (ODR)</h2><p>The European Commission provides an online platform for dispute resolution, which can be found at <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a>.</p><p>Please be aware that the site operator does not participate in the European Online Dispute Resolution (ODR) process and is not obligated to do so. As such, we cannot be held liable for any disputes arising from our products or services.</p><p>We encourage all customers to contact us directly in the event of a dispute. We are committed to finding a fair and mutually acceptable resolution to any issues that may arise.</p><p>If you have any questions or concerns, please do not hesitate to reach out to us at:</p><p><strong>Kordula Schumacher</strong><br>Achterstr. 3<br><br>17459 Koserow - Deutschland<br>Phone: +49 038375 20562<br>E-Mail <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a></p>",
+					"landing_town_html": "",
+					"lang": "Language",
+					"location": "Location",
+					"minNumNights": "Min. Stay",
+					"missing_cal_url": "unknown",
+					"peopleNum": "Number Of Guests",
+					"pl": "Polski",
+					"pricing": "Dates and Prices",
+					"resonant-horsetail-milkweed": "<p>Look forward to a high-quality, exclusive holiday apartment that will make your stay a truly special experience. With 60 square meters, the apartment offers plenty of space to relax and enjoy. It is equipped with modern and pleasant underfloor heating, which creates a cozy room climate.</p><p>A special attraction is the sleeping area as a gallery, which gives you the feeling of sleeping in a luxurious suite. Here you will find a comfortable double bed for resting and dreaming. A special highlight is the built-in LED TV, which allows you to watch TV comfortably from your bed.</p><p>The open and bright living room is equipped with a built-in kitchen that leaves nothing to be desired. Whether stove, dishwasher, microwave, or a designer fridge - everything you need is there. Cooking together and then sitting on the comfortable sofa allows you to relax and unwind in the evening. A movie night is no problem, as there is a 50-inch widescreen TV with internet access and HDTV satellite reception. Music lovers are also provided for with a hi-fi system with DVD.</p><p>For guests, an extra bed is also possible on the corner sofa.</p><p>The spacious bathroom offers both a shower and a corner bathtub. After a long day, you can relax here and recharge your batteries. Another LED TV is available.</p><p>Your own roof terrace offers you a fantastic view and invites you to linger. In addition to the comfortable garden furniture, there is also a private electric grill ready for sociable barbecue evenings. A high-quality beach chair completes the offer and gives you a special holiday feeling.</p><p>A parking space is available under the carport for your car. Because your comfort is very important to us, we also offer you free Wi-Fi.</p><p>The prices include bed linen and towels as well as all additional costs (energy and water).</p><p>In short, this holiday apartment is the ideal place to relax and enjoy the most beautiful time of the year. We are looking forward to your visit!</p>",
+					"rich-black-eyed-susan": "Church",
+					"shortPriceLabel": "Price range",
+					"terms": "Terms",
+					"timeRange": "Range",
+					"title": "Welcome To Your Holidays",
+					"to": "To",
+					"tos_html": "<h1>Terms and Conditions - Rentals</h1><h2>Introduction</h2><p>Welcome to our holiday rental Website (hereinafter referred to as “Website”), where you can find and book a holiday accomodation for your next getaway. By using our services, you agree to be bound by these terms and conditions, which govern your use of our site and the services we provide.</p><h4>Booking and Payment</h4><p>To make a booking, please contact us via email or phone.</p><h2>Cancellation and Refunds</h2><p>You may cancel your booking with no cancellation fee at any time up to 60 days before your arrival date. If you cancel within this time frame, we will refund any paymens already made. If you cancel after this time, we will charge you 60% of the total booking costs.</p><h2>Arrival and Departure</h2><p>Your accomodation will be available for check-in from 14:00 on the day of your arrival, and must be vacated by 10:00 on the day of your departure. Late check-out and early check-in may be arranged, subject to availability and a fee.</p><h2>Damage and Loss</h2><p>You are responsible for any damage or loss caused to the accomodation or its contents during your stay. You will be liable for the cost of repairing or replacing any such damage or loss.</p><h2>Liability</h2><p>We are not liable for any damages or losses suffered by you as a result of your use of our services, except as required by law.</p><h2>Changes to Terms and Conditions</h2><p>We reserve the right to change these terms and conditions at any time. Your continued use of our services after any such changes constitutes your acceptance of the new terms and conditions.</p><h1>Terms and Conditions - Web Site</h1><p>This Website is operated by us, uses third party services (see below) and is provided to you for your personal use subject to the following Terms of Service (hereinafter referred to as “Terms”).</p><h2>Purpose of the Website</h2><p>Our Website provides information on holiday apartments available for rent, including their pricing and availability. This Website also provides links to other websites that may be of interest to you.</p><h2>Use of the Website</h2><p>You may use the Website only for lawful purposes and in accordance with the Terms. You agree not to use the Website:</p><ul><li><p>In any way that violates any applicable federal, state, local, or international law or regulation.</p></li><li><p>For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way by exposing them to inappropriate content, asking for personally identifiable information, or otherwise.</p></li><li><p>To transmit, or obtain the sending of, any advertising or promotional material, including any \"junk mail,\" \"chain letter,\" \"spam,\" or any other similar solicitation.</p></li><li><p>To impersonate or attempt to impersonate another person or entity.</p></li></ul><h2>Disclaimer of Warranties</h2><p>Our Website is provided “as is” and “as available” without any warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p><h2>Limitation of Liability</h2><p>In no event shall we be liable for any damages arising from the use of the Website, including but not limited to indirect, incidental, special, punitive, or consequential damages, loss of profits, or data, or loss of goodwill.</p><h2>External Links</h2><p>Our Website may contain links to third-party websites or services that are not owned or controlled by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites or services. You acknowledge and agree that we shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.</p><h2>Changes to the Terms</h2><p>We reserve the right to modify these Terms at any time without prior notice. Your continued use of the Website after any such changes constitutes your acceptance of the new Terms.</p><h2>Governing Law</h2><p>These Terms shall be governed by and construed in accordance with the laws of the state where the apartments proprietor has her/his primary residency, without giving effect to any principles of conflicts of law.</p><h1>Privacy Policy</h1><h2>Introduction</h2><p>We respect your privacy and are committed to protecting your personal information. This privacy policy explains how we collect, use, and disclose your personal information.</p><h2>Collection of Information</h2><p>We collect personal information such as your name, address, email, and telephone number when you request or make a booking or when your register for other services we provide, like our newsletter. We also collect information about your booking, including arrival and leave, special requirements (e.g. allergies, or similar), and payment information.</p><h2>Use of Information</h2><p>We use your personal information to process your booking request, your booking, to communicate with you, and provide you with updates about our services and promotions. We also use your anonymized information for internal purposes, such as research and analysis.</p><p>During your stay we will collect your written consent to this if you are inclined to do so.</p><h2>Disclosure of Information</h2><p>We will not disclose your personal information to third parties, except as required by law or for the purpose of processing your booking.</p><h2>Data Security</h2><p>We take appropriate measures to protect your personal information from unauthorized access, use, or disclosure</p><h2>Changes to Privacy Policy</h2><p>We reserve the right to change this privacy policy at any time. Your continued use of our website after any such changes constitutes your acceptance of the new privacy policy.</p><h1>Open Source Software Notice</h1><p>Our website makes use of various open source software solutions that are released under the MIT or Apache licenses. Utilizing these solutions allows us to provide our services efficiently and reliably.</p><p>We would like to take this opportunity to extend our gratitude to all the developers who are involved in these projects and make them available.</p><p>The original license terms for the software used can be found at the following links:</p><ul><li><p>MIT License: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></p></li><li><p>Apache License: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></p></li></ul><p>Please note that these license terms are part of the terms of use for our website and must be adhered to in order to utilize our services.</p><p>This site primarily uses <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"https://kit.svelte.dev/\">SvelteKit</a>. For a complete list of open source libraries and frameworks used, please contact the <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:dirk@accoma.de\">developers</a>.</p><h1>3rd Party Services</h1><p>This Website is made with or makes direct use of cloud services provided by the following companies (in no particular order). By using this Website you might disclose certain usage information to these companies. We don't have control over and can not be held liable nor responsible, directly or indirectly, for any damage or loss caused or alleged to be caused by this disclosure:</p><ul><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vercel.com/\">Vercel</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://render.com/\">Render</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.twicpics.com/\">TwicPics</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://supabase.com/\">Supabase</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openai.com/\">OpenAI</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/\">Github</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://gitlab.com/\">Gitlab</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openstreetmap.org\">Open Street Map</a></p></li></ul>",
+					"town": "Town",
+					"weather": "Weather",
+					"nasty-thin-leaved-coneflower-block-compact-swamp-hellebore": "Koserow",
+					"nasty-thin-leaved-coneflower-block-devoted-mango": "Weather",
+					"equal-black-cap": "<p>Welcome to our cozy and comfortable holiday apartment, which is perfect for your next family vacation! With a size of 45 square meters, it offers enough space and comfort for up to four guests all year round.</p><p>In the two bedrooms, you will find modern LCD satellite TVs, so you don't have to miss your favorite shows during your vacation. Each of the two bedrooms is equipped with a comfortable double bed, ensuring restful nights. For our little guests, we are happy to provide an additional practical cot.</p><p>In the living area, you can expect a first-class entertainment program thanks to a large screen TV with DVD HiFi system and digital satellite reception. Whether you are planning a cozy movie night with the family or just want to relax and listen to music - our technical equipment leaves nothing to be desired.</p><p>The fully integrated kitchen is the centerpiece of our holiday apartment. Here you will find modern built-in appliances, including a dishwasher, a stove with oven, and a refrigerator - perfect for preparing delicious meals and enjoying your vacation to the fullest.</p><p>The bathroom of our holiday apartment impresses with a comfortable shower, a toilet, and pleasant underfloor heating. After a long day in nature, you can relax here and recharge your batteries.</p><p>Directly connected to the apartment, there is an inviting terrace. There you will find a barbecue fireplace and comfortable garden furniture - the perfect place to end the warm summer evenings. You can park your car directly in front of our house during your stay.</p><p>Our prices naturally include bed linen and towels, as well as all additional costs such as energy and water. During your stay, you also have access to free Wi-Fi and the use of a washing machine and dryer.</p><p>In case you want to treat yourself during your stay, you can use our in-house sauna with an accompanying bathroom for an additional fee.</p>",
+					"substantial-silky-dogwood": "<p>Our comfortable holiday apartment is not just a place to stay, it is your second home. With an area of about 55 square meters, the apartment can accommodate up to four people and is available all year round. Here you can relax and recharge after a long day full of adventures and discoveries, gathering new energy for the next day.</p><p>This well-maintained apartment features two bedrooms, both equipped with comfortable double beds and satellite TV, providing you with an exciting TV time. We also offer an additional cot to meet the needs and comfort of all our guests.</p><p>The living room of the apartment invites you to relax by the fireplace. In the fully equipped kitchen, which includes a dishwasher, stove, built-in refrigerator, and much more, you can showcase your culinary skills. The separate dining table is perfect for a cozy dinner or breakfast with your loved ones.</p><p>Our apartment offers you more than just accommodation, it offers you entertainment at your leisure. Here you will find a satellite TV, hi-fi system, and a DVD player for your favorite movies, music, or TV shows.</p><p>The bathroom is another place to relax; it is equipped with a shower and underfloor heating, keeping you warm and cozy on cold days.</p><p>We offer a reserved parking space right at the house, so you don't have to worry about searching for parking. Enjoy a BBQ on your own terrace with a grill fireplace and garden furniture, or simply savor the peaceful atmosphere and the beauty of nature. In our holiday apartment, you can always stay connected. We provide free Wi-Fi so you can stay in touch with your loved ones, do office work, or plan your daily activities. The washing machine is also available for you free of charge.</p><p>Our prices include the provision of bed linen and towels. Additional costs, such as energy and water consumption, are also included in the price. So you don't have to worry about any additional costs.</p>",
+					"arbitrary-sharp-fringed-sow-thistle-text": "<h3>Für Buchungsanfragen kontaktieren Sie uns:</h3><p>Kordula Schumacher</p><p>Achterstraße 3</p><p>17459 Koser</p>"
+				}
+			},
+			"es": {
+				"calendar": {
+					"monthLabels": {
+						"1": "Ene",
+						"2": "Feb",
+						"3": "Mar",
+						"4": "Abr",
+						"5": "May",
+						"6": "Jun",
+						"7": "Jul",
+						"8": "Ago",
+						"9": "Sep",
+						"10": "Oct",
+						"11": "Nov",
+						"12": "Dic"
+					},
+					"typeNames": {
+						"defaultOccupationTypeName": "Ocupado"
+					},
+					"weekdayLabels": {
+						"1": "Lu",
+						"2": "Ma",
+						"3": "Mi",
+						"4": "Ju",
+						"5": "Vi",
+						"6": "Sa",
+						"7": "Do"
+					},
+					"weekendLabel": "Fin de Semana"
+				},
+				"cookies": {
+					"acceptLabel": "Aceptar todas las cookies",
+					"closeLabel": "Guardar y cerrar configuración",
+					"cookieDescriptions": {
+						"analytics": "Las cookies de análisis ayudan a los propietarios de sitios web a comprender cómo los visitantes interactúan con los sitios web recopilando y reportando información de forma anónima.",
+						"marketing": "Las cookies de marketing se utilizan para rastrear a los visitantes en los sitios web. La intención es mostrar anuncios relevantes y atractivos para el usuario individual y, por lo tanto, más valiosos para los editores y anunciantes de terceros.",
+						"necessary": "Las cookies necesarias ayudan a hacer un sitio web utilizable al habilitar funciones básicas como la navegación de páginas y el acceso a áreas seguras del sitio web. El sitio web no puede funcionar correctamente sin estas cookies.",
+						"preferences": "Las cookies de preferencia permiten que un sitio web recuerde información que cambia la forma en que se comporta o se ve el sitio web, como su idioma preferido o la región en la que se encuentra."
+					},
+					"cookieLabels": {
+						"analytics": "Cookies de análisis",
+						"marketing": "Cookies de marketing",
+						"necessary": "Cookies necesarias",
+						"preferences": "Cookies de preferencia"
+					},
+					"description": "Usamos cookies para personalizar el contenido y los anuncios, para proporcionar funciones de redes sociales y para analizar nuestro tráfico. También compartimos información sobre su uso de nuestro sitio con nuestras redes sociales, publicidad y partners de análisis, que pueden combinarla con otra información que hayan recopilado a partir del uso de sus servicios.",
+					"editLabel": "Editar configuración de cookies",
+					"heading": "Este sitio usa cookies",
+					"rejectLabel": "Sólo cookies necesarias",
+					"settingsLabel": "Configuración de cookies"
+				},
+				"site": {
+					"050edcb4-680e-4542-96df-3ae4a2af89a5": "Wohnung 2 Freienhaus",
+					"83cd06fd-858d-4e21-994f-325778812713": "Wohnung 1 Ferienhaus",
+					"acco_card_slug": "Para obtener más información, visite la página de este alojamiento.",
+					"acco_default_alt": "Foto del alojamiento",
+					"accomodations": "Apartamentos",
+					"adults": "Adultos",
+					"availability": "Disponibilidad",
+					"calendarHeader": "Plan de Reservas",
+					"de": "Deutsch",
+					"directions": "Direcciones",
+					"e5cace58-d435-420f-a1dc-17e844469e7e": "Wohnung DG",
+					"eachNight": "Cada Otra Noche",
+					"en": "English",
+					"es": "Español",
+					"extraPerson": "Invitado Adicional",
+					"firstNight": "Primera Noche",
+					"footer_html": "\n      <p><strong>Contacto:</strong><br>\n        Kordula Schumacher<br>\n        Achterstr. 3<br>\n        <br>\n        17459 Koserow - Deutschland<br>\n        Teléfono: +49 038375 20562<br>\n        \n        Correo electrónico: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n      </p>",
+					"fr": "Français",
+					"from": "Desde",
+					"globalAdditionalPerson": "Invitado Adicional",
+					"globalMinimumStay": "Noches Mínimas para Permanecer",
+					"globalNightlyRate": "Por Noche",
+					"globalPeopleCount": "Número de Invitados",
+					"globalPricing": "Precios Comunes",
+					"headerSlug": "Relájate y disfruta del sol.",
+					"headerTitle": "Alojamiento de vacaciones",
+					"home": "Página Principal",
+					"impressions": "Algunas Impresiones",
+					"imprint": "Impresión",
+					"imprint_html": "\n      <h1>Impronta</h1>\n      <section class=\"contact\">\n        <h2>Responsable del contenido</h2>\n        <p>\n          <strong>Kordula Schumacher</strong>\n        </p>\n        <p>\n          Achterstr. 3<br>\n          <br>\n          17459 Koserow - Deutschland <br>\n          Teléfono: +49 038375 20562<br>\n          \n          Correo electrónico: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n        </p>\n      </section>\n      <section>\n        <h2>Descargo de responsabilidad</h2>\n        <p>\n          A pesar del control cuidadoso del contenido, Kordula Schumacher (el operador del sitio) no asume ninguna responsabilidad por el contenido de los enlaces externos. El contenido de las páginas vinculadas es responsabilidad exclusiva de sus operadores.\n        </p>\n      </section>\n      <section>\n        <h2>Aviso de derechos de autor</h2>\n        <p>\n          El contenido y las obras creadas por el operador del sitio en estas páginas están sujetos a la ley de derechos de autor alemana. La reproducción, procesamiento, distribución y cualquier tipo de explotación fuera de los límites del derecho de autor requieren el consentimiento por escrito del autor o creador respectivo. Los descargas y copias de estas páginas solo están permitidas para uso privado y no comercial.\n        </p>\n        <p>\n          En la medida en que los contenidos de este sitio no hayan sido creados por el operador, se observan los derechos de autor de terceros. En particular, los contenidos de terceros se marcan como tales. Si aún así se da cuenta de una infracción de derechos de autor, infórmenos de inmediato. Si nos enteramos de cualquier infracción, eliminaremos inmediatamente dicho contenido.\n        </p>\n        <p>\n          Todas las fotografías utilizadas en este sitio web son propiedad de sus respectivos artistas y están protegidas por las leyes internacionales de derechos de autor. Las fotografías no pueden ser utilizadas, copiadas, reproducidas, manipuladas ni distribuidas de ninguna manera sin el permiso previo por escrito del artista.\n        </p>\n        <p>\n          Las fotografías creadas por artistas de terceros son propiedad de sus respectivos dueños y se utilizan en este sitio web con permiso. El uso de estas fotografías no implica el respaldo del operador del sitio por parte de los fotógrafos o los dueños de las fotografías. Las fotografías propiedad de terceros se etiquetan como tales.\n        </p>\n        <p>\n          Las fotografías sin etiqueta son creadas o propiedad del operador del sitio, son la propiedad exclusiva del operador del sitio y están protegidas por las leyes internacionales de derechos de autor.\n        </p>\n        <p>\n          Si desea obtener una licencia o comprar los derechos de cualquiera de las fotografías mostradas en este sitio web, comuníquese directamente con los respectivos artistas.\n        </p>\n        <p>\n          Nos gustaría expresar nuestra gratitud a los talentosos fotógrafos que nos han permitido mostrar su trabajo en nuestro sitio web. Sus contribuciones son muy apreciadas.\n        </p>\n      </section>\n      <section>\n        <h2>Resolución de disputas en línea europea (ODR)</h2>\n        <p>\n          La Comisión Europea proporciona una plataforma en línea para la resolución de disputas, que se puede encontrar en <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a>.\n        </p>\n        <p>\n          Tenga en cuenta que el operador del sitio no participa en el proceso de Resolución de Disputas en Línea Europea (ODR) y no está obligado a hacerlo. Por lo tanto, no podemos ser responsables de ninguna disputa que surja de nuestros productos o servicios.\n        </p>\n        <p>\n          Alentamos a todos los clientes a que nos contacten directamente en caso de disputa. Estamos comprometidos a encontrar una solución justa y mutuamente aceptable a cualquier problema que pueda surgir.\n        </p>\n        <p>\n          Si tiene alguna pregunta o inquietud, no dude en comunicarse con nosotros en:\n        </p>\n        <p>\n          <strong>Kordula Schumacher</strong><br>\n          Achterstr. 3<br>\n          <br>\n          17459 Koserow - Deutschland<br>\n          Teléfono: +49 038375 20562<br>\n          Correo electrónico <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n        </p>\n      </section>\n    ",
+					"landing_town_html": "",
+					"lang": "Idioma",
+					"location": "Ubicación",
+					"minNumNights": "Estadía Mínima",
+					"missing_cal_url": "desconocida",
+					"peopleNum": "Número de Invitados",
+					"pl": "Polski",
+					"pricing": "Fechas y Precios",
+					"shortPriceLabel": "Rango de precios",
+					"steady-european-weeping-birch-block-homely-rhubarb": "Koserow",
+					"steady-european-weeping-birch-block-written-baobab": "Clima",
+					"terms": "Términos",
+					"timeRange": "Rango",
+					"title": "Bienvenido a tus vacaciones",
+					"to": "Hasta",
+					"tos_html": "<h1>Términos y condiciones - Alquileres</h1><h2>Introducción</h2><p>Bienvenido a nuestro sitio web de alquiler de vacaciones (en adelante denominado \"Sitio web\"), donde puede encontrar y reservar un alojamiento de vacaciones para su próxima escapada. Al usar nuestros servicios, acepta estar sujeto a estos términos y condiciones, que rigen su uso de nuestro sitio y los servicios que ofrecemos.</p><h2>Reservas y pagos</h2><p>Para realizar una reserva, contáctenos por correo electrónico o teléfono.</p><h2>Cancelación y reembolsos</h2><p>Puede cancelar su reserva sin cargo de cancelación en cualquier momento hasta 60 días antes de su fecha de llegada. Si cancela dentro de este plazo, le devolveremos cualquier pago ya realizado. Si cancela después de este tiempo, le cobraremos el 60% del costo total de la reserva.</p><h2>Llegada y salida</h2><p>Su alojamiento estará disponible para el registro de entrada a partir de las 14:00 del día de su llegada, y debe ser desalojado antes de las 10:00 del día de su salida. El check-out tardío y el check-in temprano pueden ser organizados, sujeto a disponibilidad y una tarifa.</p><h2>Daños y pérdidas</h2><p>Usted es responsable de cualquier daño o pérdida causada al alojamiento o sus contenidos durante su estadía. Usted será responsable del costo de reparar o reemplazar cualquier daño o pérdida.</p><h2>Responsabilidad</h2><p>No somos responsables de ningún daño o pérdida sufrida por usted como resultado de su uso de nuestros servicios, excepto según lo requerido por la ley.</p><h2>Cambios en los términos y condiciones</h2><p>Nos reservamos el derecho de cambiar estos términos y condiciones en cualquier momento. Su uso continuo de nuestros servicios después de cualquier cambio de estos constituye su aceptación de los nuevos términos y condiciones.</p><h1>Términos y condiciones - Sitio web</h1><p>Este sitio web es operado por nosotros, usa servicios de terceros (ver abajo) y se le proporciona para su uso personal sujeto a los siguientes Términos de Servicio (en adelante denominados \"Términos\").</p><h2>Propósito del sitio web</h2><p>Nuestro sitio web proporciona información sobre apartamentos de vacaciones disponibles para alquilar, incluyendo su precio y disponibilidad. Este sitio web también proporciona enlaces a otros sitios web que pueden ser de su interés.</p><h2>Uso del sitio web</h2><p>Puede usar el sitio web solo para fines legales y de acuerdo con los Términos. Usted acepta no usar el sitio web:</p><ul><li><p>De ninguna manera que viole cualquier ley o reglamento federal, estatal, local o internacional aplicable.</p></li><li><p>Con el propósito de explotar, dañar o intentar explotar o dañar a los menores de ninguna manera exponiéndolos a contenido inapropiado, pidiendo información de identificación personal o de otra manera.</p></li><li><p>Para transmitir o obtener el envío de cualquier material publicitario o promocional, incluyendo cualquier \"correo no deseado\", \"cadena de correo\", \"spam\" u otra solicitud similar.</p></li><li><p>Para personificar o intentar personificar a otra persona o entidad.</p></li></ul><h2>Descargo de responsabilidad de garantías</h2><p>Nuestro sitio web se proporciona \"tal cual\" y \"según esté disponible\" sin ningún tipo de garantía, ya sea expresa o implícita, incluyendo pero no limitado a las garantías implícitas de comerciabilidad, aptitud para un propósito particular y no infracción.</p><h2>Limitación de responsabilidad</h2><p>En ningún caso nosotros seremos responsables por cualquier daño que surja del uso del sitio web, incluyendo pero no limitado a daños indirectos, incidentales, especiales, punitivos o consecuenciales, pérdida de beneficios, o datos, o pérdida de buena voluntad.</p><h2>Enlaces externos</h2><p>Nuestro sitio web puede contener enlaces a sitios web o servicios de terceros que no son propiedad o están controlados por nosotros. No tenemos control sobre y no asumimos ninguna responsabilidad por el contenido, las políticas de privacidad o las prácticas de cualquier sitio web o servicio de terceros. Usted reconoce y acepta que no seremos responsables ni directa ni indirectamente por ningún daño o pérdida causado o presuntamente causado por o en conexión con el uso o la confianza en cualquier contenido, bienes o servicios disponibles en o a través de cualquiera de esos sitios web o servicios.</p><h2>Cambios en los términos</h2><p>Nos reservamos el derecho de modificar estos Términos en cualquier momento sin previo aviso. Su uso continuo del sitio web después de cualquier cambio constituye su aceptación de los nuevos Términos.</p><h2>Ley aplicable</h2><p>Estos Términos se regirán e interpretarán de acuerdo con las leyes del estado donde el propietario de los apartamentos tenga su residencia principal, sin dar efecto a ningún principio de conflictos de leyes.</p><h1>Política de Privacidad</h1><h2>Introducción</h2><p>Respetamos su privacidad y estamos comprometidos a proteger su información personal. Esta política de privacidad explica cómo recopilamos, usamos y divulgamos su información personal.</p><h2>Recopilación de información</h2><p>Recopilamos información personal como su nombre, dirección, correo electrónico y número de teléfono cuando solicita o hace una reserva o cuando se registra para otros servicios que ofrecemos, como nuestro boletín. También recopilamos información sobre su reserva, incluida la llegada y salida, requisitos especiales (por ejemplo, alergias u otros) y información de pago.</p><h2>Uso de la información</h2><p>Utilizamos su información personal para procesar su solicitud de reserva, su reserva, para comunicarnos con usted y brindarle actualizaciones sobre nuestros servicios y promociones. También usamos su información anónima para fines internos, como investigación y análisis.</p><p>Durante su estancia recopilaremos su consentimiento escrito para esto si está inclinado a hacerlo.</p><h2>Divulgación de información</h2><p>No divulgaremos su información personal a terceros, excepto cuando así lo exija la ley o con el fin de procesar su reserva.</p><h2>Seguridad de datos</h2><p>Tomamos medidas apropiadas para proteger su información personal de acceso no autorizado, uso o divulgación.</p><h2>Cambios a la Política de Privacidad</h2><p>Nos reservamos el derecho de cambiar esta política de privacidad en cualquier momento. Su uso continuo de nuestro sitio web después de cualquier cambio de este tipo constituye su aceptación de la nueva política de privacidad.</p><h1>Aviso de software de código abierto</h1><p>Nuestro sitio web hace uso de varias soluciones de software de código abierto que se liberan bajo los licencias MIT o Apache. El uso de estas soluciones nos permite ofrecer nuestros servicios de manera eficiente y fiable.</p><p>Nos gustaría aprovechar esta oportunidad para extender nuestro agradecimiento a todos los desarrolladores que están involucrados en estos proyectos y los hacen disponibles.</p><p>Los términos de licencia originales para el software utilizado se pueden encontrar en los siguientes enlaces:</p><ul><li><p>Licencia MIT: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></p></li><li><p>Licencia Apache: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></p></li></ul><p>Tenga en cuenta que estos términos de licencia son parte de los términos de uso de nuestro sitio web y deben cumplirse para utilizar nuestros servicios.</p><p>Este sitio utiliza principalmente <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"https://kit.svelte.dev/\">SvelteKit</a>. Para obtener una lista completa de bibliotecas y marcos de código abierto utilizados, comuníquese con los <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:dirk@accoma.de\">desarrolladores</a>.</p><h1>Servicios de terceros</h1><p>Este sitio web se crea con o hace uso directo de servicios en la nube proporcionados por las siguientes empresas (en ningún orden particular). Al usar este sitio web, es posible que divulgue cierta información de uso a estas empresas. No tenemos control sobre ellos y no podemos ser responsables, directa o indirectamente, por ningún daño o pérdida causada o presuntamente causada por esta divulgación:</p><ul><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vercel.com/\">Vercel</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://render.com/\">Render</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.twicpics.com/\">TwicPics</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://supabase.com/\">Supabase</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openai.com/\">OpenAI</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/\">Github</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://gitlab.com/\">Gitlab</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openstreetmap.org\">Open Street Map</a></p></li></ul>",
+					"town": "Ciudad",
+					"weather": "Clima",
+					"nasty-thin-leaved-coneflower-block-compact-swamp-hellebore": "Koserow",
+					"nasty-thin-leaved-coneflower-block-devoted-mango": "Clima",
+					"excellent-coakum": "<p>Bienvenidos a nuestros encantadores apartamentos de vacaciones ubicados en el tranquilo pueblo de Koserow, justo en la hermosa costa del Mar Báltico. Con la naturaleza en tu puerta, tienes la libertad de explorar los exuberantes alrededores o dar un paseo tranquilo en nuestra hermosa playa de arena.</p><p>Koserow tiene una rica historia que seguramente te cautivará y te deleitará. Descubre la cultura local y explora nuestra encantadora iglesia de pueblo. ¿Qué mejor lugar para tus vacaciones que un lugar que combina belleza natural y encanto histórico?</p><p>¡Estamos ansiosos por darles la bienvenida para sus vacaciones más memorables!</p>",
+					"equal-black-cap": "<p>¡Bienvenidos a nuestro acogedor y confortable apartamento de vacaciones, perfecto para sus próximas vacaciones en familia! Con un tamaño de 45 metros cuadrados, ofrece espacio y comodidad durante todo el año para hasta cuatro huéspedes.</p><p>En las dos habitaciones encontrará modernas televisores LCD vía satélite para que no tenga que renunciar a sus programas favoritos durante sus vacaciones. Cada una de las habitaciones está equipada con una cómoda cama doble para asegurarle noches de descanso. Para nuestros pequeños huéspedes, también proporcionamos una práctica cuna adicional.</p><p>En la sala de estar, encontrará un programa de entretenimiento de primera categoría gracias a un televisor de pantalla grande con sistema de DVD, equipo de música HiFi y recepción satelital digital. Ya sea que planee una agradable noche de cine con la familia o simplemente quiera relajarse escuchando música, nuestro equipamiento técnico no dejará ningún deseo sin cumplir.</p><p>El corazón de nuestro apartamento de vacaciones es la cocina totalmente integrada. Aquí encontrará electrodomésticos modernos, incluyendo lavavajillas, cocina con horno y nevera, perfectos para preparar deliciosas comidas y disfrutar al máximo de sus vacaciones.</p><p>El baño de nuestro apartamento de vacaciones impresiona con una cómoda ducha, un inodoro y una agradable calefacción por suelo radiante. Después de un largo día en la naturaleza, aquí puede relajarse y recargar energías.</p><p>Directamente junto al apartamento hay una acogedora terraza. Allí encontrará una chimenea para barbacoa y cómodos muebles de jardín, el lugar perfecto para disfrutar de las cálidas noches de verano. Durante su estancia, podrá estacionar su coche frente a nuestra casa sin complicaciones.</p><p>Nuestros precios incluyen la ropa de cama y las toallas, así como todos los servicios públicos como electricidad y agua. Además, durante su estancia, tendrá acceso gratuito a Wi-Fi y a una lavadora y secadora.</p><p>En caso de que desee disfrutar de un verdadero mimo durante su estancia, podrá utilizar nuestra sauna privada con su propio baño por un cargo adicional.</p>",
+					"substantial-silky-dogwood": "<p>Nuestro cómodo apartamento de vacaciones no es solo un lugar para quedarse, es su segundo hogar. Con una superficie de aproximadamente 55 metros cuadrados, el apartamento tiene capacidad para hasta cuatro personas y está disponible durante todo el año. Aquí puede relajarse y recargar energías después de un día lleno de aventuras y descubrimientos.</p><p>Este cuidado apartamento cuenta con dos dormitorios, ambos equipados con cómodas camas matrimoniales y televisión vía satélite para brindarle momentos emocionantes de televisión. También ofrecemos una cama supletoria (cuna) para satisfacer las necesidades y comodidad de todos nuestros huéspedes.</p><p>La sala de estar del apartamento invita a relajarse junto a la chimenea. En la cocina totalmente equipada, que cuenta con lavavajillas, cocina y nevera empotrada, entre otros, puede demostrar sus habilidades culinarias. La mesa de comedor separada es perfecta para disfrutar de una cena o desayuno acogedor con sus seres queridos.</p><p>Nuestro apartamento le ofrece más que simplemente alojamiento, le ofrece entretenimiento a su gusto. Aquí encontrará televisión satelital, equipo de música y reproductor de DVD para disfrutar de sus películas, música o programas de televisión favoritos.</p><p>El baño es otro lugar para relajarse; está equipado con ducha y calefacción por suelo radiante para mantenerlo cálido y acogedor en los días fríos.</p><p>Ofrecemos un estacionamiento reservado directamente en la casa, por lo que no tiene que preocuparse por buscar estacionamiento. Disfrute de una barbacoa en su propia terraza con chimenea de barbacoa y muebles de jardín, o simplemente disfrute de la tranquila atmósfera y belleza de la naturaleza. En nuestro apartamento de vacaciones, siempre estará conectado. Le ofrecemos Wi-Fi gratuito para que pueda mantenerse en contacto con sus seres queridos, completar tareas de oficina o planificar sus actividades diarias. También tiene acceso gratuito a la lavadora.</p><p>Nuestros precios incluyen ropa de cama y toallas. Los costos adicionales, como consumo de energía y agua, están incluidos en el precio. Por lo tanto, no tiene que preocuparse por costos adicionales.</p>",
+					"resonant-horsetail-milkweed": "<p>Disfrute de un apartamento de vacaciones exclusivo de alta calidad que hará que su estancia sea una experiencia realmente especial. Con 60 metros cuadrados, el apartamento ofrece mucho espacio para relajarse y disfrutar. Está equipado con calefacción por suelo radiante moderna y agradable, que crea un ambiente acogedor en la habitación.</p><p>Una atracción especial es la zona de dormitorio en forma de galería, que le brinda la sensación de dormir en una suite de lujo. Aquí encontrará una cómoda cama doble para descansar y soñar. Un punto destacado especial es el televisor LED incorporado, que le permite ver la televisión cómodamente desde la cama.</p><p>La sala de estar abierta y luminosa está equipada con una cocina integrada que no deja nada que desear. Ya sea cocina, lavavajillas, microondas o una nevera de diseño: todo lo que necesita está ahí. Cocinar juntos y luego sentarse en el cómodo sofá le permite relajarse y descansar por la noche. No hay problema para una noche de cine, ya que hay un televisor de pantalla panorámica de 50 pulgadas con acceso a Internet y recepción satelital de HDTV. Los amantes de la música también cuentan con un sistema de alta fidelidad con DVD.</p><p>Para los huéspedes, también es posible una cama supletoria en el sofá esquinero.</p><p>El amplio baño ofrece tanto una ducha como una bañera esquinera. Después de un largo día, puede relajarse aquí y recargar energías. También hay otro televisor LED disponible.</p><p>Su propia terraza en el techo le ofrece una vista fantástica e invita a quedarse. Además de los cómodos muebles de jardín, también hay una parrilla eléctrica privada lista para las veladas de barbacoa sociables. Una silla de playa de alta calidad completa la oferta y le brinda una sensación de vacaciones especial.</p><p>Hay una plaza de aparcamiento disponible en el aparcamiento cubierto para su coche. Porque su comodidad es muy importante para nosotros, también le ofrecemos Wi-Fi gratuito.</p><p>Los precios incluyen ropa de cama y toallas, así como todos los costos adicionales (energía y agua).</p><p>En resumen, este apartamento de vacaciones es el lugar ideal para relajarse y disfrutar del momento más hermoso del año. ¡Esperamos su visita!</p>"
+				}
+			},
+			"fr": {
+				"calendar": {
+					"monthLabels": {
+						"1": "Jan",
+						"2": "Fév",
+						"3": "Mar",
+						"4": "Avr",
+						"5": "Mai",
+						"6": "Juin",
+						"7": "Juil",
+						"8": "Août",
+						"9": "Sept",
+						"10": "Oct",
+						"11": "Nov",
+						"12": "Déc"
+					},
+					"typeNames": {
+						"defaultOccupationTypeName": "Occupé"
+					},
+					"weekdayLabels": {
+						"1": "Lu",
+						"2": "Ma",
+						"3": "Me",
+						"4": "Je",
+						"5": "Ve",
+						"6": "Sa",
+						"7": "Di"
+					},
+					"weekendLabel": "Week-end"
+				},
+				"cookies": {
+					"acceptLabel": "Accepter tous les cookies",
+					"closeLabel": "Enregistrer et fermer les paramètres",
+					"cookieDescriptions": {
+						"analytics": "Les cookies d'analyse aident les propriétaires de sites Web à comprendre comment les visiteurs interagissent avec les sites Web en collectant et en signalant des informations de manière anonyme.",
+						"marketing": "Les cookies publicitaires sont utilisés pour suivre les visiteurs sur les sites Web. L'intention est d'afficher des annonces pertinentes et engageantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et les annonceurs tiers.",
+						"necessary": "Les cookies nécessaires permettent à un site Web d'être utilisable en activant des fonctions de base telles que la navigation de page et l'accès aux zones sécurisées du site Web. Le site Web ne peut pas fonctionner correctement sans ces cookies.",
+						"preferences": "Les cookies de préférence permettent à un site Web de se souvenir des informations qui modifient le comportement ou l'apparence du site Web, comme votre langue préférée ou la région dans laquelle vous vous trouvez."
+					},
+					"cookieLabels": {
+						"analytics": "Cookies d'analyse",
+						"marketing": "Cookies publicitaires",
+						"necessary": "Cookies nécessaires",
+						"preferences": "Cookies de préférence"
+					},
+					"description": "Nous utilisons des cookies pour personnaliser le contenu et les annonces, fournir des fonctionnalités relatives aux médias sociaux et analyser notre trafic. Nous partageons également des informations sur votre utilisation de notre site avec nos partenaires de médias sociaux, publicitaires et d'analyse, qui peuvent les combiner avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services.",
+					"editLabel": "Modifier les paramètres de cookie",
+					"heading": "Ce site utilise des cookies",
+					"rejectLabel": "Seuls les cookies nécessaires",
+					"settingsLabel": "Paramètres de cookie"
+				},
+				"site": {
+					"050edcb4-680e-4542-96df-3ae4a2af89a5": "Wohnung 2 Freienhaus",
+					"83cd06fd-858d-4e21-994f-325778812713": "Wohnung 1 Ferienhaus",
+					"acco_card_slug": "Pour plus de détails, veuillez visiter la page de cet hébergement.",
+					"acco_default_alt": "Photo du logement",
+					"accomodations": "Appartements",
+					"adults": "Adultes",
+					"availability": "Disponibilité",
+					"calendarHeader": "Plan de réservation",
+					"de": "Deutsch",
+					"directions": "Directions",
+					"e5cace58-d435-420f-a1dc-17e844469e7e": "Wohnung DG",
+					"eachNight": "Chaque autre nuit",
+					"en": "English",
+					"es": "Español",
+					"excellent-coakum": "<p>Bienvenue dans nos charmants appartements de vacances situés dans le paisible village de Koserow, juste au bord de la magnifique mer Baltique ! Avec la nature à votre porte, vous avez la liberté d'explorer les environs luxuriants ou de faire une promenade tranquille sur notre belle plage de sable.</p><p>Koserow a une histoire riche qui ne manquera pas de vous captiver et de vous ravir. Découvrez la culture locale et explorez notre charmante église de village. Quel meilleur endroit pour vos vacances qu'un lieu combinant beauté naturelle et charme historique.</p><p>Nous avons hâte de vous accueillir pour vos vacances les plus mémorables !</p>",
+					"extraPerson": "Personne suppl.",
+					"firstNight": "Première nuit",
+					"footer_html": "\n      <p><strong>Contact:</strong><br>\n        Kordula Schumacher<br>\n        Achterstr. 3<br>\n        <br>\n        17459 Koserow - Deutschland<br>\n        Téléphone: +49 038375 20562<br>\n        \n        Courriel: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n      </p>",
+					"fr": "Français",
+					"from": "De",
+					"globalAdditionalPerson": "Personne supplémentaire",
+					"globalMinimumStay": "Nombre minimum de nuits",
+					"globalNightlyRate": "Par nuit",
+					"globalPeopleCount": "Nombre de personnes",
+					"globalPricing": "Prix communs",
+					"headerSlug": "Détendez-vous et profitez du soleil.",
+					"headerTitle": "Hébergements de vacances",
+					"home": "Accueil",
+					"impressions": "Quelques impressions",
+					"imprint": "Impression",
+					"imprint_html": "\n      <h1>Mentions légales</h1>\n      <section class=\"contact\">\n        <h2>Responsable du contenu</h2>\n        <p>\n        <strong>Kordula Schumacher</strong>\n        </p>\n        <p>\n          Achterstr. 3<br>\n          <br>\n          17459 Koserow - Deutschland <br>\n          Téléphone: +49 038375 20562<br>\n          \n          E-Mail: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n        </p>\n      </section>\n      <section>\n        <h2>Avertissement</h2>\n        <p>\n          Malgré un contrôle minutieux du contenu, Kordula Schumacher (l'exploitant du site) n'assume aucune responsabilité quant au contenu des liens externes. Le contenu des pages liées est de la seule responsabilité de leurs exploitants.\n        </p>\n      </section>\n      <section>\n        <h2>Avis de droit d'auteur</h2>\n        <p>\n          Le contenu et les œuvres créés par l'exploitant du site sur ces pages sont soumis au droit d'auteur allemand. La reproduction, le traitement, la distribution et toute forme d'exploitation en dehors des limites du droit d'auteur nécessitent le consentement écrit de l'auteur ou du créateur respectif. Les téléchargements et les copies de ces pages sont autorisés uniquement à des fins privées et non commerciales.\n        </p>\n        <p>\n          Dans la mesure où les contenus de ce site n'ont pas été créés par l'exploitant, les droits d'auteur de tiers sont respectés. En particulier, les contenus de tiers sont marqués comme tels. Si vous deviez malgré tout prendre connaissance d'une violation du droit d'auteur, veuillez nous en informer. Si nous prenons connaissance de violations, nous supprimerons immédiatement les contenus correspondants.\n        </p>\n        <p>\n          Toutes les photographies utilisées sur ce site sont la propriété de leurs artistes respectifs et sont protégées par les lois internationales sur le droit d'auteur. Les photographies ne peuvent pas être utilisées, copiées, reproduites, manipulées ou distribuées de quelque manière que ce soit sans l'autorisation écrite préalable de l'artiste.\n        </p>\n        <p>\n          Les photographies créées par des tiers sont la propriété de leurs propriétaires respectifs et sont utilisées sur ce site avec la permission. L'utilisation de ces photographies n'implique pas l'approbation de l'exploitant du site par les photographes ou les propriétaires des photographies. Les photographies appartenant à des tiers sont étiquetées en tant que telles.\n        </p>\n        <p>\n          Les photographies non étiquetées sont créées ou appartiennent à l'exploitant du site, sont la propriété exclusive de l'exploitant du site et sont protégées par les lois internationales sur le droit d'auteur.\n        </p>\n        <p>\n          Si vous souhaitez obtenir une licence ou acheter les droits sur l'une des photographies affichées sur ce site, veuillez contacter directement les artistes respectifs.\n        </p>\n        <p>\n          Nous tenons à exprimer notre gratitude aux talentueux photographes qui nous ont permis de présenter leur travail sur notre site Web. Nous apprécions grandement leurs contributions.\n        </p>\n      </section>\n      <section>\n        <h2>Résolution des litiges en ligne européenne (ODR)</h2>\n        <p>\n          La Commission européenne fournit une plateforme de résolution des litiges en ligne, accessible à l'adresse <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a>.\n        </p>\n        <p>\n          Veuillez noter que l'exploitant du site ne participe pas au processus de résolution des litiges en ligne européenne (ODR) et n'est pas tenu de le faire. Par conséquent, nous ne pouvons être tenus responsables des litiges découlant de nos produits ou services.\n        </p>\n        <p>\n          Nous encourageons tous les clients à nous contacter directement en cas de litige. Nous nous engageons à trouver une solution équitable et mutuellement acceptable à tout problème qui pourrait survenir.\n        </p>\n        <p>\n          Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter à l'adresse suivante:\n        </p>\n        <p>\n          <strong>Kordula Schumacher</strong><br>\n          Achterstr. 3<br>\n          <br>\n          17459 Koserow - Deutschland<br>\n          Téléphone: +49 038375 20562<br>\n          E-Mail <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n        </p>\n      </section>\n    ",
+					"landing_town_html": "",
+					"lang": "Langue",
+					"location": "Emplacement",
+					"minNumNights": "Nuit min.",
+					"missing_cal_url": "inconnue",
+					"peopleNum": "Nombre de personnes",
+					"pl": "Polski",
+					"pricing": "Dates et prix",
+					"rich-black-eyed-susan": "Église",
+					"shortPriceLabel": "Fourchette de prix",
+					"steady-european-weeping-birch-block-homely-rhubarb": "Koserow",
+					"steady-european-weeping-birch-block-written-baobab": "Météo",
+					"terms": "Conditions",
+					"timeRange": "Plage",
+					"title": "Bienvenue dans votre location de vacances",
+					"to": "À",
+					"tos_html": "<h1>Conditions et Termes - Locations</h1><h2>Introduction</h2><p>Bienvenue sur notre site de location de vacances (ci-après désigné « Site »), où vous pouvez trouver et réserver un hébergement pour votre prochaine escapade. En utilisant nos services, vous acceptez d'être lié par ces conditions générales, qui régissent votre utilisation de notre site et des services que nous fournissons.</p><h2>Réservation et Paiement</h2><p>Pour effectuer une réservation, veuillez nous contacter par e-mail ou par téléphone.</p><h2>Annulation et Remboursements</h2><p>Vous pouvez annuler votre réservation sans frais d'annulation à tout moment jusqu'à 60 jours avant votre date d'arrivée. Si vous annulez dans ce délai, nous rembourserons tous les paiements déjà effectués. Si vous annulez après ce délai, nous vous facturerons 60% des coûts totaux de réservation.</p><h2>Arrivée et Départ</h2><p>Votre hébergement sera disponible pour le check-in à partir de 14h00 le jour de votre arrivée et doit être libéré avant 10h00 le jour de votre départ. Un check-out tardif et un check-in anticipé peuvent être organisés, sous réserve de disponibilité et de frais supplémentaires.</p><h2>Dommages et Perte</h2><p>Vous êtes responsable de tout dommage ou perte causé à l'hébergement ou à ses contenus pendant votre séjour. Vous serez responsable du coût de réparation ou de remplacement de tout tel dommage ou perte.</p><h2>Responsabilité</h2><p>Nous ne sommes pas responsables des dommages ou pertes subis par vous résultant de votre utilisation de nos services, sauf dans la mesure requise par la loi.</p><h2>Modifications des Conditions et Termes</h2><p>Nous nous réservons le droit de modifier ces conditions à tout moment. Votre utilisation continue de nos services après de telles modifications constitue votre acceptation des nouvelles conditions.</p><h1>Conditions générales - Site Web</h1><p>Ce site Web est exploité par nous, utilise des services tiers (voir ci-dessous) et vous est fourni à des fins personnelles, sous réserve des présentes conditions d'utilisation (ci-après dénommées les « Conditions »).</p><h2>Objectif du site Web</h2><p>Notre site Web fournit des informations sur les appartements de vacances disponibles à la location, y compris leurs prix et leur disponibilité. Ce site Web fournit également des liens vers d'autres sites Web qui peuvent vous intéresser.</p><h2>Utilisation du site Web</h2><p>Vous pouvez utiliser le site Web uniquement à des fins légales et conformément aux Conditions. Vous acceptez de ne pas utiliser le site Web :</p><ul><li><p>De quelque manière que ce soit qui viole toute loi fédérale, étatique, locale ou internationale applicable.</p></li><li><p>A des fins d'exploitation, de préjudice ou de tentative d'exploitation ou de préjudice des mineurs de quelque manière que ce soit, en les exposant à un contenu inapproprié, en leur demandant des informations personnellement identifiables ou autrement.</p></li><li><p>Pour transmettre ou obtenir l'envoi de toute publicité ou matériel promotionnel, y compris tout « courrier indésirable », « chaîne de lettres », « spam » ou toute autre sollicitation similaire.</p></li><li><p>Pour se faire passer pour ou tenter de se faire passer pour une autre personne ou entité.</p></li></ul><h2>Avis de non-responsabilité des garanties</h2><p>Notre site Web est fourni « en l'état » et « tel quel » sans aucune garantie de quelque nature que ce soit, expresse ou implicite, y compris, mais sans s'y limiter, les garanties de qualité marchande, d'adéquation à un usage particulier et de non-contrefaçon.</p><h2>Limitation de responsabilité</h2><p>Nous ne serons pas responsables des dommages découlant de l'utilisation du site Web, y compris, mais sans s'y limiter, les dommages indirects, accessoires, spéciaux, punitifs ou consécutifs, perte de bénéfices, données ou bonne volonté.</p><h2>Liens externes</h2><p>Notre site Web peut contenir des liens vers des sites Web ou des services tiers qui ne sont pas exploités ou contrôlés par nous. Nous n'avons aucun contrôle et n'assumons aucune responsabilité quant au contenu, aux politiques de confidentialité ou aux pratiques de tout site Web ou service tiers. Vous reconnaissez et acceptez que nous ne serons pas responsables ou responsables, directement ou indirectement, de tout dommage ou perte causé ou allégué être causé par ou en relation avec l'utilisation ou la confiance accordée à tout tel contenu, biens ou services disponibles sur ou via tels sites Web ou services.</p><h2>Modifications des conditions</h2><p>Nous nous réservons le droit de modifier ces Conditions à tout moment sans préavis. Votre utilisation continue du site Web après tout changement constitue votre acceptation des nouvelles conditions.</p><h2>Loi applicable</h2><p>Ces Conditions seront régies et interprétées conformément aux lois de l'état où le propriétaire des appartements a sa résidence principale, sans donner effet à aucun principe de conflit de lois.</p><h1>Politique de confidentialité</h1><h2>Introduction</h2><p>Nous respectons votre vie privée et nous nous engageons à protéger vos informations personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons et divulguons vos informations personnelles.</p><h2>Collecte d'informations</h2><p>Nous recueillons des informations personnelles telles que votre nom, adresse, adresse e-mail et numéro de téléphone lorsque vous faites une demande ou une réservation ou lorsque vous vous inscrivez à d'autres services que nous fournissons, comme notre newsletter. Nous recueillons également des informations sur votre réservation, notamment votre arrivée et votre départ, vos exigences spéciales (allergies, etc.) et les informations de paiement.</p><h2>Utilisation des informations</h2><p>Nous utilisons vos informations personnelles pour traiter votre demande de réservation, votre réservation, communiquer avec vous et vous fournir des mises à jour sur nos services et promotions. Nous utilisons également vos informations anonymisées à des fins internes, telles que la recherche et l'analyse.</p><p>Pendant votre séjour, nous recueillerons votre consentement écrit à cet égard si vous êtes disposé à le faire.</p><h2>Divulgation des informations</h2><p>Nous ne divulguerons pas vos informations personnelles à des tiers, sauf si la loi l'exige ou dans le but de traiter votre réservation.</p><h2>Sécurité des données</h2><p>Nous prenons les mesures appropriées pour protéger vos informations personnelles contre l'accès, l'utilisation ou la divulgation non autorisés.</p><h2>Modifications de la politique de confidentialité</h2><p>Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Votre utilisation continue de notre site Web après tout changement constitue votre acceptation de la nouvelle politique de confidentialité.</p><h1>Avis sur le logiciel libre</h1><p>Notre site Web utilise diverses solutions logicielles libres qui sont publiées sous les licences MIT ou Apache. L'utilisation de ces solutions nous permet de fournir nos services efficacement et de manière fiable.</p><p>Nous souhaitons profiter de cette occasion pour exprimer notre gratitude à tous les développeurs impliqués dans ces projets et qui les rendent disponibles.</p><p>Les conditions d'utilisation d'origine du logiciel utilisé peuvent être trouvées aux liens suivants:</p><ul><li><p>Licence MIT: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></p></li><li><p>Licence Apache: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></p></li></ul><p>Veuillez noter que ces conditions de licence font partie des conditions d'utilisation de notre site Web et doivent être respectées pour pouvoir utiliser nos services.</p><p>Ce site utilise principalement <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"https://kit.svelte.dev/\">SvelteKit</a>. Pour obtenir une liste complète des bibliothèques et frameworks libres utilisés, veuillez contacter les <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:dirk@accoma.de\">développeurs</a>.</p><h1>Services tiers</h1><p>Ce site Web est conçu ou utilise directement des services cloud fournis par les sociétés suivantes (dans aucun ordre particulier). En utilisant ce site Web, vous pouvez divulguer certaines informations d'utilisation à ces sociétés. Nous n'avons pas le contrôle et ne pouvons être tenus responsables, directement ou indirectement, de tout dommage ou perte causé ou allégué être causé par cette divulgation:</p><ul><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vercel.com/\">Vercel</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://render.com/\">Render</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.twicpics.com/\">TwicPics</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://supabase.com/\">Supabase</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openai.com/\">OpenAI</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/\">Github</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://gitlab.com/\">Gitlab</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openstreetmap.org\">Open Street Map</a></p></li></ul>",
+					"town": "Ville",
+					"weather": "Météo",
+					"nasty-thin-leaved-coneflower-block-compact-swamp-hellebore": "Koserow",
+					"nasty-thin-leaved-coneflower-block-devoted-mango": "Meteo",
+					"equal-black-cap": "<p>Bienvenue dans notre appartement de vacances confortable et confortable, idéal pour vos prochaines vacances en famille! Avec une superficie de 45 mètres carrés, il offre suffisamment d'espace et de confort toute l'année pour jusqu'à quatre personnes.</p><p>Les deux chambres sont équipées de téléviseurs LCD satellite modernes, afin que vous ne manquiez pas vos émissions préférées même en vacances. Chacune des deux chambres est équipée d'un lit double confortable, garantissant des nuits paisibles. Pour nos petits invités, nous sommes heureux de fournir un lit enfant pratique supplémentaire.</p><p>Le salon vous offre un programme de divertissement de première classe grâce à une télévision grand écran avec lecteur DVD HiFi et réception satellite numérique. Que vous prévoyiez une soirée cinéma cosy en famille ou que vous souhaitiez simplement écouter de la musique de manière détendue, notre équipement technique ne laisse rien à désirer.</p><p>La pièce maîtresse de notre appartement de vacances est la cuisine entièrement intégrée. Vous y trouverez des appareils encastrés modernes, dont un lave-vaisselle, une cuisinière avec four et un réfrigérateur - parfait pour préparer des repas délicieux et profiter pleinement de vos vacances.</p><p>La salle de bain de notre appartement de vacances vous impressionnera par sa douche confortable, ses toilettes et son chauffage par le sol agréable. Après une longue journée passée dans la nature, vous pourrez vous détendre ici et reprendre des forces.</p><p>Une terrasse accueillante est directement attenante à l'appartement. Vous y trouverez une cheminée pour barbecue et des meubles de jardin confortables - l'endroit idéal pour profiter des douces soirées d'été. Vous pouvez garer votre voiture devant notre maison pendant votre séjour.</p><p>Nos tarifs comprennent bien entendu le linge de lit et les serviettes, ainsi que toutes les charges telles que l'électricité et l'eau. De plus, vous bénéficiez d'une connexion Wi-Fi gratuite et de l'utilisation d'un lave-linge et d'un sèche-linge pendant votre séjour.</p><p>Si vous souhaitez vous faire dorloter pendant votre séjour, vous pouvez utiliser notre sauna privé avec salle de bains attenante moyennant un supplément.</p>",
+					"substantial-silky-dogwood": "<p>Notre appartement de vacances confortable n'est pas seulement un endroit pour séjourner, c'est votre deuxième chez vous. Avec une surface d'environ 55 mètres carrés, l'appartement peut accueillir jusqu'à quatre personnes et est utilisable toute l'année. Ici, vous pourrez vous détendre après une longue journée d'aventures et de découvertes et recharger vos batteries pour le lendemain.</p><p>Cet appartement bien entretenu dispose de deux chambres, toutes deux équipées de lits doubles confortables et de la télévision par satellite pour vous offrir des moments passionnants devant la télévision. Nous proposons également un lit d'appoint supplémentaire (lit bébé) pour répondre aux besoins et au confort de tous nos clients.</p><p>Le salon de l'appartement invite à se détendre près de la cheminée. Dans la cuisine entièrement équipée, avec lave-vaisselle, cuisinière, réfrigérateur intégré et bien d'autres équipements, vous pourrez mettre en valeur vos talents culinaires. La table à manger séparée est parfaite pour un dîner ou un petit-déjeuner convivial avec vos proches.</p><p>Notre appartement vous offre plus qu'un simple hébergement, il vous offre des divertissements à volonté. Vous trouverez ici une télévision par satellite, une chaîne hi-fi et un lecteur DVD pour vos films, musiques ou émissions de télévision préférés.</p><p>La salle de bain est un autre endroit pour se détendre ; elle est équipée d'une douche et d'un chauffage au sol qui vous gardera au chaud et confortable les jours froids.</p><p>Nous offrons une place de parking réservée juste devant la maison, vous n'aurez donc pas à vous soucier de trouver une place pour vous garer. Profitez d'un barbecue sur votre propre terrasse avec cheminée et mobilier de jardin, ou tout simplement de l'atmosphère paisible et de la beauté de la nature. Dans notre appartement de vacances, vous resterez toujours connecté. Nous vous offrons une connexion Wi-Fi gratuite pour rester en contact avec vos proches, pour travailler ou planifier vos activités journalières. La machine à laver est également mise gratuitement à votre disposition.</p><p>Nos tarifs incluent la fourniture des draps et des serviettes. Les charges, telles que la consommation d'énergie et d'eau, sont également incluses dans le prix. Vous n'avez donc pas à vous soucier de frais supplémentaires.</p>",
+					"resonant-horsetail-milkweed": "<p>Profitez d'un appartement de vacances de haute qualité et exclusif qui rendra votre séjour vraiment spécial. Avec ses 60 mètres carrés, l'appartement offre beaucoup d'espace pour se détendre et profiter. Il est équipé d'un chauffage au sol moderne et agréable, ce qui crée une atmosphère chaleureuse dans la pièce.</p><p>Une attraction particulière est la zone de couchage en forme de galerie, qui vous donne l'impression de dormir dans une suite luxueuse. Vous y trouverez un lit double confortable pour vous reposer et rêver. Un moment fort spécial est la télévision LED intégrée, qui vous permet de regarder confortablement la télévision depuis votre lit.</p><p>Le salon ouvert et lumineux est équipé d'une cuisine intégrée qui ne laisse rien à désirer. Que ce soit la cuisinière, le lave-vaisselle, le four à micro-ondes ou le réfrigérateur design - tout ce dont vous avez besoin est là. Cuisiner ensemble, puis s'asseoir sur le canapé confortable vous permet de vous détendre et de vous relaxer le soir. Une soirée cinéma ne pose aucun problème, car il y a un téléviseur grand écran de 50 pouces avec accès Internet et réception satellite HDTV. Les amateurs de musique sont également pris en compte avec un système hi-fi avec lecteur DVD.</p><p>Pour les invités, un lit supplémentaire est également possible sur le canapé d'angle.</p><p>La salle de bains spacieuse offre à la fois une douche et une baignoire d'angle. Après une longue journée, vous pouvez vous détendre ici et recharger vos batteries. Une autre télévision LED est disponible.</p><p>Votre propre terrasse sur le toit vous offre une vue fantastique et vous invite à vous attarder. En plus des confortables meubles de jardin, un barbecue électrique privé est également à votre disposition pour des soirées barbecue conviviales. Une chaise de plage de haute qualité complète l'offre et vous procure une sensation de vacances spéciale.</p><p>Une place de parking est disponible sous le carport pour votre voiture. Parce que votre confort nous tient à cœur, nous vous offrons également le Wi-Fi gratuit.</p><p>Les prix comprennent le linge de lit et les serviettes ainsi que tous les frais supplémentaires (énergie et eau).</p><p>En résumé, cet appartement de vacances est l'endroit idéal pour se relaxer et profiter de la plus belle période de l'année. Nous nous réjouissons de votre visite !</p>"
+				}
+			},
+			"pl": {
+				"calendar": {
+					"monthLabels": {
+						"1": "Sty",
+						"2": "Lut",
+						"3": "Mar",
+						"4": "Kwi",
+						"5": "Maj",
+						"6": "Cze",
+						"7": "Lip",
+						"8": "Sie",
+						"9": "Wrz",
+						"10": "Paź",
+						"11": "Lis",
+						"12": "Gru"
+					},
+					"typeNames": {
+						"defaultOccupationTypeName": "Zajęty"
+					},
+					"weekdayLabels": {
+						"1": "Pon",
+						"2": "Wt",
+						"3": "Śr",
+						"4": "Czw",
+						"5": "Pt",
+						"6": "Sob",
+						"7": "Ndz"
+					},
+					"weekendLabel": "Weekend"
+				},
+				"cookies": {
+					"acceptLabel": "Akceptuj wszystkie ciasteczka",
+					"closeLabel": "Zapisz i zamknij ustawienia",
+					"cookieDescriptions": {
+						"analytics": "Ciasteczka analityczne pomagają właścicielom witryn internetowych zrozumieć, w jaki sposób odwiedzający interagują z witrynami, gromadząc i raportując informacje w sposób anonimowy.",
+						"marketing": "Ciasteczka marketingowe służą do śledzenia odwiedzających w witrynach internetowych. Celem jest wyświetlanie reklam odpowiednich i angażujących dla indywidualnego użytkownika, a tym samym bardziej wartościowych dla wydawców i reklamodawców zewnętrznych.",
+						"necessary": "Niezbędne ciasteczka pomagają w użyteczności strony internetowej, umożliwiając podstawowe funkcje, takie jak nawigacja po stronie i dostęp do bezpiecznych obszarów witryny. Strona internetowa nie może prawidłowo działać bez tych ciasteczek.",
+						"preferences": "Ciasteczka preferencji umożliwiają witrynie internetowej zapamiętywanie informacji, które zmieniają sposób, w jaki witryna działa lub wygląda, takie jak preferowany język lub region, w którym się znajdujesz."
+					},
+					"cookieLabels": {
+						"analytics": "Ciasteczka analityczne",
+						"marketing": "Ciasteczka marketingowe",
+						"necessary": "Niezbędne ciasteczka",
+						"preferences": "Ciasteczka preferencji"
+					},
+					"description": "Używamy ciasteczek, aby dostosować treści i reklamy, zapewnić funkcje mediów społecznościowych i analizować nasz ruch. Udostępniamy również informacje o Twoim korzystaniu z naszej strony partnerom mediów społecznościowych, reklamowym i analitycznym, którzy mogą je połączyć z innymi informacjami, które im dostarczyłeś lub które zebrali w wyniku korzystania z ich usług.",
+					"editLabel": "Edytuj ustawienia ciasteczek",
+					"heading": "Ta strona używa ciasteczek",
+					"rejectLabel": "Tylko niezbędne ciasteczka",
+					"settingsLabel": "Ustawienia ciasteczek"
+				},
+				"site": {
+					"050edcb4-680e-4542-96df-3ae4a2af89a5": "Wohnung 2 Freienhaus",
+					"83cd06fd-858d-4e21-994f-325778812713": "Wohnung 1 Ferienhaus",
+					"acco_card_slug": "Aby uzyskać szczegółowe informacje, odwiedź stronę tego zakwaterowania.",
+					"acco_default_alt": "Zdjęcie zakwaterowania",
+					"accomodations": "Apartamenty",
+					"adults": "Dorośli",
+					"availability": "Dostępność",
+					"calendarHeader": "Plan rezerwacji",
+					"de": "Deutsch",
+					"directions": "Kierunki",
+					"e5cace58-d435-420f-a1dc-17e844469e7e": "Wohnung DG",
+					"eachNight": "Każda kolejna noc",
+					"en": "English",
+					"es": "Español",
+					"extraPerson": "Dodatkowy gość",
+					"firstNight": "Pierwsza noc",
+					"footer_html": "\n      <p><strong>Kontakt:</strong><br>\n        Kordula Schumacher<br>\n        Achterstr. 3<br>\n        <br>\n        17459 Koserow - Deutschland<br>\n        Telefon: +49 038375 20562<br>\n        \n        E-mail: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n      </p>",
+					"fr": "Français",
+					"from": "Od",
+					"globalAdditionalPerson": "Dodatkowy gość",
+					"globalMinimumStay": "Minimalna liczba nocy",
+					"globalNightlyRate": "Za noc",
+					"globalPeopleCount": "Liczba gości",
+					"globalPricing": "Ceny ogólne",
+					"headerSlug": "Zrelaksuj się i ciesz się słońcem.",
+					"headerTitle": "Zakwaterowanie wakacyjne",
+					"home": "Strona główna",
+					"impressions": "Niektóre wrażenia",
+					"imprint": "Odbitka",
+					"imprint_html": "\n      <h1>Informacje o wydawcy</h1>\n      <section class=\"contact\">\n        <h2>Odpowiedzialny za treść</h2>\n        <strong>Kordula Schumacher</strong>\n        <br>\n        <p>\n          Achterstr. 3<br>\n          <br>\n          17459 Koserow - Deutschland <br>\n          Telefon: +49 038375 20562<br>\n          \n          E-Mail: <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n        </p>\n      </section>\n      <section>\n        <h2>Oświadczenie</h2>\n        <p>\n          Pomimo starannej kontroli treści, Kordula Schumacher (operator strony) nie ponosi odpowiedzialności za treść linków zewnętrznych. Zawartość stron powiązanych jest wyłączną odpowiedzialnością ich operatorów.\n        </p>\n      </section>\n      <section>\n        <h2>Informacja o prawach autorskich</h2>\n        <p>\n          Zawartość i prace stworzone przez operatora strony na tych stronach podlegają niemieckiemu prawu autorskiemu. Reprodukcja, przetwarzanie, dystrybucja i wszelkiego rodzaju wykorzystanie poza granicami prawa autorskiego wymagają pisemnej zgody odpowiedniego autora lub twórcy. Pobieranie i kopiowanie tych stron jest dozwolone wyłącznie do użytku prywatnego i niekomercyjnego.\n        </p>\n        <p>\n          Jeśli treści na tej stronie nie zostały stworzone przez operatora, szanowane są prawa autorskie stron trzecich. W szczególności treści stron trzecich są oznaczone jako takie. Jeśli jednak zostaniesz świadomy naruszenia praw autorskich, poinformuj nas o tym. Jeśli stanie się nam znanym jakiekolwiek naruszenia, natychmiast usuniemy taką zawartość.\n        </p>\n        <p>\n          Wszystkie zdjęcia użyte na tej stronie internetowej są własnością odpowiednich artystów i chronione są przez międzynarodowe prawa autorskie. Zdjęcia nie mogą być używane, kopiowane, reprodukowane, manipulowane ani rozpowszechniane w żaden sposób bez wcześniejszej pisemnej zgody artysty.\n        </p>\n        <p>\n          Zdjęcia stworzone przez artystów stron trzecich są własnością ich odpowiednich właścicieli i są używane na tej stronie internetowej za zgodą. Użycie tych zdjęć nie oznacza poparcia operatora strony przez fotografów lub właścicieli zdjęć. Zdjęcia należące do stron trzecich są oznaczone jako takie.\n        </p>\n        <p>\n          Zdjęcia nieoznaczone są stworzone lub własnością operatora strony, są wyłączną własnością operatora strony i są chronione przez międzynarodowe prawa autorskie.\n        </p>\n        <p>\n          Jeśli chcesz wynająć lub kupić prawa do któregokolwiek z wyświetlanych na tej stronie internetowej zdjęć, skontaktuj się bezpośrednio z odpowiednimi artystami.\n        </p>\n        <p>\n          Chcielibyśmy wyrazić naszą wdzięczność utalentowanym fotografom, którzy pozwolili nam prezentować ich prace na naszej stronie internetowej. Ich wkład jest bardzo ceniony.\n        </p>\n      </section>\n      <section>\n        <h2>Europejska platforma rozstrzygania sporów online (ODR)</h2>\n        <p>\n          Komisja Europejska zapewnia platformę internetową do rozstrzygania sporów, która może zostać znaleziona pod adresem <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a>.\n        </p>\n        <p>\n          Należy pamiętać, że operator strony nie uczestniczy w procesie Europejskiego Rozstrzygania Sporów Online (ODR) i nie jest do tego zobowiązany. W związku z tym nie możemy ponosić odpowiedzialności za spory wynikające z naszych produktów lub usług.\n        </p>\n        <p>\n          Zachęcamy wszystkich klientów do bezpośredniego kontaktu z nami w przypadku wystąpienia sporu. Jesteśmy zobowiązani do znalezienia uczciwego i wzajemnie akceptowalnego rozwiązania dla wszelkich problemów, które mogą wystąpić.\n        </p>\n        <p>\n          Jeśli masz jakiekolwiek pytania lub wątpliwości, prosimy o kontakt z nami pod adresem:\n        </p>\n        <p>\n          <strong>Kordula Schumacher</strong><br>\n          Achterstr. 3<br>\n          <br>\n          17459 Koserow - Deutschland<br>\n          Telefon: +49 038375 20562<br>\n          E-Mail <a href=\"mailto:kordulaschumacher@googlemail.com\">kordulaschumacher@googlemail.com</a>\n        </p>\n      </section>",
+					"landing_town_html": "",
+					"lang": "Język",
+					"location": "Lokalizacja",
+					"minNumNights": "Min. pobyt",
+					"missing_cal_url": "nieznany",
+					"peopleNum": "Liczba gości",
+					"pl": "Polski",
+					"pricing": "Daty i ceny",
+					"resonant-horsetail-milkweed": "<p>Ciesz się wysokiej jakości i ekskluzywnym apartamentem na wakacje, który sprawi, że Twój pobyt będzie naprawdę wyjątkowym doświadczeniem. Z 60 metrami kwadratowymi, apartament oferuje dużo miejsca do relaksu i zabawy. Jest wyposażony w nowoczesne i przyjemne ogrzewanie podłogowe, które tworzy przytulny klimat w pomieszczeniu.</p><p>Osobną atrakcją jest miejsce do spania w postaci galerii, które daje Ci uczucie spania w luksusowym apartamencie. Znajdziesz tutaj wygodne podwójne łóżko do odpoczynku i marzeń. Wyjątkowym elementem jest wbudowany telewizor LED, który umożliwia wygodne oglądanie telewizji z łóżka.</p><p>Otwarty i jasny salon wyposażony jest w wbudowaną kuchnię, która nie pozostawia nic do życzenia. Bez względu na to, czy to kuchenka, zmywarka, mikrofalówka czy lodówka designerska - wszystko, czego potrzebujesz, jest na miejscu. Gotowanie razem, a następnie siedzenie na wygodnej sofie, pozwala Ci zrelaksować się wieczorem. Wieczory filmowe to żaden problem, ponieważ dostępny jest telewizor szerokokątny o przekątnej 50 cali z dostępem do internetu i odbiorem telewizji satelitarnej HDTV. Miłośnicy muzyki mają również zapewniony system hi-fi z odtwarzaczem DVD.</p><p>Dla gości możliwe jest także dodatkowe łóżko na rogu sofy.</p><p>Przestronna łazienka oferuje zarówno prysznic, jak i narożną wannę. Po długim dniu możesz tu zrelaksować się i naładować baterie. Dostępny jest kolejny telewizor LED.</p><p>Twoja własna taras na dachu oferuje fantastyczny widok i zachęca do odpoczynku. Oprócz wygodnych mebli ogrodowych, jest także gotowy do użytku prywatny elektryczny grill, idealny do towarzyskich wieczorów grillowych. Ofertę uzupełnia wysokiej jakości leżak plażowy, który nadaje specjalnego wakacyjnego klimatu.</p><p>Dostępne jest także miejsce parkingowe w boksie garażowym dla Twojego samochodu. Ponieważ Twój komfort jest dla nas bardzo ważny, oferujemy Ci również bezpłatne Wi-Fi.</p><p>Ceny obejmują pościel i ręczniki oraz wszystkie dodatkowe koszty (energię i wodę).</p><p>W skrócie, ten apartament na wakacje to idealne miejsce do relaksu i cieszenia się najpiękniejszym czasem roku. Czekamy na Twoją wizytę!</p>",
+					"shortPriceLabel": "Zakres cenowy",
+					"steady-european-weeping-birch-block-homely-rhubarb": "Koserow",
+					"steady-european-weeping-birch-block-written-baobab": "Pogoda",
+					"terms": "Warunki",
+					"timeRange": "Zakres",
+					"title": "Witaj na wakacjach!",
+					"to": "Do",
+					"tos_html": "<h1>Warunki i zasady - Wynajem</h1><h2>Wprowadzenie</h2><p>Witamy na naszej stronie internetowej wynajmu wakacyjnego (zwanej dalej „Stroną internetową”), gdzie możesz znaleźć i zarezerwować zakwaterowanie na swoje następne wakacje. Korzystając z naszych usług, zgadzasz się być związanym tymi warunkami i zasadami, które regulują Twoje korzystanie z naszej strony i usług, które świadczymy.</p><h2>Rezerwacja i płatność</h2><p>Aby dokonać rezerwacji, skontaktuj się z nami drogą mailową lub telefonicznie.</p><h2>Anulowanie i zwroty</h2><p>Możesz anulować rezerwację bez opłaty anulacyjnej w dowolnym momencie do 60 dni przed datą przyjazdu. Jeśli anulujesz w tym czasie, zwrócimy wszelkie dokonane wpłaty. Jeśli anulujesz po tym czasie, obciążymy Cię 60% całkowitych kosztów rezerwacji.</p><h2>Przyjazd i wyjazd</h2><p>Twoje zakwaterowanie będzie dostępne do zameldowania od godziny 14:00 w dniu przyjazdu, a należy je opuścić do godziny 10:00 w dniu wyjazdu. Możliwe jest ustalenie późniejszego wymeldowania i wcześniejszego zameldowania, w zależności od dostępności i opłaty.</p><h2>Uszkodzenia i utrata</h2><p>Jesteś odpowiedzialny za wszelkie uszkodzenia lub utraty spowodowane w zakwaterowaniu lub jego zawartości podczas Twojego pobytu. Będziesz odpowiedzialny za koszty naprawy lub wymiany takich uszkodzeń lub utrat.</p><h2>Odpowiedzialność</h2><p>Nie ponosimy odpowiedzialności za jakiekolwiek szkody lub straty poniesione przez Ciebie w wyniku korzystania z naszych usług, z wyjątkiem wymaganym przez prawo.</p><h2>Zmiany w warunkach i zasadach</h2><p>Zastrzegamy sobie prawo do zmiany tych warunków i zasad w dowolnym momencie. Twoje kontynuowanie korzystania z naszych usług po wprowadzeniu jakichkolwiek zmian stanowi Twoją akceptację nowych warunków i zasad.</p><h1>Warunki i zasady - Strona internetowa</h1><p>Niniejsza strona internetowa jest prowadzona przez nas, korzysta z usług stron trzecich (patrz poniżej) i jest dostarczana do Państwa użytku osobistego zgodnie z następującymi Warunkami świadczenia usług (zwanymi dalej „Warunkami”).</p><h2>Cel strony internetowej</h2><p>Nasza strona internetowa zawiera informacje na temat apartamentów wakacyjnych dostępnych do wynajęcia, w tym ich cen i dostępności. Ta strona internetowa zawiera również linki do innych stron internetowych, które mogą być dla Państwa interesujące.</p><h2>Używanie strony internetowej</h2><p>Możesz korzystać z witryny tylko w celach zgodnych z prawem i zgodnie z Warunkami. Zgadzasz się nie używać witryny:</p><ul><li><p>W jakikolwiek sposób naruszający jakiekolwiek obowiązujące federalne, stanowe, lokalne lub międzynarodowe prawo lub przepisy.</p></li><li><p>W celu wykorzystywania, szkodzenia lub próby wykorzystywania lub szkodzenia nieletnim w jakikolwiek sposób, poprzez ujawnianie im nieodpowiedniej zawartości, proszenie o osobowe dane lub w inny sposób.</p></li><li><p>Do przesyłania lub uzyskiwania wysyłania jakiejkolwiek reklamy lub materiałów promocyjnych, w tym jakichkolwiek „listów śmieciowych”, „łańcuchów listów”, „spamu” lub jakichkolwiek innych podobnych zachęt.</p></li><li><p>Do podszywania się lub próby podszywania się do innej osoby lub podmiotu.</p></li></ul><h2>Zrzeczenie się gwarancji</h2><p>Nasza strona internetowa jest dostarczana „tak jak jest” i „tak jak jest dostępna” bez jakiejkolwiek gwarancji jakiejkolwiek rodzaju, wyrażonej lub dorozumianej, w tym, ale nie ograniczając się do gwarancji przydatności do określonego celu i braku naruszenia.</p><h2>Ograniczenie odpowiedzialności</h2><p>W żadnym wypadku nie będziemy odpowiedzialni za jakiekolwiek szkody wynikające z korzystania z witryny, w tym, ale nie ograniczając się do pośrednich, przypadkowych, specjalnych, karnych lub wynikowych szkód, utraty zysków lub danych lub utraty dobrego imienia.</p><h2>Linki zewnętrzne</h2><p>Nasza strona internetowa może zawierać linki do stron internetowych lub usług stron trzecich, które nie są własnością ani nie są kontrolowane przez nas. Nie mamy żadnej kontroli ani nie ponosimy odpowiedzialności za treść, polityki prywatności ani praktyki jakichkolwiek stron internetowych lub usług stron trzecich. Przyznajesz i zgadzasz się, że nie będziemy odpowiedzialni ani odpowiedzialni, bezpośrednio lub pośrednio, za jakiekolwiek szkody lub straty spowodowane lub przypisywane użyciu lub zależności od jakiejkolwiek takiej zawartości, towarów lub usług dostępnych lub dostępnych poprzez takie strony internetowe lub usługi.</p><h2>Zmiany w Warunkach</h2><p>Zastrzegamy sobie prawo do modyfikowania tych Warunków w dowolnym momencie bez uprzedniego powiadomienia. Kontynuowanie korzystania z witryny po wprowadzeniu jakichkolwiek takich zmian stanowi Twoją akceptację nowych Warunków.</p><h2>Prawo właściwe</h2><p>Niniejsze Warunki podlegają i będą interpretowane zgodnie z prawem państwa, w którym właściciel apartamentu ma swoje główne miejsce zamieszkania, bez uwzględnienia jakichkolwiek zasad konfliktu prawa.</p><h1>Polityka prywatności</h1><h2>Wprowadzenie</h2><p>Szanujemy Twoją prywatność i jesteśmy zobowiązani do ochrony Twoich danych osobowych. Niniejsza polityka prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy i ujawniamy Twoje dane osobowe.</p><h2>Zbieranie informacji</h2><p>Zbieramy dane osobowe, takie jak Twoje imię, adres, adres e-mail i numer telefonu, gdy składasz zamówienie lub rejestrujesz się w innych usługach, które oferujemy, takich jak nasz biuletyn. Zbieramy również informacje o Twoim zamówieniu, w tym o przyjeździe i wyjeździe, specjalnych wymaganiach (np. alergiach lub podobnych) oraz informacjach o płatności.</p><h2>Wykorzystanie informacji</h2><p>Wykorzystujemy Twoje dane osobowe do przetwarzania Twojego zamówienia, Twojego zamówienia, do komunikacji z Tobą i dostarczania Ci aktualizacji dotyczących naszych usług i promocji. Wykorzystujemy również Twoje dane anonimowe do celów wewnętrznych, takich jak badania i analiza.</p><p>Podczas Twojego pobytu będziemy zbierać Twoją pisemną zgodę na to, jeśli będziesz skłonny to zrobić.</p><h2>Ujawnienie informacji</h2><p>Nie ujawniamy Twoich danych osobowych osobom trzecim, chyba że wymaga tego prawo lub w celu przetwarzania Twojego zamówienia.</p><h2>Bezpieczeństwo danych</h2><p>Podejmujemy odpowiednie środki w celu ochrony Twoich danych osobowych przed nieupoważnionym dostępem, wykorzystaniem lub ujawnieniem.</p><h2>Zmiany w polityce prywatności</h2><p>Zastrzegamy sobie prawo do zmiany niniejszej polityki prywatności w dowolnym momencie. Twoje kontynuowanie korzystania z naszej witryny po wprowadzeniu jakichkolwiek takich zmian stanowi Twoje przyjęcie nowej polityki prywatności.</p><h1>Powiadomienie o oprogramowaniu o otwartym kodzie źródłowym</h1><p>Nasza strona internetowa wykorzystuje różne rozwiązania oprogramowania o otwartym kodzie źródłowym, które są udostępniane na licencji MIT lub Apache. Korzystanie z tych rozwiązań pozwala nam świadczyć nasze usługi w sposób efektywny i niezawodny.</p><p>Chcielibyśmy wykorzystać tę okazję, aby wyrazić naszą wdzięczność wszystkim programistom, którzy uczestniczą w tych projektach i udostępniają je.</p><p>Oryginalne warunki licencji dla używanego oprogramowania można znaleźć pod następującymi linkami:</p><ul><li><p>Licencja MIT: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></p></li><li><p>Licencja Apache: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></p></li></ul><p>Należy pamiętać, że te warunki licencji są częścią warunków korzystania z naszej strony internetowej i muszą być przestrzegane, aby korzystać z naszych usług.</p><p>Ta strona wykorzystuje głównie <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"https://kit.svelte.dev/\">SvelteKit</a>. Aby uzyskać pełną listę bibliotek i frameworków o otwartym kodzie źródłowym, skontaktuj się z <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:dirk@accoma.de\">programistami</a>.</p><h1>Usługi stron trzecich</h1><p>Ta strona internetowa jest wykonana lub bezpośrednio wykorzystuje usługi w chmurze świadczone przez następujące firmy (bez kolejności). Korzystając z tej strony internetowej możesz ujawnić określone informacje o użytkowaniu tym firmom. Nie mamy kontroli i nie możemy być pociągani do odpowiedzialności, bezpośrednio lub pośrednio, za jakiekolwiek szkody lub straty spowodowane lub przypisywane temu ujawnieniu:</p><ul><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vercel.com/\">Vercel</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://render.com/\">Render</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.twicpics.com/\">TwicPics</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://supabase.com/\">Supabase</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openai.com/\">OpenAI</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/\">Github</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://gitlab.com/\">Gitlab</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://openstreetmap.org\">Open Street Map</a></p></li></ul>",
+					"town": "Miasto",
+					"weather": "Pogoda",
+					"nasty-thin-leaved-coneflower-block-compact-swamp-hellebore": "Koserow",
+					"nasty-thin-leaved-coneflower-block-devoted-mango": "Pogoda",
+					"excellent-coakum": "<p>Witamy w naszych urokliwych apartamentach wakacyjnych położonych w spokojnej wiosce Koserow, tuż przy pięknej Bałtyckiej Zatoce! Z naturą na wyciągnięcie ręki, masz możliwość odkrywania okolicznych zielonych terenów lub spaceru po naszej pięknej plaży z białym piaskiem.</p><p>Koserow ma bogatą historię, która zapewne cię zafascynuje i oczaruje. Poznaj lokalną kulturę i zwiedź nasz uroczy kościół wioski. Jakie lepsze miejsce na wakacje, niż to, które łączy naturalne piękno z historycznym urokiem.</p><p>Czekamy niecierpliwie na przyjęcie cię na twoje najbardziej niezapomniane wakacje!</p>",
+					"equal-black-cap": "<p>Witamy serdecznie w naszym przytulnym i komfortowym apartamencie wakacyjnym, idealnym na każdy rodziny urlop! O powierzchni 45 metrów kwadratowych oferuje przez cały rok wystarczająco miejsca i wygodę dla czterech gości.</p><p>W dwóch sypialniach znajdziesz nowoczesne telewizory LCD z satelitarną telewizją, więc nie musisz rezygnować z ulubionych programów nawet podczas wakacji. Każda z sypialni wyposażona jest w wygodne podwójne łóżko, zapewniające spokojne noce. Dla naszych małych gości możemy również dostarczyć wygodne łóżeczko dziecięce.</p><p>W salonie czeka na Ciebie pierwszorzędna rozrywka, dzięki telewizorowi z dużym ekranem, systemowi audio DVD i cyfrowemu odbiorowi satelitarnemu. Niezależnie od tego, czy planujesz przytulny wieczór filmowy z rodziną, czy po prostu chcesz zrelaksować się słuchając muzyki - nasze wyposażenie techniczne spełni Twoje wszystkie oczekiwania.</p><p>Najważniejszym elementem naszego apartamentu wakacyjnego jest w pełni wyposażona kuchnia. Znajdziesz tutaj nowoczesne urządzenia, w tym zmywarkę, kuchenkę z piekarnikiem i lodówkę - idealne do przygotowywania pysznych posiłków i pełnego korzystania z wakacji.</p><p>Łazienka naszego apartamentu wakacyjnego zachwyca komfortowym prysznicem, toaletą i przyjemnym podgrzewanym podłogą. Po długim dniu na łonie natury możesz tu wspaniale się zrelaksować i naładować nową energią.</p><p>Bezpośrednio przy apartamencie znajduje się przytulny taras. Znajdziesz tam grill i wygodne meble ogrodowe - idealne miejsce do spędzania letnich wieczorów. Samochód możesz parkować bezpośrednio przed naszym domem podczas pobytu.</p><p>Nasze ceny obejmują oczywiście pościel i ręczniki, oraz wszystkie opłaty dodatkowe, takie jak energia i woda. W trakcie pobytu masz również dostęp do bezpłatnego WiFi, a także do korzystania z pralki i suszarki.</p><p>W przypadku, gdy chcesz się trochę zrelaksować i zaszaleć podczas pobytu, za dodatkową opłatą możesz skorzystać z naszej prywatnej sauny wraz z przyległą łazienką.</p>",
+					"substantial-silky-dogwood": "<p>Nasz komfortowy apartament nie tylko jest miejscem do odpoczynku, ale także jest Twoim drugim domem. Oferuje on powierzchnię około 55 metrów kwadratowych i miejsce dla maksymalnie czterech osób, dostępne przez cały rok. Tutaj możesz się zrelaksować i naładować nową energię na kolejny dzień po długim dniu pełnym przygód i odkryć.</p><p>Ten zadbane apartament posiada dwie sypialnie, obie wyposażone w wygodne podwójne łóżka i telewizję satelitarną, która zapewnia Ci emocjonujący czas spędzony przed telewizorem. Oferujemy również dostawienie dodatkowego łóżeczka (dla dzieci), aby sprostać potrzebom i komfortowi wszystkich naszych gości.</p><p>Salon apartamentu zachęca do relaksu przy kominku. W kompletnie wyposażonej kuchni, wyposażonej w zmywarkę do naczyń, kuchenkę i lodówkę z zamrażarką i wiele innych rzeczy, możesz udowodnić swoje umiejętności kulinarne. Oddzielny stół do jadalni doskonale sprawdzi się podczas przytulnej kolacji lub śniadania z najbliższymi.</p><p>Nasz apartament oferuje nie tylko zakwaterowanie, ale także rozrywkę na każdego gust. Znajdziesz tu telewizję satelitarną, sprzęt hi-fi i odtwarzacz DVD do oglądania twoich ulubionych filmów, słuchania muzyki lub programów telewizyjnych.</p><p>Łazienka to kolejne miejsce do relaksu; wyposażona jest w prysznic i ogrzewanie podłogowe, które utrzymuje Cię ciepłym i przytulnym w chłodne dni.</p><p>Oferujemy zarezerwowane miejsce parkingowe bezpośrednio przy domu, dzięki czemu nie musisz martwić się o szukanie parkingu. Ciesz się grillowaniem na własnym tarasie z miejscem do grillowania i meblami ogrodowymi lub po prostu delektuj się spokojną atmosferą i pięknem natury. W naszym apartamencie zawsze pozostajesz podłączony. Oferujemy bezpłatne Wi-Fi, dzięki któremu możesz być w kontakcie ze swoimi bliskimi, wykonywać prace biurowe lub planować swoje codzienne zajęcia. Możesz również korzystać z pralki bezpłatnie.</p><p>Nasza cena obejmuje dostarczenie pościeli i ręczników. Opłaty za media, takie jak zużycie energii i wody, są również wliczone w cenę. Nie musisz się więc martwić o dodatkowe koszty.</p>"
+				}
+			}
+		},
+		"formats": {
+			"de": {
+				"additionalPersonPrice": "{{price | money}} ({{@if(terms)}}{{terms}}{{#else}}auf Anfrage{{/if}})",
+				"availableFromFor": "Mindestens {{forDays}} Tage ab dem {{from | date}} verfügbar",
+				"bed": "für {{num}} Person(en)",
+				"dateFormat": "dd.MM.yyyy",
+				"locale": "de-DE",
+				"maximumPrice": "Maximal {{max | money}} pro Nacht",
+				"minNumberOfNights": "{{num}} Nächte",
+				"minimumPrice": "Ab {{min | money}} pro Nacht",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "Nichts frei für {{forDays}} Tage bis {{maxFutureDate | date}}",
+				"numberOf": "Anzahl {{num}}",
+				"size": "{{size}}&nbsp;m²"
+			},
+			"en": {
+				"additionalPersonPrice": "{{price | money}} ({{@if(terms)}}{{terms}}{{#else}}contact us{{/if}})",
+				"availableFromFor": "Min. {{forDays}} days from {{from | date}} available",
+				"bed": "for {{num}}",
+				"dateFormat": "yyyy/MM/dd",
+				"locale": "en-US",
+				"maximumPrice": "To {{max | money}} per night",
+				"minNumberOfNights": "{{num}} nights",
+				"minimumPrice": "From {{min | money}} per night",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate | date}}",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²"
+			},
+			"es": {
+				"additionalPersonPrice": "{{price | money}} ({{@if(terms)}}{{terms}}{{#else}}contact us{{/if}})",
+				"availableFromFor": "Min. {{forDays}} days from {{from | date}} available",
+				"bed": "for {{num}}",
+				"dateFormat": "dd.MM.yyyy",
+				"locale": "es-ES",
+				"maximumPrice": "To {{max | money}} per night",
+				"minNumberOfNights": "{{num}} nights",
+				"minimumPrice": "From {{min | money}} per night",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate | date}}",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²"
+			},
+			"fr": {
+				"additionalPersonPrice": "{{price | money}} ({{@if(terms)}}{{terms}}{{#else}}contact us{{/if}})",
+				"availableFromFor": "Min. {{forDays}} days from {{from | date}} available",
+				"bed": "for {{num}}",
+				"dateFormat": "dd.MM.yyyy",
+				"locale": "fr-FR",
+				"maximumPrice": "To {{max | money}} per night",
+				"minNumberOfNights": "{{num}} nights",
+				"minimumPrice": "From {{min | money}} per night",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate | date}}",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²"
+			},
+			"pl": {
+				"additionalPersonPrice": "{{price | money}} ({{@if(terms)}}{{terms}}{{#else}}contact us{{/if}})",
+				"availableFromFor": "Min. {{forDays}} days from {{from | date}} available",
+				"bed": "for {{num}}",
+				"dateFormat": "dd.MM.yyyy",
+				"locale": "pl-PL",
+				"maximumPrice": "To {{max | money}} per night",
+				"minNumberOfNights": "{{num}} nights",
+				"minimumPrice": "From {{min | money}} per night",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate | date }}",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²"
+			}
+		}
+	}
+}

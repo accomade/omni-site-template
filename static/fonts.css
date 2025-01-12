@@ -1,0 +1,12 @@
+:root {
+	--main-font-family: Helvetica, sans-serif;
+	--main-font-variant: normal;
+	--nav-font-family: system-ui, sans-serif;
+	--nav-font-variant: small-caps;
+	--landing-title-font-family: Raleway, sans-serif;
+	--landing-title-font-variant: normal;
+	--page-title-font-family: Arizonia, sans-serif;
+	--page-title-font-variant: normal;
+	--header-font-family: Carrois Gothic, sans-serif;
+	--header-font-variant: small-caps;
+}
