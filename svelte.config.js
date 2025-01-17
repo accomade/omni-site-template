@@ -1,8 +1,20 @@
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import adapter from '@sveltejs/adapter-static';
+import siteConfig from './src/lib/config.json' with { type: 'json' };
 
-import config from './scr/lib/config.json' with { type: json };
 
+let domain = process.env.PRIMARY_DOMAIN;
+if(!domain) {
+	domain = process.env.RENDER_EXTERNAL_HOSTNAME;
+}
+
+const entries = [];
+
+for (const l of siteConfig.lang.supportedLangs) {
+	for (const p of Object.keys(siteConfig.pages)) {
+		entries.push(`/${l}${p}`);
+	}
+}
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,7 +26,11 @@ const config = {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			entries: ['*', '/robots.txt', '/sitemap.xml', ...entries],
+			origin: domain, 
+		},
 	}
 };
 

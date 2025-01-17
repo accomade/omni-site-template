@@ -18,6 +18,10 @@ type FontDef struct {
 	Fontsource bool   `json:"fontsource"`
 }
 
+type SiteConfigPartial struct {
+	Fonts SiteFonts `json:"fonts"`
+}
+
 type SiteFonts struct {
 	Main         FontDef `json:"main"`
 	Nav          FontDef `json:"nav"`
@@ -83,7 +87,7 @@ import '@fontsource/{{ $a }}';
 		log.Fatal(err)
 	}
 
-	file, err := os.Create("../../src/lib/loadFonts.js")
+	file, err := os.Create("../src/lib/loadFonts.ts")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -115,7 +119,7 @@ func generateFontsCss(fonts SiteFonts) {
 		log.Fatal(err)
 	}
 
-	file, err := os.Create("../../static/fonts.css")
+	file, err := os.Create("../static/fonts.css")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -130,7 +134,7 @@ func generateFontsCss(fonts SiteFonts) {
 
 func main() {
 
-	j, err := os.Open("../../src/lib/conf/fonts.json")
+	j, err := os.Open("../src/lib/config.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -141,12 +145,12 @@ func main() {
 		log.Fatal(err)
 	}
 
-	var fonts SiteFonts
-	json.Unmarshal(b, &fonts)
+	var siteConfig SiteConfigPartial
+	json.Unmarshal(b, &siteConfig)
 
-	generateFontsCss(fonts)
+	generateFontsCss(siteConfig.Fonts)
 
-	dFonts := distinctFonts(fonts)
+	dFonts := distinctFonts(siteConfig.Fonts)
 
 	runPnpmAdd(dFonts)
 	generateLoaderScript(dFonts)

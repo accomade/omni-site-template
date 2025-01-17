@@ -1,3 +1,3 @@
-module github.com/accomade/fewo-site-templates/fonts
+module github.com/accomade/accomadesc/fonts
 
-go 1.19
+go 1.21

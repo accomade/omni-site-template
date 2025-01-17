@@ -1,12 +1,18 @@
 body,html {
   font-family: var(--main-font-family, 'sans-serif');
   font-variant: var(--main-font-variant, 'small-caps');
+  background-color: var(--bg-prim-color, 'white');
+  color: var(--main-font-color, 'black');
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+*::selection {
+  background-color: var(--font-select-color);
 }
 
 *::after {
@@ -55,7 +61,7 @@ h2 {
 h1 {
   font-family: var(--header-font-family, 'sans-serif');
   font-variant: var(--header-font-variant, 'small-caps');
-  font-size: 3rem;
+  font-size: 3.2rem;
   padding-bottom: 0.8rem;
   padding-top: 1.2rem;
 } 
@@ -69,3 +75,10 @@ ul {
   margin-left: 1rem;
   padding-left: 0.2rem;
 }
+
+input {
+  background-color: var(--bg-prim-color);
+  color: var(--main-font-color);
+}
+
+
