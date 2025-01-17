@@ -1,8 +1,6 @@
 <script lang="ts">
   import { type Snippet } from 'svelte';
-
   import '$lib/loadFonts';
-
   import { installTwicPics } from '@twicpics/components/sveltekit';
   import '@twicpics/components/style.css';
 

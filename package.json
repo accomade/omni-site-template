@@ -15,7 +15,10 @@
 		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.4",
-		"accomadesc": "^0.1.4",
+		"@types/js-cookie": "^3.0.6",
+		"@types/luxon": "^3.4.2",
+		"@types/squirrelly": "^7.1.5",
+		"accomadesc": "^0.1.6",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"svelte": "^5.19.0",
@@ -24,10 +27,16 @@
 		"vite": "^5.4.11"
 	},
 	"dependencies": {
+		"@dinero.js/currencies": "2.0.0-alpha.14",
 		"@fontsource/arizonia": "^5.1.1",
 		"@fontsource/carrois-gothic": "^5.1.1",
 		"@fontsource/raleway": "^5.1.1",
 		"@sveltejs/adapter-static": "^3.0.8",
-		"@twicpics/components": "^0.31.1"
+		"@twicpics/components": "^0.31.1",
+		"dinero.js": "2.0.0-alpha.14",
+		"gdpr-cooco-banner": "^0.0.9",
+		"js-cookie": "^3.0.5",
+		"luxon": "^3.5.0",
+		"squirrelly": "^9.1.0"
 	}
 }

@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@dinero.js/currencies':
+        specifier: 2.0.0-alpha.14
+        version: 2.0.0-alpha.14
       '@fontsource/arizonia':
         specifier: ^5.1.1
         version: 5.1.1
@@ -23,6 +26,21 @@ importers:
       '@twicpics/components':
         specifier: ^0.31.1
         version: 0.31.1
+      dinero.js:
+        specifier: 2.0.0-alpha.14
+        version: 2.0.0-alpha.14
+      gdpr-cooco-banner:
+        specifier: ^0.0.9
+        version: 0.0.9(svelte@5.19.0)
+      js-cookie:
+        specifier: ^3.0.5
+        version: 3.0.5
+      luxon:
+        specifier: ^3.5.0
+        version: 3.5.0
+      squirrelly:
+        specifier: ^9.1.0
+        version: 9.1.0
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.3.1
@@ -33,9 +51,18 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^4.0.4
         version: 4.0.4(svelte@5.19.0)(vite@5.4.11)
+      '@types/js-cookie':
+        specifier: ^3.0.6
+        version: 3.0.6
+      '@types/luxon':
+        specifier: ^3.4.2
+        version: 3.4.2
+      '@types/squirrelly':
+        specifier: ^7.1.5
+        version: 7.1.5
       accomadesc:
-        specifier: ^0.1.4
-        version: 0.1.4(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)
+        specifier: ^0.1.6
+        version: 0.1.6(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -379,11 +406,20 @@ packages:
   '@types/geojson@7946.0.15':
     resolution: {integrity: sha512-9oSxFzDCT2Rj6DfcHF8G++jxBKS7mBqXl5xrRW+Kbvjry6Uduya2iiwqHPhVXpasAVMBYKkEPGgKhd3+/HZ6xA==}
 
+  '@types/js-cookie@3.0.6':
+    resolution: {integrity: sha512-wkw9yd1kEXOPnvEeEV1Go1MmxtBJL0RR79aOTAApecWFVu7w0NNXNqhcWgvw2YgZDYadliXkl14pa3WXw5jlCQ==}
+
   '@types/leaflet@1.9.16':
     resolution: {integrity: sha512-wzZoyySUxkgMZ0ihJ7IaUIblG8Rdc8AbbZKLneyn+QjYsj5q1QU7TEKYqwTr10BGSzY5LI7tJk9Ifo+mEjdFRw==}
 
-  accomadesc@0.1.4:
-    resolution: {integrity: sha512-gFCmbbM59Jyoi1xX9ldfv6XpJmAA5Ffh6CcCUlHHcZIlMiYchlL5U6C3uomJHN31fXmCAuLj3pwRx/X4Px/27A==}
+  '@types/luxon@3.4.2':
+    resolution: {integrity: sha512-TifLZlFudklWlMBfhubvgqTXRzLDI5pCbGa4P8a3wPyUQSW+1xQ5eDsreP9DWHX3tjq1ke96uYG/nwundroWcA==}
+
+  '@types/squirrelly@7.1.5':
+    resolution: {integrity: sha512-bJ3Q5FBDjC4Q+ytiPy3sHxXivubl74xtDiWvOrlLcF3+WqjUcGI3aOmVUdAI/Qc8y1fevubFrWCtYgRT6CPBhA==}
+
+  accomadesc@0.1.6:
+    resolution: {integrity: sha512-EJUGHaMe64cnHOVsHFYe6mtDFRfDOCzxhBFeXj7fBxw31EZ5oWwzodPLVeL/NB8P2GIGH2z84iody2BTd4zJ1g==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -461,11 +497,20 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
+  gdpr-cooco-banner@0.0.9:
+    resolution: {integrity: sha512-rYFZw8RDFB2JyZRKv39CGikJM7ntYW2W9n1akj2B074k6VPc+yDsfdRHUhZZkBdEYusE00k6dt42oc5QxLCYMw==}
+    peerDependencies:
+      svelte: ^5
+
   import-meta-resolve@4.1.0:
     resolution: {integrity: sha512-I6fiaX09Xivtk+THaMfAwnA3MVA5Big1WHF1Dfx9hFuvNIWpXnorlkzhcQf6ehrqQiiZECRt1poOAkPmer3ruw==}
 
   is-reference@3.0.3:
     resolution: {integrity: sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==}
+
+  js-cookie@3.0.5:
+    resolution: {integrity: sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==}
+    engines: {node: '>=14'}
 
   kleur@4.1.5:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
@@ -499,12 +544,6 @@ packages:
     resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-
-  occuplan@0.3.17:
-    resolution: {integrity: sha512-Lq1u9z5AI2BYZM0b1LPZ+IoLup804VJ4QV3e4FVzXN23T8SXSkwas9Zs4wCrcZUYrjxQUsHexcjAOsZndusZWw==}
-    engines: {node: '>=20'}
-    peerDependencies:
-      svelte: ^5
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -839,11 +878,17 @@ snapshots:
 
   '@types/geojson@7946.0.15': {}
 
+  '@types/js-cookie@3.0.6': {}
+
   '@types/leaflet@1.9.16':
     dependencies:
       '@types/geojson': 7946.0.15
 
-  accomadesc@0.1.4(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0):
+  '@types/luxon@3.4.2': {}
+
+  '@types/squirrelly@7.1.5': {}
+
+  accomadesc@0.1.6(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0):
     dependencies:
       '@dinero.js/currencies': 2.0.0-alpha.14
       '@fontsource/raleway': 5.1.1
@@ -853,7 +898,6 @@ snapshots:
       dinero.js: 2.0.0-alpha.14
       leaflet: 1.9.4
       luxon: 3.5.0
-      occuplan: 0.3.17(svelte@5.19.0)
       squirrelly: 9.1.0
       svelte: 5.19.0
 
@@ -926,11 +970,18 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
+  gdpr-cooco-banner@0.0.9(svelte@5.19.0):
+    dependencies:
+      js-cookie: 3.0.5
+      svelte: 5.19.0
+
   import-meta-resolve@4.1.0: {}
 
   is-reference@3.0.3:
     dependencies:
       '@types/estree': 1.0.6
+
+  js-cookie@3.0.5: {}
 
   kleur@4.1.5: {}
 
@@ -951,12 +1002,6 @@ snapshots:
   ms@2.1.3: {}
 
   nanoid@3.3.8: {}
-
-  occuplan@0.3.17(svelte@5.19.0):
-    dependencies:
-      luxon: 3.5.0
-      squirrelly: 9.1.0
-      svelte: 5.19.0
 
   picocolors@1.1.1: {}
 
