@@ -10,5 +10,7 @@
 </script>
 
 <PageComponent
+  showFooter={true}
+  nav={siteConfig.nav}
   {...landing} 
   {...ss} />
