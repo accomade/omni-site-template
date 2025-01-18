@@ -61,8 +61,8 @@ importers:
         specifier: ^7.1.5
         version: 7.1.5
       accomadesc:
-        specifier: ^0.1.12
-        version: 0.1.12(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)
+        specifier: ^0.1.13
+        version: 0.1.13(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -418,8 +418,8 @@ packages:
   '@types/squirrelly@7.1.5':
     resolution: {integrity: sha512-bJ3Q5FBDjC4Q+ytiPy3sHxXivubl74xtDiWvOrlLcF3+WqjUcGI3aOmVUdAI/Qc8y1fevubFrWCtYgRT6CPBhA==}
 
-  accomadesc@0.1.12:
-    resolution: {integrity: sha512-6be6fsnqgR/zN4dsWeDynkHaplyEqkI411nnNZ1mVKfImX60wcIdagSffuHkMtRW+2kDCxU3pQMcE1uKB+Ln5Q==}
+  accomadesc@0.1.13:
+    resolution: {integrity: sha512-R/tmipxZbVJuTu2TQochQTwgIzfrveWhxI5Ra0HlHDFT8lzhCPyagM67l7Gn2CKTRoEkFPocKOe+Aa79SqMPzQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -888,7 +888,7 @@ snapshots:
 
   '@types/squirrelly@7.1.5': {}
 
-  accomadesc@0.1.12(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0):
+  accomadesc@0.1.13(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0)(vite@5.4.11))(svelte@5.19.0):
     dependencies:
       '@dinero.js/currencies': 2.0.0-alpha.14
       '@fontsource/raleway': 5.1.1

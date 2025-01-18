@@ -14,12 +14,12 @@ if(!domain) {
 
 let pages: string = '';
 for (const l of siteConfig.lang.supportedLangs) {
-	for (const p of Object.keys(siteConfig.pages)) {
+	for (const p of Object.values(siteConfig.pages)) { 
 		pages += 
 `
 	<url>
-		<loc>https://${domain}/${l}${p}</loc>
-		<lastmod>${DEPLOY_DATE}</lastmod>
+		<loc>https://${domain}/${l}${p.path}</loc>
+		<lastmod>${p.lastChange ?? DEPLOY_DATE}</lastmod>
 	</url>
 `;
 	}

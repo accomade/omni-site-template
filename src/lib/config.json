@@ -88,6 +88,8 @@
 	"pages": {
 		"/": {
 			"id": "landing_id",
+			"lastChange": "2024-12-28",
+			"created": "2024-12-02",
 			"path": "/",
 			"hero": {
 				"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/a04d9149-d9cf-4ae4-9bcd-681856955231",
