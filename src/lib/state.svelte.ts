@@ -1,8 +1,8 @@
 import Cookie from 'js-cookie';
 import type { I18nFacade, OccuplanTranslation } from 'accomadesc';
 import { dinero, toDecimal, type Dinero, type DineroSnapshot } from 'dinero.js';
-import { type DateTime, DateTime as luxon } from 'luxon';
-import siteConfig from './config.json' with {type: 'json'};
+import { DateTime } from 'luxon';
+import siteConfig from './config.json';
 import type { CookieSelection, Translation as CookieTranslation } from 'gdpr-cooco-banner';
 
 import * as Sqrl from 'squirrelly';
@@ -42,7 +42,7 @@ export class SiteState implements I18nFacade {
   calendarTranslations: Record<string, OccuplanTranslation> = $state(calendarTranslations);
   calendarTranslation: OccuplanTranslation = $derived(calendarTranslations[this.currentLang]);
 
-  cookieTranslations: Record<string, CookieTranslation> = $state(cookieTranslations); 
+  cookieTranslations: Record<string, CookieTranslation> = $state(cookieTranslations);
   cookieTranslation: CookieTranslation = $state(cookieTranslations[this.currentLang]);
 
   formats: Record<string, Record<string, any>> = $state(formats);
@@ -109,7 +109,7 @@ export class SiteState implements I18nFacade {
 
   public formatDateFunc = (d: string | DateTime<boolean>): string => {
     if (typeof d === 'string') {
-      d = luxon.fromISO(d);
+      d = DateTime.fromISO(d);
     }
     return d.toFormat('d. MMMM yy');
   };

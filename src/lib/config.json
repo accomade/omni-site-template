@@ -87,8 +87,13 @@
 	},
 	"pages": {
 		"/": {
-			"headerPhoto": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/a04d9149-d9cf-4ae4-9bcd-681856955231",
-			"sections": [
+			"id": "landing_id",
+			"path": "/",
+			"hero": {
+				"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/a04d9149-d9cf-4ae4-9bcd-681856955231",
+				"title": "title"
+			},
+			"content": [
 				{
 					"blocks": [
 						{

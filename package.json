@@ -18,7 +18,7 @@
 		"@types/js-cookie": "^3.0.6",
 		"@types/luxon": "^3.4.2",
 		"@types/squirrelly": "^7.1.5",
-		"accomadesc": "^0.1.6",
+		"accomadesc": "^0.1.12",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"svelte": "^5.19.0",
@@ -34,7 +34,7 @@
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@twicpics/components": "^0.31.1",
 		"dinero.js": "2.0.0-alpha.14",
-		"gdpr-cooco-banner": "^0.0.9",
+		"gdpr-cooco-banner": "^0.0.11",
 		"js-cookie": "^3.0.5",
 		"luxon": "^3.5.0",
 		"squirrelly": "^9.1.0"

@@ -1,10 +1,11 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import siteConfig from '$lib/config.json';
   import { setContext, type Snippet } from 'svelte';
   import { Banner, type CookieType } from 'gdpr-cooco-banner';
-  import { SiteState, type SupportedLang } from '$lib/state.svelte';
+  import { SiteState } from '$lib/state.svelte';
   import { browser } from '$app/environment';
+
+  import siteConfig from '$lib/config.json' with {type: 'json'}
 
   let {
     children,
@@ -18,35 +19,34 @@
     console.log(browserLang);
   }
 
-  let pathLang = $page.params['lang'];
-  if (!pathLang) pathLang = browserLang ?? translations.defaultLang;
-  if (!translations.supportedLangs.includes(pathLang))
-    pathLang = translations.defaultLang;
+  let pathLang = page.params['lang'];
+  if (!pathLang) pathLang = browserLang ?? siteConfig.lang.defaultLang;
+  if (!siteConfig.lang.supportedLangs.includes(pathLang))
+    pathLang = siteConfig.lang.defaultLang;
 
-  const ss = new SiteState(pathLang as SupportedLang);
+  const ss = new SiteState(pathLang);
   setContext('SITE_STATE', ss);
 
   $effect(() => {
-    let langParam = $page.params['lang'];
-    if (!langParam) langParam = browserLang ?? translations.defaultLang;
-    if (!translations.supportedLangs.includes(langParam))
-      langParam = translations.defaultLang;
+    let langParam = page.params['lang'];
+    if (!langParam) langParam = browserLang ?? siteConfig.lang.defaultLang;
+    if (!siteConfig.lang.supportedLangs.includes(langParam))
+      langParam = siteConfig.lang.defaultLang;
 
-    ss.currentLang = langParam as SupportedLang;
-
+    ss.currentLang = langParam;
     if (document) {
       document.documentElement.lang = ss.currentLang;
     }
   });
 
-  const analyticsCookies = (e: CustomEvent) => {
-    ss.cookieSelection.analytics = e.detail.enabled;
+  const analyticsCookies = (enabled: boolean) => {
+    ss.cookieSelection.analytics = enabled;
   };
-  const preferenceCookies = (e: CustomEvent) => {
-    ss.cookieSelection = e.detail.enabled;
+  const preferenceCookies = (enabled: boolean) => {
+    ss.cookieSelection.preferences = enabled;
   };
-  const marketingCookies = (e: CustomEvent) => {
-    ss.cookieSelection.marketing = e.detail.enabled;
+  const marketingCookies = (enabled: boolean) => {
+    ss.cookieSelection.marketing = enabled;
   };
 </script>
 
@@ -60,25 +60,11 @@
 {@render children?.()}
 
 <Banner
-  on:analytics={analyticsCookies}
-  on:preferences={preferenceCookies}
-  on:marketing={marketingCookies}
-  showEditIcon={cookies.showIcon}
-  translation={ss.cookiesTranslation}
-  choices={cookies.types as CookieType[]}
+  analytics={analyticsCookies}
+  preferences={preferenceCookies}
+  marketing={marketingCookies}
+  showEditIcon={siteConfig.cookies.showIcon}
+  translation={ss.cookieTranslation}
+  choices={siteConfig.cookies.types as CookieType[]}
 />
 
-<style>
-  :global(body, html) {
-    padding: 0;
-    margin: 0;
-    background-color: var(--main-bg-color, 'white');
-    color: var(--main-font-color, 'black');
-  }
-
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-</style>
