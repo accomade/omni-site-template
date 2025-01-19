@@ -92,11 +92,16 @@
 			"created": "2024-12-02",
 			"path": "/",
 			"hero": {
+				"id": "hero-id",
 				"photoPath": "prod/users/81e66599-ac3c-4ad6-b261-fceeb784f9e9/a04d9149-d9cf-4ae4-9bcd-681856955231",
 				"title": "title"
 			},
 			"content": [
 				{
+					"id": "section_1_id",
+					"columnCount": 2,
+					"header": "town",
+					"padding": "10vw",
 					"blocks": [
 						{
 							"content": {
@@ -119,12 +124,13 @@
 							"kind": "photo",
 							"id": "long-carolina-azolla"
 						}
-					],
-					"columnCount": 2,
-					"header": "town",
-					"padding": "10vw"
+					]
 				},
 				{
+					"id": "section_2_id",
+					"columnCount": 1,
+					"header": "weather",
+					"padding": "0",
 					"blocks": [
 						{
 							"content": {
@@ -135,12 +141,13 @@
 							"kind": "weather",
 							"id": "available-birds-nest-plant"
 						}
-					],
-					"columnCount": 1,
-					"header": "weather",
-					"padding": "0"
+					]
 				},
 				{
+					"id": "section_3_id",
+					"columnCount": 1,
+					"header": "impressions",
+					"padding": "0",
 					"blocks": [
 						{
 							"content": {
@@ -191,12 +198,13 @@
 							"kind": "gallery",
 							"id": "varying-hedge-plant"
 						}
-					],
-					"columnCount": 1,
-					"header": "impressions",
-					"padding": "0"
+					]
 				},
 				{
+					"id": "section_4_id",
+					"columnCount": 1,
+					"header": "directions",
+					"padding": "10vw",
 					"blocks": [
 						{
 							"content": {
@@ -208,41 +216,48 @@
 							"kind": "leaflet-map",
 							"id": "still-trillium"
 						}
-					],
-					"columnCount": 1,
-					"header": "directions",
-					"padding": "10vw"
+					]
 				}
 			]
 		},
-		"/imprint": {},
-		"/tos": {},
-		"/haus_1": {
-			"id": "some-new-id-1",
-			"blocks": [
+		"haus_1": {
+			"id": "haus_1_id",
+			"lastChange": "2025-01-15",
+			"created": "2024-12-02",
+			"path": "/haus_1",
+			"title": "headerTitle",
+			"slug": "headerSlug",
+			"logoLink": "https://ipajhcabityibeaqfzju.supabase.co/storage/v1/object/public/users/template1/logo.svg",
+			"showFooter": true,
+			"content": [
 				{
-					"id": "fake-block-id-3",
-					"content": {
-						"minHeight": "5rem",
-						"textFontSize": "1.2rem",
-						"headerFontSize": "2rem",
-						"ref": "equal-black-cap"
-					},
-					"kind": "text"
-				},
-				{
-					"id": "fake-block-id-4",
-					"acco": "83cd06fd-858d-4e21-994f-325778812713",
-					"content": {
-						"accoPath": "83cd06fd-858d-4e21-994f-325778812713",
-						"calUrl": "https://popnapdkcdnabruxkjti.supabase.co/storage/v1/object/public/ical/81e66599-ac3c-4ad6-b261-fceeb784f9e9/83cd06fd-858d-4e21-994f-325778812713"
-					},
-					"kind": "calendar"
+					"columnCount": 2,
+					"header": "major-swinies",
+					"padding": "10vw",
+					"id": "fake_section_1_id",
+					"blocks": [
+						{
+							"id": "fake-block-id-3",
+							"content": {
+								"minHeight": "5rem",
+								"textFontSize": "1.2rem",
+								"headerFontSize": "2rem",
+								"ref": "equal-black-cap"
+							},
+							"kind": "text"
+						},
+						{
+							"id": "fake-block-id-4",
+							"acco": "83cd06fd-858d-4e21-994f-325778812713",
+							"content": {
+								"accoPath": "83cd06fd-858d-4e21-994f-325778812713",
+								"calUrl": "https://popnapdkcdnabruxkjti.supabase.co/storage/v1/object/public/ical/81e66599-ac3c-4ad6-b261-fceeb784f9e9/83cd06fd-858d-4e21-994f-325778812713"
+							},
+							"kind": "calendar"
+						}
+					]
 				}
-			],
-			"columnCount": 2,
-			"header": "major-swinies",
-			"padding": "10vw"
+			]
 		}
 	},
 	"lang": {

@@ -4,9 +4,13 @@
   import { browser } from '$app/environment';
 
   const defaultLang = siteConfig.lang.defaultLang;
-  if(browser) {
-    goto(`/${defaultLang}`);
+  let browserLang: string | null = null;
+  if (browser) {
+    browserLang = navigator.language;
+    if (siteConfig.lang.supportedLangs.includes(browserLang)) {
+      goto(`/${browserLang}`);
+    } else {
+      goto(`/${defaultLang}`);
+    }
   }
 </script>
-
-

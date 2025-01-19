@@ -3,9 +3,8 @@
   import { setContext, type Snippet } from 'svelte';
   import { Banner, type CookieType } from 'gdpr-cooco-banner';
   import { SiteState } from '$lib/state.svelte';
-  import { browser } from '$app/environment';
 
-  import siteConfig from '$lib/config.json' with {type: 'json'}
+  import siteConfig from '$lib/config.json' with { type: 'json' };
 
   let {
     children,
@@ -13,23 +12,18 @@
     children?: Snippet;
   } = $props();
 
-  let browserLang: string | null = null;
-  if (browser) {
-    browserLang = navigator.language;
-    console.log(browserLang);
-  }
-
   let pathLang = page.params['lang'];
-  if (!pathLang) pathLang = browserLang ?? siteConfig.lang.defaultLang;
-  if (!siteConfig.lang.supportedLangs.includes(pathLang))
+  if (!pathLang) pathLang = siteConfig.lang.defaultLang;
+  if (!siteConfig.lang.supportedLangs.includes(pathLang)) {
     pathLang = siteConfig.lang.defaultLang;
+  }
 
   const ss = new SiteState(pathLang);
   setContext('SITE_STATE', ss);
 
   $effect(() => {
     let langParam = page.params['lang'];
-    if (!langParam) langParam = browserLang ?? siteConfig.lang.defaultLang;
+    if (!langParam) langParam = siteConfig.lang.defaultLang;
     if (!siteConfig.lang.supportedLangs.includes(langParam))
       langParam = siteConfig.lang.defaultLang;
 
@@ -51,10 +45,7 @@
 </script>
 
 <svelte:head>
-  <meta
-    name="description"
-    content="ACCOMADE powered website to present holiday accomodations."
-  />
+  <meta name="description" content="ACCOMADE powered website to present holiday accomodations." />
 </svelte:head>
 
 {@render children?.()}
@@ -67,4 +58,3 @@
   translation={ss.cookieTranslation}
   choices={siteConfig.cookies.types as CookieType[]}
 />
-
