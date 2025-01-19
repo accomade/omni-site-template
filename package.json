@@ -18,7 +18,7 @@
 		"@types/js-cookie": "^3.0.6",
 		"@types/luxon": "^3.4.2",
 		"@types/squirrelly": "^7.1.5",
-		"accomadesc": "^0.1.16",
+		"accomadesc": "^0.1.17",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"svelte": "^5.19.0",
