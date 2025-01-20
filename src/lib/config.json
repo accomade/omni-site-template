@@ -251,7 +251,6 @@
 							"id": "fake-block-id-4",
 							"acco": "83cd06fd-858d-4e21-994f-325778812713",
 							"content": {
-								"debug": true,
 								"accoPath": "83cd06fd-858d-4e21-994f-325778812713",
 								"url": "https://popnapdkcdnabruxkjti.supabase.co/storage/v1/object/public/ical/81e66599-ac3c-4ad6-b261-fceeb784f9e9/83cd06fd-858d-4e21-994f-325778812713"
 							},
