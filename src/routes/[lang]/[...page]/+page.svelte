@@ -8,7 +8,7 @@
   import type { SiteState } from '$lib/state.svelte';
 
   const pages: Record<string, PageProps> = siteConfig.pages as Record<string, PageProps>;
-  const pageLookup = page.params['page'];
+  const pageLookup = `/${page.params['page']}`;
   const thePage = pages[pageLookup];
 
   const ss: SiteState = getContext('SITE_STATE');

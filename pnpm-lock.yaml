@@ -42,9 +42,6 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0
     devDependencies:
-      '@sveltejs/adapter-auto':
-        specifier: ^3.3.1
-        version: 3.3.1(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0))
       '@sveltejs/kit':
         specifier: ^2.17.2
         version: 2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0)
@@ -61,8 +58,8 @@ importers:
         specifier: ^7.1.5
         version: 7.1.5
       accomadesc:
-        specifier: ^0.1.32
-        version: 0.1.32(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)
+        specifier: ^0.1.33
+        version: 0.1.33(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)
       prettier:
         specifier: ^3.5.1
         version: 3.5.1
@@ -372,11 +369,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sveltejs/adapter-auto@3.3.1':
-    resolution: {integrity: sha512-5Sc7WAxYdL6q9j/+D0jJKjGREGlfIevDyHSQ2eNETHcB1TKlQWHcAo8AS8H1QdjNvSXpvOwNjykDUHPEAyGgdQ==}
-    peerDependencies:
-      '@sveltejs/kit': ^2.0.0
-
   '@sveltejs/adapter-static@3.0.8':
     resolution: {integrity: sha512-YaDrquRpZwfcXbnlDsSrBQNCChVOT9MGuSg+dMAyfsAa1SmiAhrA5jUYUiIMC59G92kIbY/AaQOWcBdq+lh+zg==}
     peerDependencies:
@@ -430,8 +422,8 @@ packages:
   '@types/squirrelly@7.1.5':
     resolution: {integrity: sha512-bJ3Q5FBDjC4Q+ytiPy3sHxXivubl74xtDiWvOrlLcF3+WqjUcGI3aOmVUdAI/Qc8y1fevubFrWCtYgRT6CPBhA==}
 
-  accomadesc@0.1.32:
-    resolution: {integrity: sha512-C9cA97d8akZPI/1YGOELdzV6ezgE9640/1Wm5t7hqoPTlqwXRV4ubatnuRT78TlTkIrx2jRPfufqAteL88S5uQ==}
+  accomadesc@0.1.33:
+    resolution: {integrity: sha512-gRqRBPwqrmF3zdzje0a+3JB+RXQ8wNjOwVw565Obl2A2YN3oMEUlMhk6fPWD0FxTCwfQru0aXwl8yRPhMwt04A==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -493,8 +485,8 @@ packages:
   esm-env@1.2.2:
     resolution: {integrity: sha512-Epxrv+Nr/CaL4ZcFGPJIYLWFom+YeV1DqMLHJoEd9SYRxNbaFruBwfEX/kkHUJf55j2+TUbmDcmuilbP1TmXHA==}
 
-  esrap@1.4.4:
-    resolution: {integrity: sha512-tDN6xP/r/b3WmdpWm7LybrD252hY52IokcycPnO+WHfhFF0+n5AWtcLLK7VNV6m0uYgVRhGVs8OkZwRyfC7HzQ==}
+  esrap@1.4.5:
+    resolution: {integrity: sha512-CjNMjkBWWZeHn+VX+gS8YvFwJ5+NDhg8aWZBSFJPR8qQduDNjbJodA2WcwCm7uQa5Rjqj+nZvVmceg1RbHFB9g==}
 
   fdir@6.4.3:
     resolution: {integrity: sha512-PMXmW2y1hDDfTSRc9gaXIuCCRpuoz3Kaz8cUelp3smouvfT632ozg2vrT6lJsHKKOF59YLbOGfAWGUcKEfRMQw==}
@@ -849,11 +841,6 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.34.7':
     optional: true
 
-  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0))':
-    dependencies:
-      '@sveltejs/kit': 2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0)
-      import-meta-resolve: 4.1.0
-
   '@sveltejs/adapter-static@3.0.8(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0))':
     dependencies:
       '@sveltejs/kit': 2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0)
@@ -915,7 +902,7 @@ snapshots:
 
   '@types/squirrelly@7.1.5': {}
 
-  accomadesc@0.1.32(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1):
+  accomadesc@0.1.33(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1)(vite@6.1.0))(svelte@5.20.1):
     dependencies:
       '@dinero.js/currencies': 2.0.0-alpha.14
       '@fontsource/raleway': 5.1.1
@@ -990,7 +977,7 @@ snapshots:
 
   esm-env@1.2.2: {}
 
-  esrap@1.4.4:
+  esrap@1.4.5:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
@@ -1113,7 +1100,7 @@ snapshots:
       axobject-query: 4.1.0
       clsx: 2.1.1
       esm-env: 1.2.2
-      esrap: 1.4.4
+      esrap: 1.4.5
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.17

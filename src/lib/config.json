@@ -74,14 +74,7 @@
 			{
 				"external": false,
 				"key": "accomodations",
-				"path": "/accomodations"
-			},
-			{
-				"acco": "83cd06fd-858d-4e21-994f-325778812713",
-				"external": false,
-				"key": "83cd06fd-858d-4e21-994f-325778812713",
-				"path": "/accomodations/83cd06fd-858d-4e21-994f-325778812713",
-				"sub": true
+				"path": "/haus_1"
 			}
 		]
 	},
@@ -221,7 +214,7 @@
 				}
 			]
 		},
-		"haus_1": {
+		"/haus_1": {
 			"id": "haus_1_id",
 			"lastChange": "2025-01-15",
 			"created": "2024-12-02",
