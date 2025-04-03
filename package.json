@@ -12,30 +12,30 @@
 		"lint": "prettier --check ."
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^2.17.2",
+		"@sveltejs/kit": "^2.20.3",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"@types/js-cookie": "^3.0.6",
-		"@types/luxon": "^3.4.2",
+		"@types/luxon": "^3.6.1",
 		"@types/squirrelly": "^7.1.5",
-		"accomadesc": "^0.1.33",
-		"prettier": "^3.5.1",
+		"accomadesc": "^0.1.44",
+		"prettier": "^3.5.3",
 		"prettier-plugin-svelte": "^3.3.3",
-		"svelte": "^5.20.1",
-		"svelte-check": "^4.1.4",
-		"typescript": "^5.7.3",
-		"vite": "^6.1.0"
+		"svelte": "^5.25.6",
+		"svelte-check": "^4.1.5",
+		"typescript": "^5.8.2",
+		"vite": "^6.2.5"
 	},
 	"dependencies": {
 		"@dinero.js/currencies": "2.0.0-alpha.14",
-		"@fontsource/arizonia": "^5.1.1",
-		"@fontsource/carrois-gothic": "^5.1.1",
-		"@fontsource/raleway": "^5.1.1",
+		"@fontsource/arizonia": "^5.2.5",
+		"@fontsource/carrois-gothic": "^5.2.5",
+		"@fontsource/raleway": "^5.2.5",
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@twicpics/components": "^0.31.4",
 		"dinero.js": "2.0.0-alpha.14",
 		"gdpr-cooco-banner": "^0.0.11",
 		"js-cookie": "^3.0.5",
-		"luxon": "^3.5.0",
+		"luxon": "^3.6.1",
 		"squirrelly": "^9.1.0"
 	}
 }
