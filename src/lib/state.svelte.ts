@@ -1,11 +1,9 @@
 import Cookie from 'js-cookie';
-import type { I18nFacade, OccuplanTranslations } from 'accomadesc';
+import { format, type I18nFacade, type OccuplanTranslations } from 'accomadesc';
 import { dinero, toDecimal, type Dinero, type DineroSnapshot } from 'dinero.js';
 import { DateTime } from 'luxon';
 import siteConfig from './config.json';
 import type { CookieSelection, Translation as CookieTranslation } from 'gdpr-cooco-banner';
-
-import * as Sqrl from 'squirrelly';
 
 interface FullTranslation {
   calendar: OccuplanTranslations;
@@ -21,8 +19,6 @@ const fullTranslations: Record<string, FullTranslation> = siteConfig.lang.transl
 const calendarTranslations: Record<string, OccuplanTranslations> = {};
 const cookieTranslations: Record<string, CookieTranslation> = {};
 const siteTranslations: Record<string, Record<string, string>> = {};
-
-const formats = siteConfig.lang.formats;
 
 for (const lang in fullTranslations) {
   calendarTranslations[lang] = fullTranslations[lang].calendar;
@@ -48,7 +44,7 @@ export class SiteState implements I18nFacade {
   cookieTranslations: Record<string, CookieTranslation> = $state(cookieTranslations);
   cookieTranslation: CookieTranslation = $state(cookieTranslations[this.currentLang]);
 
-  formats: Record<string, Record<string, any>> = $state(formats);
+  formats: Record<string, Record<string, any>> = $state(siteConfig.lang.formats);
 
   constructor(lang: string) {
     this.currentLang = lang;
@@ -58,7 +54,6 @@ export class SiteState implements I18nFacade {
     }
 
     this.supportedLangs = siteConfig.lang.supportedLangs;
-    this.setFilters();
   }
 
   public handleCookie = () => {
@@ -88,12 +83,14 @@ export class SiteState implements I18nFacade {
   };
 
   public formatFunc = (ref: string, props: Record<string, any>): string => {
-    if (!this.formats[this.currentLang][ref]) {
+    const fString = this.formats[this.currentLang][ref];
+    if (!fString) {
       console.log('missing formatFunc', ref);
       return '';
-    } else {
-      return this.formats[this.currentLang][ref](props);
     }
+
+    let formatted = format(fString, props);
+    return formatted;
   };
 
   public isDinero(d: Dinero<number> | DineroSnapshot<number>): d is Dinero<number> {
@@ -106,6 +103,10 @@ export class SiteState implements I18nFacade {
 
   public formatMoneyFunc = (d: Dinero<number> | DineroSnapshot<number>): string => {
     if (!this.isDinero(d)) d = dinero(d);
+    const locale = this.formats[this.currentLang].locale;
+
+    d.formatter.toNumber();
+
     return toDecimal(d, ({ value, currency }) => `${value} ${currency.code}`);
   };
 
@@ -113,15 +114,8 @@ export class SiteState implements I18nFacade {
     if (typeof d === 'string') {
       d = DateTime.fromISO(d);
     }
-    return d.toFormat('d. MMMM yy');
-  };
 
-  setFilters = () => {
-    Sqrl.filters.define('date', (str) => {
-      return this.formatDateFunc(str);
-    });
-    Sqrl.filters.define('money', (str) => {
-      return this.formatMoneyFunc(str);
-    });
+    const dateFormat = this.formats[this.currentLang].dateFormat;
+    return d.toFormat(dateFormat);
   };
 }

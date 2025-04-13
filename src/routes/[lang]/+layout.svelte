@@ -3,8 +3,8 @@
   import { setContext, type Snippet } from 'svelte';
   import { Banner, type CookieType } from 'gdpr-cooco-banner';
   import { SiteState } from '$lib/state.svelte';
-
   import siteConfig from '$lib/config.json' with { type: 'json' };
+  import { browser } from '$app/environment';
 
   let {
     children,
@@ -12,8 +12,13 @@
     children?: Snippet;
   } = $props();
 
+  let browserLang;
+  if (browser) {
+    browserLang = navigator.language;
+  }
   let pathLang = page.params['lang'];
   if (!pathLang) pathLang = siteConfig.lang.defaultLang;
+  if (!pathLang && browserLang) pathLang = browserLang;
   if (!siteConfig.lang.supportedLangs.includes(pathLang)) {
     pathLang = siteConfig.lang.defaultLang;
   }

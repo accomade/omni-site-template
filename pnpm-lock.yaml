@@ -26,6 +26,9 @@ importers:
       '@twicpics/components':
         specifier: ^0.31.4
         version: 0.31.4
+      accomadesc:
+        specifier: ^0.3.1
+        version: 0.3.1(@sveltejs/kit@2.20.5(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.26.2)(vite@6.2.6))(svelte@5.26.2)(vite@6.2.6))(svelte@5.26.2)
       dinero.js:
         specifier: 2.0.0-alpha.14
         version: 2.0.0-alpha.14
@@ -57,9 +60,6 @@ importers:
       '@types/squirrelly':
         specifier: ^7.1.5
         version: 7.1.5
-      accomadesc:
-        specifier: ^0.1.44
-        version: 0.1.44(@sveltejs/kit@2.20.5(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.26.2)(vite@6.2.6))(svelte@5.26.2)(vite@6.2.6))(svelte@5.26.2)
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -70,8 +70,8 @@ importers:
         specifier: ^5.26.2
         version: 5.26.2
       svelte-check:
-        specifier: ^4.1.5
-        version: 4.1.5(svelte@5.26.2)(typescript@5.8.3)
+        specifier: ^4.1.6
+        version: 4.1.6(svelte@5.26.2)(typescript@5.8.3)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -432,8 +432,8 @@ packages:
   '@types/squirrelly@7.1.5':
     resolution: {integrity: sha512-bJ3Q5FBDjC4Q+ytiPy3sHxXivubl74xtDiWvOrlLcF3+WqjUcGI3aOmVUdAI/Qc8y1fevubFrWCtYgRT6CPBhA==}
 
-  accomadesc@0.1.44:
-    resolution: {integrity: sha512-BcVqrvOThMPwREeycspITfCU4WTt7ifw2kUBcCqhFDQjjk+CJWGRMUUcz7zmZRyTt2mdlxMdW5ibEiO3hUGaiw==}
+  accomadesc@0.3.1:
+    resolution: {integrity: sha512-6LGWPCaLun29591TeQtfmf7Co3wegNQkmvmyoomwiNu6ZFYMllUQALZNxc0tQRmT6gLjVZRYyDsbnnc1EMyHyA==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -600,8 +600,8 @@ packages:
     resolution: {integrity: sha512-kvjFqb7qzC4gX4lkqSaU8QPvUHhDLMiDpxpz7a66vjTH0JtjLJqAXbPrc7ST61EefuuuW05sne2rjGskunrF2A==}
     engines: {node: '>=6.0.0'}
 
-  svelte-check@4.1.5:
-    resolution: {integrity: sha512-Gb0T2IqBNe1tLB9EB1Qh+LOe+JB8wt2/rNBDGvkxQVvk8vNeAoG+vZgFB/3P5+zC7RWlyBlzm9dVjZFph/maIg==}
+  svelte-check@4.1.6:
+    resolution: {integrity: sha512-P7w/6tdSfk3zEVvfsgrp3h3DFC75jCdZjTQvgGJtjPORs1n7/v2VMPIoty3PWv7jnfEm3x0G/p9wH4pecTb0Wg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -914,7 +914,7 @@ snapshots:
 
   '@types/squirrelly@7.1.5': {}
 
-  accomadesc@0.1.44(@sveltejs/kit@2.20.5(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.26.2)(vite@6.2.6))(svelte@5.26.2)(vite@6.2.6))(svelte@5.26.2):
+  accomadesc@0.3.1(@sveltejs/kit@2.20.5(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.26.2)(vite@6.2.6))(svelte@5.26.2)(vite@6.2.6))(svelte@5.26.2):
     dependencies:
       '@dinero.js/currencies': 2.0.0-alpha.14
       '@fontsource/raleway': 5.2.5
@@ -924,7 +924,6 @@ snapshots:
       dinero.js: 2.0.0-alpha.14
       leaflet: 1.9.4
       luxon: 3.6.1
-      squirrelly: 9.1.0
       svelte: 5.26.2
 
   acorn@8.14.1: {}
@@ -1086,7 +1085,7 @@ snapshots:
 
   squirrelly@9.1.0: {}
 
-  svelte-check@4.1.5(svelte@5.26.2)(typescript@5.8.3):
+  svelte-check@4.1.6(svelte@5.26.2)(typescript@5.8.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.3
