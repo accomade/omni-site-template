@@ -1,5 +1,5 @@
 import Cookie from 'js-cookie';
-import type { I18nFacade, OccuplanTranslation } from 'accomadesc';
+import type { I18nFacade, OccuplanTranslations } from 'accomadesc';
 import { dinero, toDecimal, type Dinero, type DineroSnapshot } from 'dinero.js';
 import { DateTime } from 'luxon';
 import siteConfig from './config.json';
@@ -8,27 +8,30 @@ import type { CookieSelection, Translation as CookieTranslation } from 'gdpr-coo
 import * as Sqrl from 'squirrelly';
 
 interface FullTranslation {
-  calendar: OccuplanTranslation,
-  cookies: CookieTranslation,
-  site: Record<string, string>,
+  calendar: OccuplanTranslations;
+  cookies: CookieTranslation;
+  site: Record<string, string>;
 }
 
-const fullTranslations: Record<string, FullTranslation> = siteConfig.lang.translations as Record<string, FullTranslation>;
+const fullTranslations: Record<string, FullTranslation> = siteConfig.lang.translations as Record<
+  string,
+  FullTranslation
+>;
 
-const calendarTranslations: Record<string, OccuplanTranslation> = {};
+const calendarTranslations: Record<string, OccuplanTranslations> = {};
 const cookieTranslations: Record<string, CookieTranslation> = {};
 const siteTranslations: Record<string, Record<string, string>> = {};
 
 const formats = siteConfig.lang.formats;
 
-for(const lang in fullTranslations) {
-      calendarTranslations[lang] = fullTranslations[lang].calendar;
-      siteTranslations[lang] = fullTranslations[lang].site;
-      cookieTranslations[lang] = fullTranslations[lang].cookies;
-    }
+for (const lang in fullTranslations) {
+  calendarTranslations[lang] = fullTranslations[lang].calendar;
+  siteTranslations[lang] = fullTranslations[lang].site;
+  cookieTranslations[lang] = fullTranslations[lang].cookies;
+}
 
 export class SiteState implements I18nFacade {
-  supportedLangs: string[] =$state(["en"]);
+  supportedLangs: string[] = $state(['en']);
   isMenuOpen = $state(false);
   cookieSelection: CookieSelection = $state({
     analytics: false,
@@ -39,8 +42,8 @@ export class SiteState implements I18nFacade {
   currentLang: string = $state('en');
   translations: Record<string, Record<string, string>> = $state(siteTranslations);
 
-  calendarTranslations: Record<string, OccuplanTranslation> = $state(calendarTranslations);
-  calendarTranslation: OccuplanTranslation = $derived(calendarTranslations[this.currentLang]);
+  calendarTranslations: Record<string, OccuplanTranslations> = $state(calendarTranslations);
+  calendarTranslation: OccuplanTranslations = $derived(calendarTranslations[this.currentLang]);
 
   cookieTranslations: Record<string, CookieTranslation> = $state(cookieTranslations);
   cookieTranslation: CookieTranslation = $state(cookieTranslations[this.currentLang]);
@@ -49,14 +52,13 @@ export class SiteState implements I18nFacade {
 
   constructor(lang: string) {
     this.currentLang = lang;
-    
+
     if (this.cookieSelection) {
       this.handleCookie();
     }
-    
+
     this.supportedLangs = siteConfig.lang.supportedLangs;
     this.setFilters();
-
   }
 
   public handleCookie = () => {
@@ -75,12 +77,12 @@ export class SiteState implements I18nFacade {
   };
 
   public updateCurrentLang = (lang: string) => (this.currentLang = lang);
-  
+
   public translateFunc = (ref: string): string => {
-    if(!ref)  return "UNDEF";
-    
+    if (!ref) return 'UNDEF';
+
     const current = this.translations[this.currentLang];
-    if(!current[ref]) return ref;
+    if (!current[ref]) return ref;
 
     return this.translations[this.currentLang][ref];
   };
@@ -100,7 +102,7 @@ export class SiteState implements I18nFacade {
     } else {
       return false;
     }
-  };
+  }
 
   public formatMoneyFunc = (d: Dinero<number> | DineroSnapshot<number>): string => {
     if (!this.isDinero(d)) d = dinero(d);
@@ -113,7 +115,7 @@ export class SiteState implements I18nFacade {
     }
     return d.toFormat('d. MMMM yy');
   };
-  
+
   setFilters = () => {
     Sqrl.filters.define('date', (str) => {
       return this.formatDateFunc(str);
