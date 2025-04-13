@@ -104,8 +104,10 @@ export class SiteState implements I18nFacade {
   public formatMoneyFunc = (d: Dinero<number> | DineroSnapshot<number>): string => {
     if (!this.isDinero(d)) d = dinero(d);
     const locale = this.formats[this.currentLang].locale;
-
-    d.formatter.toNumber();
+    
+    new Intl.NumberFormat(locale).format(
+    number,
+  ),
 
     return toDecimal(d, ({ value, currency }) => `${value} ${currency.code}`);
   };
