@@ -1,6 +1,5 @@
 import Cookie from 'js-cookie';
-import { format, type I18nFacade, type OccuplanTranslations } from 'accomadesc';
-import { dinero, toDecimal, type Dinero, type DineroSnapshot } from 'dinero.js';
+import { format, MoneyFormats, type I18nFacade, type OccuplanTranslations } from 'accomadesc';
 import { DateTime } from 'luxon';
 import siteConfig from './config.json';
 import type { CookieSelection, Translation as CookieTranslation } from 'gdpr-cooco-banner';
@@ -93,23 +92,10 @@ export class SiteState implements I18nFacade {
     return formatted;
   };
 
-  public isDinero(d: Dinero<number> | DineroSnapshot<number>): d is Dinero<number> {
-    if ('calculator' in d) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-  public formatMoneyFunc = (d: Dinero<number> | DineroSnapshot<number>): string => {
-    if (!this.isDinero(d)) d = dinero(d);
-    const locale = this.formats[this.currentLang].locale;
-    
-    new Intl.NumberFormat(locale).format(
-    number,
-  ),
-
-    return toDecimal(d, ({ value, currency }) => `${value} ${currency.code}`);
+  moneyFormat = $derived(MoneyFormats[this.currentLang]);
+  public formatMoneyFunc = (value: number): string => {
+    const scaled = value / 100.0;
+    return this.moneyFormat.format(scaled);
   };
 
   public formatDateFunc = (d: string | DateTime<boolean>): string => {
