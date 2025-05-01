@@ -11,7 +11,11 @@ const entries = [];
 
 for (const l of siteConfig.lang.supportedLangs) {
   for (const p of Object.keys(siteConfig.pages)) {
-    entries.push(`/${l}${p}`);
+    if (p != '/') {
+      entries.push(`/${l}/${p}`);
+    } else {
+      entries.push(`/${l}`);
+    }
   }
 }
 
