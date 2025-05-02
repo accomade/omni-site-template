@@ -25,17 +25,14 @@
 		"vite": "^6.3.4"
 	},
 	"dependencies": {
-		"@dinero.js/currencies": "2.0.0-alpha.14",
 		"@fontsource/arizonia": "^5.2.5",
 		"@fontsource/carrois-gothic": "^5.2.5",
 		"@fontsource/raleway": "^5.2.5",
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@twicpics/components": "^0.31.4",
 		"accomadesc": "^0.3.7",
-		"dinero.js": "2.0.0-alpha.14",
 		"gdpr-cooco-banner": "^0.0.11",
 		"js-cookie": "^3.0.5",
-		"luxon": "^3.6.1",
-		"squirrelly": "^9.1.0"
+		"luxon": "^3.6.1"
 	}
 }
