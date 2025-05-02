@@ -20,4 +20,4 @@
   {/if}
 </svelte:head>
 
-<PageComponent {...landing} {...ss} css={siteConfig.css} />
+<PageComponent {...landing} {...ss} css={siteConfig.css} bind:selectedTheme={ss.selectedTheme} />

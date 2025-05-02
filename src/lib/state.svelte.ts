@@ -44,6 +44,8 @@ export class SiteState implements I18nFacade {
   cookieTranslation: CookieTranslation = $state(cookieTranslations[this.currentLang]);
 
   formats: Record<string, Record<string, any>> = $state(siteConfig.lang.formats);
+  selectedTheme: 'light' | 'dark' = $state('light');
+  selectedThemeInitialized: boolean = $state(false);
 
   constructor(lang: string) {
     this.currentLang = lang;
