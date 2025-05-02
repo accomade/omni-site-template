@@ -24,4 +24,4 @@
   {/if}
 </svelte:head>
 
-<PageComponent {...thePage} {...ss} nav={siteConfig.nav} />
+<PageComponent {...thePage} {...ss} css={siteConfig.css} />

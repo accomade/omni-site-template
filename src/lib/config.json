@@ -1,16 +1,80 @@
 {
 	"settings": {
-		"ACCOMADE_USER_ID": "d1c0fdd3-ad0d-44db-a197-9578bf4e9a51",
-		"PUBLIC_SUPABASE_URL": "http://localhost:54321"
+		"PUBLIC_SUPABASE_URL": "http://localhost:54321",
+		"ACCOMADE_USER_ID": "d1c0fdd3-ad0d-44db-a197-9578bf4e9a51"
 	},
-	"css": {
-		"base": "\n    body,html {\n      font-family: var(--main-font-family, 'sans-serif');\n      font-variant: var(--main-font-variant, 'small-caps');\n    }\n    \n    * {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n\n      font-family: var(--main-font-family, 'sans-serif');\n      font-variant: var(--main-font-variant, 'small-caps');\n    }\n\n    *::after {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    *::before {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    hr {\n      margin-top: 1rem;\n      margin-bottom: 1rem;\n    }\n\n    h4 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 1.2rem;\n      text-align: center;\n      margin-bottom: 0.2rem;\n      margin-top: 0.4rem;\n    } \n\n\n    h3 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      text-align: center;\n      font-size: 1.8rem;\n      margin-bottom: 0.6rem;\n      margin-top: 1rem;\n    } \n\n    h2 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 2.2rem;\n      text-align: center;\n      margin-bottom: 0.8rem;\n      margin-top: 1.2rem;\n    } \n\n\n    h1 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 3rem;\n      text-align: center;\n      margin-bottom: 0.8rem;\n      margin-top: 1.2rem;\n    } \n\n    ol {\n      padding-left: 0.5rem;\n      margin: 1rem;\n    }\n\n    ul {\n      margin-left: 1rem;\n      padding-left: 0.2rem;\n    }",
-		"themes": {
-			"light": "--main-font-color: rgba(34, 49, 63, 1);\n--main-bg-color: rgba(255,255,255,1);\n--main-border-color: rgba(2,48,71,1);\n--main-border: 1px solid var(--main-border-color);\n--accept-font-color: rgba(46, 204, 113, 1);\n--alert-font-color: rgba(157,0,0,1);\n--invalid-border-color: rgba(176,19,19,1);\n--invalid-border: 0.15rem solid var(--invalid-border-color);\n--disable-font-color: rgba(52, 73, 94, 0.4);\n--disabled-border-color: rgba(35,35,35,0.5);\n--disabled-border: 0.1rem solid var(--disabled-border-color);\n--focussed-border-color: rgba(41, 128, 185, 0.9);\n--focussed-border: 0.15rem solid var(--focussed-border-color);\n--focussed-filter: drop-shadow(0 0 0.75rem rgba(41, 128, 185, 0.9));\n--avatar-border: 0.15rem solid rgba(34, 49, 63, 0.9);\n--hamburger-color: rgba(41, 128, 185, 1);\n--hamburger-bg-color: rgba(0,0,0,0);\n--hamburger-filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(255,255,255,1));\n--gallery-button-bg-color: rgba(220, 235, 245, 0.5);\n--gallery-button-font-color: rgba(15,14,15,0.6);\n--button-font-color: rgba(7,7,7,1);\n--button-bg-color: rgba(52, 152, 219, 1);\n--button-danger-bg-color: rgba(176,19,19,1);\n--button-danger-font-color: rgba(255,255,255,1);\n--button-focus-filter: drop-shadow(0 0 0.75rem rgba(41, 128, 185, 0.9));\n--icon-not-color: rgba(192, 57, 43, 1);\n--icon-disabled-color: rgba(35,35,35,0.4);\n--icon-color: rgba(34, 49, 63, 1);\n--table-odd-bg-color: rgba(236, 240, 241, 1);\n--table-odd-font-color: rgba(0,0,0,1);\n--table-even-bg-color: rgba(220, 225, 229, 1);\n--table-even-font-color: rgba(0,0,0,1);\n--table-header-bg-color: rgba(44, 62, 80, 1);\n--table-header-font-color: rgba(243,243,243,1);\n--table-footer-bg-color: rgba(44, 62, 80, 1);\n--table-footer-font-color: rgba(255, 255, 255, 1);\n--picture-link-bg-color: rgba(52, 73, 94, 0.8);\n--picture-link-font-color: rgba(168,194,250,1);\n--external-link-font-color: rgba(105,152,252,1);\n--attribution-bg-color: rgba(236, 240, 241, 0.6);\n--attribution-font-color: rgba(7,7,7,1);\n--picture-frame-shadow: 0px 1.1px 2.2px rgba(0,0,0,0.02),0px 2.7px 5.3px rgba(0,0,0,0.028),0px 5px 10px rgba(0,0,0,0.035),0px 8.9px 17.9px rgba(0,0,0,0.042),0px 16.7px 33.4px rgba(0,0,0,0.05),0px 40px 80px rgba(0,0,0,0.07);\n--nav-font-color: rgba(255, 255, 255, 1);\n--nav-bg-color: rgba(44, 62, 80, 0.8);\n--title-font-color: rgba(255,255,255,1);\n--title-filter: drop-shadow(0.2rem 0.3rem 0.2rem rgba(0,0,0,1));\n--footer-font-color: rgba(255, 255, 255, 1);\n--footer-bg-color: rgba(44, 62, 80, 1);\n--footer-font-color: rgba(255, 255, 255, 1);\n--footer-bg-color: rgba(44, 62, 80, 1);\n--acco-card-shadow: -1.2px -3.7px 4.5px rgba(0,0,0,0.017),-1.4px -4.4px 8.9px rgba(0,0,0,0.024),-0.4px -1.3px 13.3px rgba(0,0,0,0.03),1.7px 5.5px 17.9px rgba(0,0,0,0.035),4.9px 15.5px 23.3px rgba(0,0,0,0.04),8.9px 28.2px 30.7px rgba(0,0,0,0.046),13.7px 43.1px 43.8px rgba(0,0,0,0.053),19px 60px 80px rgba(0,0,0,0.07);\n--acco-card-font: rgba(34, 49, 63, 1);\n--acco-card-bg: rgba(255, 255, 255, 1);\n--occuplan-main-border-color: rgba(52, 152, 219, 1);\n--occuplan-main-border: 1px solid var(--occuplan-main-border-color);\n--occuplan-grid-border-color: rgba(52, 152, 219, 0.2);\n--occuplan-grid-border: 0.2px solid var(--occuplan-grid-border-color);\n--occuplan-main-font-color: rgba(52, 152, 219, 1);\n--occuplan-main-bg-color: rgba(255,255,255,0);\n--occuplan-days-font-color: rgba(52, 152, 219, 1);\n--occuplan-days-bg-color: rgba(0,0,0,0);\n--occuplan-days-header-font-color: rgba(255, 255, 255, 1);\n--occuplan-days-header-bg-color: rgba(52, 152, 219, 1);\n--occuplan-weeknum-font-color: rgba(52, 152, 219, 0.5);\n--occuplan-weeknum-bg-color: rgba(0,0,0,0);\n--occuplan-months-font-color: rgba(255, 255, 255, 1);\n--occuplan-months-bg-color: rgba(52, 152, 219, 1);\n--occuplan-invalid-days-font-color: rgba(52, 73, 94, 1);\n--occuplan-invalid-days-bg-color: rgba(149, 165, 166, 0.6);\n--occuplan-weekend-bg-color: rgba(2,48,71,1);\n--occupation-type-1-font-color: rgba(255, 255, 255, 1);\n--occupation-type-1-bg-color: rgba(41, 128, 185, 1);\n--occupation-type-2-font-color: rgba(34, 49, 63, 1);\n--occupation-type-2-bg-colog: rgba(173, 216, 230, 1);\n--occupation-type-3-font-color: rgba(255,255,0,1);\n--occupation-type-3-bg-color: rgba(144, 238, 144, 1);\n--notes-vert-line: 0.5px dashed rgba(2,48,71,0.5);\n--notes-font-color: rgba(44, 62, 80, 1);\n--notes-bg-color: rgba(255, 255, 224, 1);\n--notes-disabled-font-color: rgba(22,0,103,1);\n--notes-disabled-bg-color: rgba(236, 240, 241, 1);\n",
-			"dark": "--main-font-color: rgba(255, 255, 255, 1);\n--main-bg-color: rgba(20, 20, 20, 1);\n--main-border-color: rgba(200, 200, 200, 1);\n--main-border: 1px solid var(--main-border-color);\n--accept-font-color: rgba(13, 157, 0, 1);\n--alert-font-color: rgba(255, 0, 0, 1);\n--invalid-border-color: rgba(255, 100, 100, 1);\n--invalid-border: 0.15rem solid var(--invalid-border-color);\n--disable-font-color: rgba(255, 255, 255, 0.4);\n--disabled-border-color: rgba(255, 255, 255, 0.5);\n--disabled-border: 0.1rem solid var(--disabled-border-color);\n--focussed-border-color: rgba(102, 120, 243, 0.9);\n--focussed-border: 0.15rem solid var(--focussed-border-color);\n--focussed-filter: drop-shadow(0 0 0.75rem rgba(102, 120, 243, 0.9));\n--avatar-border: 0.15rem solid rgba(255, 255, 255, 0.9);\n--hamburger-color: rgba(255, 255, 255, 1);\n--hamburger-bg-color: rgba(0, 0, 0, 0);\n--hamburger-filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(20, 20, 20, 1));\n--gallery-button-bg-color: rgba(30, 30, 30, 0.5);\n--gallery-button-font-color: rgba(255, 255, 255, 0.8);\n--button-font-color: rgba(255, 255, 255, 1);\n--button-bg-color: rgba(30, 30, 30, 1);\n--button-danger-bg-color: rgba(255, 0, 0, 1);\n--button-danger-font-color: rgba(255, 255, 255, 1);\n--button-focus-filter: drop-shadow(0 0 0.75rem rgba(102, 120, 243, 0.9));\n--icon-not-color: rgba(255, 50, 50, 1);\n--icon-disabled-color: rgba(255, 255, 255, 0.4);\n--icon-color: rgba(255, 255, 255, 1);\n--table-odd-bg-color: rgba(40, 40, 40, 1);\n--table-odd-font-color: rgba(255, 255, 255, 1);\n--table-even-bg-color: rgba(50, 50, 50, 1);\n--table-even-font-color: rgba(255, 255, 255, 1);\n--table-header-bg-color: rgba(20, 20, 20, 1);\n--table-header-font-color: rgba(200, 200, 200, 1);\n--table-footer-bg-color: rgba(20, 20, 20, 1);\n--table-footer-font-color: rgba(200, 200, 200, 1);\n--picture-link-bg-color: rgba(100, 100, 100, 0.8);\n--picture-link-font-color: rgba(168, 194, 250, 1);\n--external-link-font-color: rgba(105, 152, 252, 1);\n--attribution-bg-color: rgba(30, 30, 30, 0.9);\n--attribution-font-color: rgba(255, 255, 255, 1);\n--picture-frame-shadow: none;\n--nav-font-color: rgba(255,255,255,1);\n--nav-bg-color: rgba(20, 20, 20, 0.9);\n--title-font-color: rgba(255, 255, 255, 1);\n--title-filter: drop-shadow(0.2rem 0.3rem 0.2rem rgba(0,0,0,1)));\n--footer-font-color: rgba(255, 255, 255, 1);\n--footer-bg-color: rgba(20, 20, 20, 1);\n--footer-font-color: rgba(255, 255, 255, 1);\n--footer-bg-color: rgba(20, 20, 20, 1);\n--acco-card-shadow: none;\n--acco-card-font: rgba(255,229,229,1);\n--acco-card-bg: rgba(30, 30, 30, 1);\n--occuplan-main-border-color: rgba(200, 200, 200, 1);\n--occuplan-main-border: 1px solid var(--occuplan-main-border-color);\n--occuplan-grid-border-color: rgba(200, 200, 200, 0.2);\n--occuplan-grid-border: 0.2px solid var(--occuplan-grid-border-color);\n--occuplan-main-font-color: rgba(200, 200, 200, 1);\n--occuplan-main-bg-color: rgba(30, 30, 30, 0);\n--occuplan-days-font-color: rgba(200, 200, 200, 1);\n--occuplan-days-bg-color: rgba(0, 0, 0, 0);\n--occuplan-days-header-font-color: rgba(200, 200, 200, 1);\n--occuplan-days-header-bg-color: rgba(50, 50, 50, 1);\n--occuplan-weeknum-font-color: rgba(200, 200, 200, 0.5);\n--occuplan-weeknum-bg-color: rgba(0, 0, 0, 0);\n--occuplan-months-font-color: rgba(200, 200, 200, 1);\n--occuplan-months-bg-color: rgba(50, 50, 50, 1);\n--occuplan-invalid-days-font-color: rgba(255, 255, 255, 1);\n--occuplan-invalid-days-bg-color: rgba(110, 110, 110, 0.8);\n--occuplan-weekend-bg-color: rgba(200, 200, 200, 1);\n--occupation-type-1-font-color: rgba(200, 200, 200, 1);\n--occupation-type-1-bg-color: rgba(33, 158, 188, 1);\n--occupation-type-2-font-color: rgba(255, 255, 255, 1);\n--occupation-type-2-bg-colog: rgba(249,112,249,1);\n--occupation-type-3-font-color: rgba(255, 255, 255, 1);\n--occupation-type-3-bg-color: rgba(0, 112, 23, 1);\n--notes-vert-line: 0.5px dashed rgba(200, 200, 200, 0.5);\n--notes-font-color: rgba(255, 255, 255, 1);\n--notes-bg-color: rgba(50, 50, 50, 1);\n--notes-disabled-font-color: rgba(255, 255, 255, 1);\n--notes-disabled-bg-color: rgba(70, 70, 70, 1);\n"
+	"cookies": {
+		"types": [
+			"necessary",
+			"preferences"
+		],
+		"showIcon": true
+	},
+	"fonts": {
+		"main": {
+			"shortName": "helvetica",
+			"cssName": "Helvetica",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": false
+		},
+		"nav": {
+			"shortName": "system-ui",
+			"cssName": "system-ui",
+			"variant": "small-caps",
+			"fallback": "sans-serif",
+			"fontsource": false
+		},
+		"pageTitle": {
+			"shortName": "arizonia",
+			"cssName": "Arizonia",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": true
+		},
+		"landingTitle": {
+			"shortName": "raleway",
+			"cssName": "Raleway",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": true
+		},
+		"header": {
+			"shortName": "carrois-gothic",
+			"cssName": "Carrois Gothic",
+			"variant": "small-caps",
+			"fallback": "sans-serif",
+			"fontsource": true
 		}
 	},
+	"nav": {
+		"main": [
+			{
+				"key": "home",
+				"path": "/",
+				"external": false
+			}
+		],
+		"footer": [
+			{
+				"key": "home",
+				"path": "/",
+				"external": false
+			},
+			{
+				"key": "imprint",
+				"path": "/imprint",
+				"external": false
+			},
+			{
+				"key": "terms",
+				"path": "/tos",
+				"external": false
+			}
+		]
+	},
 	"lang": {
+		"defaultLang": "en",
 		"supportedLangs": [
 			"en",
 			"de",
@@ -18,7 +82,83 @@
 			"es",
 			"fr"
 		],
-		"defaultLang": "en",
+		"formats": {
+			"de": {
+				"locale": "de-DE",
+				"dateFormat": "dd.MM.yyyy",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "Nichts frei für {{forDays}} Tage bis {{maxFutureDate}}",
+				"availableFromFor": "Mindestens {{forDays}} Tage ab dem {{from}} verfügbar",
+				"minimumPrice": "Ab {{min}} pro Nacht",
+				"maximumPrice": "Maximal {{max}} pro Nacht",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} Nächte",
+				"seating": "Sitzplätze für {{num}} Erwachsene",
+				"numberOf": "Anzahl {{num}}",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "für {{num}} Person(en)"
+			},
+			"en": {
+				"locale": "en-US",
+				"dateFormat": "yyyy/MM/dd",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
+				"minimumPrice": "From {{min}} per night",
+				"maximumPrice": "To {{max}} per night",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} nights",
+				"seating": "Seating for {{num}} people",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "for {{num}}"
+			},
+			"fr": {
+				"locale": "fr-FR",
+				"dateFormat": "dd.MM.yyyy",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
+				"minimumPrice": "From {{min}} per night",
+				"maximumPrice": "To {{max}} per night",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} nights",
+				"seating": "Seating for {{num}} people",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "for {{num}}"
+			},
+			"es": {
+				"locale": "es-ES",
+				"dateFormat": "dd.MM.yyyy",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
+				"minimumPrice": "From {{min}} per night",
+				"maximumPrice": "To {{max}} per night",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} nights",
+				"seating": "Seating for {{num}} people",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "for {{num}}"
+			},
+			"pl": {
+				"locale": "pl-PL",
+				"dateFormat": "dd.MM.yyyy",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
+				"minimumPrice": "From {{min}} per night",
+				"maximumPrice": "To {{max}} per night",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} nights",
+				"seating": "Seating for {{num}} people",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "for {{num}}"
+			}
+		},
 		"translations": {
 			"en": {
 				"cookies": {
@@ -545,83 +685,13 @@
 					"minNumNights": "Estadía Mínima"
 				}
 			}
-		},
-		"formats": {
-			"de": {
-				"locale": "de-DE",
-				"dateFormat": "dd.MM.yyyy",
-				"monthHeader": "{{month}} / {{year}}",
-				"nothingAvailable": "Nichts frei für {{forDays}} Tage bis {{maxFutureDate}}",
-				"availableFromFor": "Mindestens {{forDays}} Tage ab dem {{from}} verfügbar",
-				"minimumPrice": "Ab {{min}} pro Nacht",
-				"maximumPrice": "Maximal {{max}} pro Nacht",
-				"additionalPersonPrice": "{{price}} ({{terms}})",
-				"minNumberOfNights": "{{num}} Nächte",
-				"seating": "Sitzplätze für {{num}} Erwachsene",
-				"numberOf": "Anzahl {{num}}",
-				"size": "{{size}}&nbsp;m²",
-				"bed": "für {{num}} Person(en)"
-			},
-			"en": {
-				"locale": "en-US",
-				"dateFormat": "yyyy/MM/dd",
-				"monthHeader": "{{month}} / {{year}}",
-				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
-				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
-				"minimumPrice": "From {{min}} per night",
-				"maximumPrice": "To {{max}} per night",
-				"additionalPersonPrice": "{{price}} ({{terms}})",
-				"minNumberOfNights": "{{num}} nights",
-				"seating": "Seating for {{num}} people",
-				"numberOf": "{{num}} pieces",
-				"size": "{{size}}&nbsp;m²",
-				"bed": "for {{num}}"
-			},
-			"fr": {
-				"locale": "fr-FR",
-				"dateFormat": "dd.MM.yyyy",
-				"monthHeader": "{{month}} / {{year}}",
-				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
-				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
-				"minimumPrice": "From {{min}} per night",
-				"maximumPrice": "To {{max}} per night",
-				"additionalPersonPrice": "{{price}} ({{terms}})",
-				"minNumberOfNights": "{{num}} nights",
-				"seating": "Seating for {{num}} people",
-				"numberOf": "{{num}} pieces",
-				"size": "{{size}}&nbsp;m²",
-				"bed": "for {{num}}"
-			},
-			"es": {
-				"locale": "es-ES",
-				"dateFormat": "dd.MM.yyyy",
-				"monthHeader": "{{month}} / {{year}}",
-				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
-				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
-				"minimumPrice": "From {{min}} per night",
-				"maximumPrice": "To {{max}} per night",
-				"additionalPersonPrice": "{{price}} ({{terms}})",
-				"minNumberOfNights": "{{num}} nights",
-				"seating": "Seating for {{num}} people",
-				"numberOf": "{{num}} pieces",
-				"size": "{{size}}&nbsp;m²",
-				"bed": "for {{num}}"
-			},
-			"pl": {
-				"locale": "pl-PL",
-				"dateFormat": "dd.MM.yyyy",
-				"monthHeader": "{{month}} / {{year}}",
-				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
-				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
-				"minimumPrice": "From {{min}} per night",
-				"maximumPrice": "To {{max}} per night",
-				"additionalPersonPrice": "{{price}} ({{terms}})",
-				"minNumberOfNights": "{{num}} nights",
-				"seating": "Seating for {{num}} people",
-				"numberOf": "{{num}} pieces",
-				"size": "{{size}}&nbsp;m²",
-				"bed": "for {{num}}"
-			}
+		}
+	},
+	"css": {
+		"base": "\n    body,html {\n      font-family: var(--main-font-family, 'sans-serif');\n      font-variant: var(--main-font-variant, 'small-caps');\n    }\n    \n    * {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n\n      font-family: var(--main-font-family, 'sans-serif');\n      font-variant: var(--main-font-variant, 'small-caps');\n    }\n\n    *::after {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    *::before {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    hr {\n      margin-top: 1rem;\n      margin-bottom: 1rem;\n    }\n\n    h4 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 1.2rem;\n      text-align: center;\n      margin-bottom: 0.2rem;\n      margin-top: 0.4rem;\n    } \n\n\n    h3 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      text-align: center;\n      font-size: 1.8rem;\n      margin-bottom: 0.6rem;\n      margin-top: 1rem;\n    } \n\n    h2 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 2.2rem;\n      text-align: center;\n      margin-bottom: 0.8rem;\n      margin-top: 1.2rem;\n    } \n\n\n    h1 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 3rem;\n      text-align: center;\n      margin-bottom: 0.8rem;\n      margin-top: 1.2rem;\n    } \n\n    ol {\n      padding-left: 0.5rem;\n      margin: 1rem;\n    }\n\n    ul {\n      margin-left: 1rem;\n      padding-left: 0.2rem;\n    }",
+		"themes": {
+			"light": "\n--main-font-color: rgba(34, 49, 63, 1); /* Darker, more readable text */\n--main-bg-color: rgba(240, 248, 255, 1); /* Light, airy background (AliceBlue) */\n--main-border-color: rgba(52, 152, 219, 1); /* Softer, more inviting blue */\n--main-border: 1px solid var(--main-border-color);\n--accept-font-color: rgba(46, 204, 113, 1); /* Emerald green */\n--alert-font-color: rgba(231, 76, 60, 1); /* Tomato red */\n--invalid-border-color: rgba(231, 76, 60, 1); /* Tomato red */\n--invalid-border: 0.15rem solid var(--invalid-border-color);\n--disable-font-color: rgba(52, 73, 94, 0.4); /* Dimmed blue-gray */\n--disabled-border-color: rgba(52, 73, 94, 0.5); /* Dimmed blue-gray */\n--disabled-border: 0.1rem solid var(--disabled-border-color);\n--focussed-border-color: rgba(41, 128, 185, 0.9); /* Deeper blue focus */\n--focussed-border: 0.15rem solid var(--focussed-border-color);\n--focussed-filter: drop-shadow(0 0 0.75rem rgba(41, 128, 185, 0.9));\n--avatar-border: 0.15rem solid rgba(34, 49, 63, 0.9);\n--hamburger-color: rgba(41, 128, 185, 1); /* Deeper blue */\n--hamburger-bg-color: rgba(0,0,0,0);\n--hamburger-filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(255,255,255,1));\n--gallery-button-bg-color: rgba(220, 235, 245, 0.5); /* Light blue overlay */\n--gallery-button-font-color: rgba(52, 73, 94, 0.8); /* Blue-gray */\n--button-font-color: rgba(255, 255, 255, 1);\n--button-bg-color: rgba(52, 152, 219, 1); /* Medium blue call to action */\n--button-danger-bg-color: rgba(231, 76, 60, 1); /* Tomato red */\n--button-danger-font-color: rgba(255,255,255,1);\n--button-focus-filter: drop-shadow(0 0 0.75rem rgba(41, 128, 185, 0.9));\n--icon-not-color: rgba(192, 57, 43, 1); /* Darker, muted red */\n--icon-disabled-color: rgba(52, 73, 94, 0.4);\n--icon-color: rgba(34, 49, 63, 1);\n--table-odd-bg-color: rgba(236, 240, 241, 1); /* Light gray */\n--table-odd-font-color: rgba(34, 49, 63, 1);\n--table-even-bg-color: rgba(220, 225, 229, 1); /* Light gray */\n--table-even-font-color: rgba(34, 49, 63, 1);\n--table-header-bg-color: rgba(44, 62, 80, 1); /* Dark blue-gray */\n--table-header-font-color: rgba(255, 255, 255, 1);\n--table-footer-bg-color: rgba(44, 62, 80, 1);\n--table-footer-font-color: rgba(255, 255, 255, 1);\n--picture-link-bg-color: rgba(52, 73, 94, 0.8); /* Darker overlay */\n--picture-link-font-color: rgba(173, 216, 230, 1); /* Light blue */\n--external-link-font-color: rgba(41, 128, 185, 1);\n--attribution-bg-color: rgba(236, 240, 241, 0.6); /* Light gray */\n--attribution-font-color: rgba(34, 49, 63, 1);\n--picture-frame-shadow: 0px 1.1px 2.2px rgba(0,0,0,0.02),0px 2.7px 5.3px rgba(0,0,0,0.028),0px 5px 10px rgba(0,0,0,0.035),0px 8.9px 17.9px rgba(0,0,0,0.042),0px 16.7px 33.4px rgba(0,0,0,0.05),0px 40px 80px rgba(0,0,0,0.07);\n--nav-font-color: rgba(255, 255, 255, 1);\n--nav-bg-color: rgba(44, 62, 80, 0.8); /* Dark blue-gray */\n--title-font-color: rgba(255, 255, 255, 1);\n--title-filter: drop-shadow(0.2rem 0.3rem 0.2rem rgba(0,0,0,1));\n--footer-font-color: rgba(255, 255, 255, 1);\n--footer-bg-color: rgba(44, 62, 80, 1); /* Dark blue-gray */\n--acco-card-shadow: -1.2px -3.7px 4.5px rgba(0,0,0,0.017),-1.4px -4.4px 8.9px rgba(0,0,0,0.024),-0.4px -1.3px 13.3px rgba(0,0,0,0.03),1.7px 5.5px 17.9px rgba(0,0,0,0.035),4.9px 15.5px 23.3px rgba(0,0,0,0.04),8.9px 28.2px 30.7px rgba(0,0,0,0.046),13.7px 43.1px 43.8px rgba(0,0,0,0.053),19px 60px 80px rgba(0,0,0,0.07);\n--acco-card-font: rgba(34, 49, 63, 1);\n--acco-card-bg: rgba(255, 255, 255, 1);\n--occuplan-main-border-color: rgba(52, 152, 219, 1);\n--occuplan-main-border: 1px solid var(--occuplan-main-border-color);\n--occuplan-grid-border-color: rgba(52, 152, 219, 0.2);\n--occuplan-grid-border: 0.2px solid var(--occuplan-grid-border-color);\n--occuplan-main-font-color: rgba(52, 152, 219, 1);\n--occuplan-main-bg-color: rgba(255,255,255,0);\n--occuplan-days-font-color: rgba(52, 152, 219, 1);\n--occuplan-days-bg-color: rgba(0,0,0,0);\n--occuplan-days-header-font-color: rgba(255, 255, 255, 1);\n--occuplan-days-header-bg-color: rgba(52, 152, 219, 1);\n--occuplan-weeknum-font-color: rgba(52, 152, 219, 0.5);\n--occuplan-weeknum-bg-color: rgba(0,0,0,0);\n--occuplan-months-font-color: rgba(255, 255, 255, 1);\n--occuplan-months-bg-color: rgba(52, 152, 219, 1);\n--occuplan-invalid-days-font-color: rgba(52, 73, 94, 1);\n--occuplan-invalid-days-bg-color: rgba(149, 165, 166, 0.6); /* Gray */\n--occuplan-weekend-bg-color: rgba(41, 128, 185, 1);\n--occupation-type-1-font-color: rgba(255, 255, 255, 1);\n--occupation-type-1-bg-color: rgba(41, 128, 185, 1);\n--occupation-type-2-font-color: rgba(34, 49, 63, 1);\n--occupation-type-2-bg-colog: rgba(173, 216, 230, 1); /* Light blue */\n--occupation-type-3-font-color: rgba(34, 49, 63, 1);\n--occupation-type-3-bg-color: rgba(144, 238, 144, 1); /* Light green */\n--notes-vert-line: 0.5px dashed rgba(52, 152, 219, 0.5);\n--notes-font-color: rgba(44, 62, 80, 1);\n--notes-bg-color: rgba(255, 255, 224, 1); /* Light yellow */\n--notes-disabled-font-color: rgba(44, 62, 80, 1);\n--notes-disabled-bg-color: rgba(236, 240, 241, 1); /* Light gray */\n",
+			"dark": "\n    --main-font-color: rgba(255, 255, 255, 1);\n    --main-bg-color: rgba(20, 20, 20, 1);\n    --main-border-color: rgba(200, 200, 200, 1);\n    --main-border: 1px solid var(--main-border-color);\n    --accept-font-color: rgba(13, 157, 0, 1);\n    --alert-font-color: rgba(255, 0, 0, 1);\n    --invalid-border-color: rgba(255, 100, 100, 1);\n    --invalid-border: 0.15rem solid var(--invalid-border-color);\n    --disable-font-color: rgba(255, 255, 255, 0.4);\n    --disabled-border-color: rgba(255, 255, 255, 0.5);\n    --disabled-border: 0.1rem solid var(--disabled-border-color);\n    --focussed-border-color: rgba(102, 120, 243, 0.9);\n    --focussed-border: 0.15rem solid var(--focussed-border-color);\n    --focussed-filter: drop-shadow(0 0 0.75rem rgba(102, 120, 243, 0.9));\n    --avatar-border: 0.15rem solid rgba(255, 255, 255, 0.9);\n    --hamburger-color: rgba(255, 255, 255, 1);\n    --hamburger-bg-color: rgba(0, 0, 0, 0);\n    --hamburger-filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(20, 20, 20, 1));\n    --gallery-button-bg-color: rgba(30, 30, 30, 0.5);\n    --gallery-button-font-color: rgba(255, 255, 255, 0.8);\n    --button-font-color: rgba(255, 255, 255, 1);\n    --button-bg-color: rgba(30, 30, 30, 1);\n    --button-danger-bg-color: rgba(255, 0, 0, 1);\n    --button-danger-font-color: rgba(255, 255, 255, 1);\n    --button-focus-filter: drop-shadow(0 0 0.75rem rgba(102, 120, 243, 0.9));\n    --icon-not-color: rgba(255, 50, 50, 1);\n    --icon-disabled-color: rgba(255, 255, 255, 0.4);\n    --icon-color: rgba(255, 255, 255, 1);\n    --table-odd-bg-color: rgba(40, 40, 40, 1);\n    --table-odd-font-color: rgba(255, 255, 255, 1);\n    --table-even-bg-color: rgba(50, 50, 50, 1);\n    --table-even-font-color: rgba(255, 255, 255, 1);\n    --table-header-bg-color: rgba(20, 20, 20, 1);\n    --table-header-font-color: rgba(200, 200, 200, 1);\n    --table-footer-bg-color: rgba(20, 20, 20, 1);\n    --table-footer-font-color: rgba(200, 200, 200, 1);\n    --picture-link-bg-color: rgba(100, 100, 100, 0.8);\n    --picture-link-font-color: rgba(168, 194, 250, 1);\n    --external-link-font-color: rgba(105, 152, 252, 1);\n    --attribution-bg-color: rgba(30, 30, 30, 0.9);\n    --attribution-font-color: rgba(255, 255, 255, 1);\n    --picture-frame-shadow: none; /* Replaced shadows with borders */\n    --nav-font-color: rgba(255, 255, 255, 1);\n    --nav-bg-color: rgba(20, 20, 20, 0.9);\n    --title-font-color: rgba(255, 255, 255, 1);\n    --footer-font-color: rgba(255, 255, 255, 1);\n    --footer-bg-color: rgba(20, 20, 20, 1);\n    --acco-card-shadow: none; /* Replaced shadows with borders */\n    --acco-card-font: rgba(255, 255, 255, 1);\n    --acco-card-bg: rgba(30, 30, 30, 1);\n    --occuplan-main-border-color: rgba(200, 200, 200, 1);\n    --occuplan-main-border: 1px solid var(--occuplan-main-border-color);\n    --occuplan-grid-border-color: rgba(200, 200, 200, 0.2);\n    --occuplan-grid-border: 0.2px solid var(--occuplan-grid-border-color);\n    --occuplan-main-font-color: rgba(200, 200, 200, 1);\n    --occuplan-main-bg-color: rgba(30, 30, 30, 0);\n    --occuplan-days-font-color: rgba(200, 200, 200, 1);\n    --occuplan-days-bg-color: rgba(0, 0, 0, 0);\n    --occuplan-days-header-font-color: rgba(200, 200, 200, 1);\n    --occuplan-days-header-bg-color: rgba(50, 50, 50, 1);\n    --occuplan-weeknum-font-color: rgba(200, 200, 200, 0.5);\n    --occuplan-weeknum-bg-color: rgba(0, 0, 0, 0);\n    --occuplan-months-font-color: rgba(200, 200, 200, 1);\n    --occuplan-months-bg-color: rgba(50, 50, 50, 1);\n    --occuplan-invalid-days-font-color: rgba(255, 255, 255, 1);\n    --occuplan-invalid-days-bg-color: rgba(110, 110, 110, 0.8);\n    --occuplan-weekend-bg-color: rgba(200, 200, 200, 1);\n    --occupation-type-1-font-color: rgba(200, 200, 200, 1);\n    --occupation-type-1-bg-color: rgba(33, 158, 188, 1);\n    --occupation-type-2-font-color: rgba(255, 255, 255, 1);\n    --occupation-type-2-bg-color: rgba(249, 112, 249, 1);\n    --occupation-type-3-font-color: rgba(255, 255, 255, 1);\n    --occupation-type-3-bg-color: rgba(0, 112, 23, 1);\n    --notes-vert-line: 0.5px dashed rgba(200, 200, 200, 0.5);\n    --notes-font-color: rgba(255, 255, 255, 1);\n    --notes-bg-color: rgba(50, 50, 50, 1);\n    --notes-disabled-font-color: rgba(255, 255, 255, 1);\n    --notes-disabled-bg-color: rgba(70, 70, 70, 1);\n  "
 		}
 	},
 	"pages": {
@@ -970,75 +1040,5 @@
 				}
 			]
 		}
-	},
-	"nav": {
-		"main": [
-			{
-				"key": "home",
-				"path": "/",
-				"external": false
-			}
-		],
-		"footer": [
-			{
-				"key": "home",
-				"path": "/",
-				"external": false
-			},
-			{
-				"key": "imprint",
-				"path": "/imprint",
-				"external": false
-			},
-			{
-				"key": "terms",
-				"path": "/tos",
-				"external": false
-			}
-		]
-	},
-	"fonts": {
-		"main": {
-			"shortName": "helvetica",
-			"cssName": "Helvetica",
-			"variant": "normal",
-			"fallback": "sans-serif",
-			"fontsource": false
-		},
-		"nav": {
-			"shortName": "system-ui",
-			"cssName": "system-ui",
-			"variant": "small-caps",
-			"fallback": "sans-serif",
-			"fontsource": false
-		},
-		"pageTitle": {
-			"shortName": "arizonia",
-			"cssName": "Arizonia",
-			"variant": "normal",
-			"fallback": "sans-serif",
-			"fontsource": true
-		},
-		"landingTitle": {
-			"shortName": "raleway",
-			"cssName": "Raleway",
-			"variant": "normal",
-			"fallback": "sans-serif",
-			"fontsource": true
-		},
-		"header": {
-			"shortName": "carrois-gothic",
-			"cssName": "Carrois Gothic",
-			"variant": "small-caps",
-			"fallback": "sans-serif",
-			"fontsource": true
-		}
-	},
-	"cookies": {
-		"types": [
-			"necessary",
-			"preferences"
-		],
-		"showIcon": true
 	}
 }

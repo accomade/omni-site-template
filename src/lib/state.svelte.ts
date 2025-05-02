@@ -76,7 +76,7 @@ export class SiteState implements I18nFacade {
     if (!ref) return 'UNDEF';
 
     const current = this.translations[this.currentLang];
-    if (!current[ref]) return ref;
+    if (!current[ref]) return '';
 
     return this.translations[this.currentLang][ref];
   };
@@ -90,20 +90,5 @@ export class SiteState implements I18nFacade {
 
     let formatted = format(fString, props);
     return formatted;
-  };
-
-  moneyFormat = $derived(MoneyFormats[this.currentLang]);
-  public formatMoneyFunc = (value: number): string => {
-    const scaled = value / 100.0;
-    return this.moneyFormat.format(scaled);
-  };
-
-  public formatDateFunc = (d: string | DateTime<boolean>): string => {
-    if (typeof d === 'string') {
-      d = DateTime.fromISO(d);
-    }
-
-    const dateFormat = this.formats[this.currentLang].dateFormat;
-    return d.toFormat(dateFormat);
   };
 }
