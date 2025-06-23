@@ -4,7 +4,7 @@ import siteConfig from './src/lib/config.json' with { type: 'json' };
 
 let domain = process.env.PRIMARY_DOMAIN;
 if (!domain) {
-  domain = process.env.RENDER_EXTERNAL_HOSTNAME;
+  domain = process.env.RENDER_EXTERNAL_URL;
 }
 console.log('Using domain:', domain);
 
