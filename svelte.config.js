@@ -6,6 +6,7 @@ let domain = process.env.PRIMARY_DOMAIN;
 if (!domain) {
   domain = process.env.RENDER_EXTERNAL_HOSTNAME;
 }
+console.log('Using domain:', domain);
 
 const entries = [];
 
