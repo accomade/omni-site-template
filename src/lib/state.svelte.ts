@@ -1,7 +1,6 @@
 import Cookie from 'js-cookie';
-import { format, MoneyFormats, type I18nFacade, type OccuplanTranslations } from 'accomadesc';
-import { DateTime } from 'luxon';
-import siteConfig from './config.json';
+import { format, type I18nFacade, type OccuplanTranslations } from 'accomadesc';
+import siteConfig from './config.json' with { type: 'json' };
 import type { CookieSelection, Translation as CookieTranslation } from 'gdpr-cooco-banner';
 
 interface FullTranslation {
