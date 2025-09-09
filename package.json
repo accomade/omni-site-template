@@ -31,7 +31,7 @@
 		"@fontsource/raleway": "^5.2.6",
 		"@sveltejs/adapter-static": "^3.0.9",
 		"@twicpics/components": "^0.31.4",
-		"accomadesc": "^0.3.25",
+		"accomadesc": "^0.3.26",
 		"gdpr-cooco-banner": "^0.0.11",
 		"js-cookie": "^3.0.5",
 		"luxon": "^3.7.2"
