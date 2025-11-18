@@ -1,0 +1,1044 @@
+{
+	"settings": {
+		"PUBLIC_SUPABASE_URL": "http://localhost:54321",
+		"ACCOMADE_USER_ID": "d1c0fdd3-ad0d-44db-a197-9578bf4e9a51"
+	},
+	"cookies": {
+		"types": [
+			"necessary",
+			"preferences"
+		],
+		"showIcon": true
+	},
+	"fonts": {
+		"main": {
+			"shortName": "helvetica",
+			"cssName": "Helvetica",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": false
+		},
+		"nav": {
+			"shortName": "system-ui",
+			"cssName": "system-ui",
+			"variant": "small-caps",
+			"fallback": "sans-serif",
+			"fontsource": false
+		},
+		"pageTitle": {
+			"shortName": "arizonia",
+			"cssName": "Arizonia",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": true
+		},
+		"landingTitle": {
+			"shortName": "raleway",
+			"cssName": "Raleway",
+			"variant": "normal",
+			"fallback": "sans-serif",
+			"fontsource": true
+		},
+		"header": {
+			"shortName": "carrois-gothic",
+			"cssName": "Carrois Gothic",
+			"variant": "small-caps",
+			"fallback": "sans-serif",
+			"fontsource": true
+		}
+	},
+	"nav": {
+		"main": [
+			{
+				"key": "home",
+				"path": "/",
+				"external": false
+			}
+		],
+		"footer": [
+			{
+				"key": "home",
+				"path": "/",
+				"external": false
+			},
+			{
+				"key": "imprint",
+				"path": "/imprint",
+				"external": false
+			},
+			{
+				"key": "terms",
+				"path": "/tos",
+				"external": false
+			}
+		]
+	},
+	"lang": {
+		"defaultLang": "en",
+		"supportedLangs": [
+			"en",
+			"de",
+			"pl",
+			"es",
+			"fr"
+		],
+		"formats": {
+			"de": {
+				"locale": "de-DE",
+				"dateFormat": "dd.MM.yyyy",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "Nichts frei für {{forDays}} Tage bis {{maxFutureDate}}",
+				"availableFromFor": "Mindestens {{forDays}} Tage ab dem {{from}} verfügbar",
+				"minimumPrice": "Ab {{min}} pro Nacht",
+				"maximumPrice": "Maximal {{max}} pro Nacht",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} Nächte",
+				"seating": "Sitzplätze für {{num}} Erwachsene",
+				"numberOf": "Anzahl {{num}}",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "für {{num}} Person(en)"
+			},
+			"en": {
+				"locale": "en-US",
+				"dateFormat": "yyyy/MM/dd",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
+				"minimumPrice": "From {{min}} per night",
+				"maximumPrice": "To {{max}} per night",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} nights",
+				"seating": "Seating for {{num}} people",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "for {{num}}"
+			},
+			"fr": {
+				"locale": "fr-FR",
+				"dateFormat": "dd.MM.yyyy",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
+				"minimumPrice": "From {{min}} per night",
+				"maximumPrice": "To {{max}} per night",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} nights",
+				"seating": "Seating for {{num}} people",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "for {{num}}"
+			},
+			"es": {
+				"locale": "es-ES",
+				"dateFormat": "dd.MM.yyyy",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
+				"minimumPrice": "From {{min}} per night",
+				"maximumPrice": "To {{max}} per night",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} nights",
+				"seating": "Seating for {{num}} people",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "for {{num}}"
+			},
+			"pl": {
+				"locale": "pl-PL",
+				"dateFormat": "dd.MM.yyyy",
+				"monthHeader": "{{month}} / {{year}}",
+				"nothingAvailable": "No availability for {{forDays}} days until {{maxFutureDate}}",
+				"availableFromFor": "Min. {{forDays}} days from {{from}} available",
+				"minimumPrice": "From {{min}} per night",
+				"maximumPrice": "To {{max}} per night",
+				"additionalPersonPrice": "{{price}} ({{terms}})",
+				"minNumberOfNights": "{{num}} nights",
+				"seating": "Seating for {{num}} people",
+				"numberOf": "{{num}} pieces",
+				"size": "{{size}}&nbsp;m²",
+				"bed": "for {{num}}"
+			}
+		},
+		"translations": {
+			"en": {
+				"cookies": {
+					"heading": "This site uses cookies",
+					"description": "We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.",
+					"acceptLabel": "Accept all cookies",
+					"rejectLabel": "Only necessary cookies",
+					"settingsLabel": "Cookie settings",
+					"closeLabel": "Save & close settings",
+					"editLabel": "Edit cookie settings",
+					"cookieDescriptions": {
+						"necessary": "Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.",
+						"preferences": "Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.",
+						"analytics": "Analytics cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.",
+						"marketing": "Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers."
+					},
+					"cookieLabels": {
+						"necessary": "Necessary cookies",
+						"preferences": "Preference cookies",
+						"analytics": "Analytics cookies",
+						"marketing": "Marketing cookies"
+					}
+				},
+				"calendar": {
+					"weekdayLabels": {
+						"1": "Mo",
+						"2": "Tu",
+						"3": "We",
+						"4": "Th",
+						"5": "Fr",
+						"6": "Sa",
+						"7": "Su"
+					},
+					"monthLabels": {
+						"1": "Jan",
+						"2": "Feb",
+						"3": "Mar",
+						"4": "Apr",
+						"5": "May",
+						"6": "Jun",
+						"7": "Jul",
+						"8": "Aug",
+						"9": "Sep",
+						"10": "Oct",
+						"11": "Nov",
+						"12": "Dec"
+					},
+					"weekendLabel": "Weekend",
+					"typeLabels": {
+						"one": "Occupied",
+						"two": "Blocked",
+						"three": "Requested"
+					}
+				},
+				"site": {
+					"hero-title": "Welcome To Your Holidays",
+					"imprint-header": "Imprint",
+					"imprint-content": "\n      <h1>Imprint</h1>\n      <section class=\"contact\">\n        <h2>Responsible for the content</h2>\n        <p>\n          <strong>Dirk Porsche</strong>\n        </p>\n        <p>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany <br>\n          Phone: <br>\n          \n          E-Mail: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>\n      <section>\n        <h2>Disclaimer</h2>\n        <p>\n          Despite careful control of the content, Dirk Porsche (the site operator) does not assume any liability for the content of external links. The content of linked pages is the sole responsibility of their operators.\n        </p>\n      </section>\n      <section>\n        <h2>Copyright Notice</h2>\n        <p>\n          The content and works created by the site operator on these pages are subject to German copyright law. The reproduction, processing, distribution and any kind of exploitation outside the limits of copyright require the written consent of the respective author or creator. Downloads and copies of these pages are only permitted for private, non-commercial use.\n        </p>\n        <p>\n          As far as the contents on this site were not created by the operator, the copyrights of third parties are observed. In particular, contents of third parties are marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately.\n        </p>\n        <p>\n          All photographs used on this website are the property of their respective artists and are protected under international copyright laws. The photographs may not be used, copied, reproduced, manipulated, or distributed in any way without the prior written permission of the artist.\n        </p>\n        <p>\n          Photographs created by third-party artists are the property of their respective owners and are used on this website with permission. The use of these photographs does not imply endorsement of the site operator by the photographers or the owners of the photographs. Photographs owned by third parties are labeled as such.\n        </p>\n        <p>\n          Unlabeled photographs are created or owned by the site operator, are the exclusive property of the site operator and are protected under international copyright laws.\n        </p>\n        <p>\n          If you would like to license or purchase the rights to any of the photographs displayed on this website, please contact the respective artists directly.\n        </p>\n        <p>\n          We would like to express our gratitude to the talented photographers who have allowed us to showcase their work on our website. Their contributions are greatly appreciated.\n        </p>\n      </section>\n      <section>\n        <h2>European Online Dispute Resolution (ODR)</h2>\n        <p>\n          The European Commission provides an online platform for dispute resolution, which can be found at <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a>.\n        </p>\n        <p>\n          Please be aware that the site operator does not participate in the European Online Dispute Resolution (ODR) process and is not obligated to do so. As such, we cannot be held liable for any disputes arising from our products or services.\n        </p>\n        <p>\n          We encourage all customers to contact us directly in the event of a dispute. We are committed to finding a fair and mutually acceptable resolution to any issues that may arise.\n        </p>\n        <p>\n          If you have any questions or concerns, please do not hesitate to reach out to us at:\n        </p>\n        <p>\n          <strong>Dirk Porsche</strong><br>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany<br>\n          Phone: <br>\n          E-Mail <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>",
+					"tos-header": "Terms Of Service (ToS)",
+					"tos-content": "\n      <h1>Terms and Conditions - Rentals</h1>\n      <section>\n        <h2>Introduction</h2>\n        <p>\n          Welcome to our holiday rental Website (hereinafter referred to as “Website”), where you can find and book a holiday accommodation for your next getaway. By using our services, you agree to be bound by these terms and conditions, which govern your use of our site and the services we provide.\n        </p>\n      </section>\n      <section>\n        <h2>Booking and Payment</h2>\n        <p>\n          To make a booking, please contact us via email or phone.\n        </p>\n      </section>\n      <section>\n        <h2>Cancellation and Refunds</h2>\n        <p>\n          You may cancel your booking with no cancellation fee at any time up to 60 days before your arrival date. If you cancel within this time frame, we will refund any paymens already made. If you cancel after this time, we will charge you 60% of the total booking costs.\n        </p>\n        <h2>Arrival and Departure</h2>\n        <p>\n          Your accommodation will be available for check-in from 14:00 on the day of your arrival, and must be vacated by 10:00 on the day of your departure. Late check-out and early check-in may be arranged, subject to availability and a fee.\n        </p>\n        <h2>Damage and Loss</h2>\n        <p>\n          You are responsible for any damage or loss caused to the accommodation or its contents during your stay. You will be liable for the cost of repairing or replacing any such damage or loss.\n        </p>\n        <h2>Liability</h2>\n        <p>\n          We are not liable for any damages or losses suffered by you as a result of your use of our services, except as required by law.\n        </p>\n        <h2>Changes to Terms and Conditions</h2>\n        <p>\n          We reserve the right to change these terms and conditions at any time. Your continued use of our services after any such changes constitutes your acceptance of the new terms and conditions.\n        </p>\n      </section>\n      <h1>Privacy Policy</h1>\n      <section>\n        <h2>Introduction</h2>\n        <p>\n          We respect your privacy and are committed to protecting your personal information. This privacy policy explains how we collect, use, and disclose your personal information.\n        </p>\n        <h2>Collection of Information</h2>\n        <p>\n          We collect personal information such as your name, address, email, and telephone number when you request or make a booking or when your register for other services we provide, like our newsletter. We also collect information about your booking, including arrival and leave, special requirements (e.g. allergies, or similar), and payment information.\n        </p>\n        <h2>Use of Information</h2>\n        <p>\n          We use your personal information to process your booking request, your booking, to communicate with you, and provide you with updates about our services and promotions. We also use your anonymized information for internal purposes, such as research and analysis.\n        </p>\n        <p>\n          During your stay we will collect your written consent to this if you are inclined to do so.\n        </p>\n        <h2>Disclosure of Information</h2>\n        <p>\n          We will not disclose your personal information to third parties, except as required by law or for the purpose of processing your booking.\n        </p>\n        <h2>Data Security</h2>\n        <p>\n          We take appropriate measures to protect your personal information from unauthorized access, use, or disclosure\n        </p>\n        <h2>Changes to Privacy Policy</h2>\n        <p>\n          We reserve the right to change this privacy policy at any time. Your continued use of our website after any such changes constitutes your acceptance of the new privacy policy.\n        </p>\n      </section>\n      <h1>Terms and Conditions - Web Site</h1>\n      <section>\n        <p>\n          This Website is operated by us, uses third party services (see below) and is provided to you for your personal use subject to the following Terms of Service (hereinafter referred to as “Terms”).\n        </p>\n      </section>\n      <section>\n        <h2>Purpose of the Website</h2>\n        <p>\n          Our Website provides information on holiday apartments available for rent, including their pricing and availability. This Website also provides links to other websites that may be of interest to you.\n        </p>\n        <h2>Use of the Website</h2>\n        <p>\n          You may use the Website only for lawful purposes and in accordance with the Terms. You agree not to use the Website:\n        </p>\n        <ul>\n          <li>In any way that violates any applicable federal, state, local, or international law or regulation.</li>\n          <li>For the purpose of exploiting, harming, or attempting to exploit or harm minors in any way by exposing them to inappropriate content, asking for personally identifiable information, or otherwise.\n          </li>\n          <li>To transmit, or obtain the sending of, any advertising or promotional material, including any \"junk mail,\" \"chain letter,\" \"spam,\" or any other similar solicitation.\n          </li>\n          <li>To impersonate or attempt to impersonate another person or entity.</li>\n        </ul>\n        <h2>Disclaimer of Warranties</h2>\n        <p>\n          Our Website is provided “as is” and “as available” without any warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.\n        </p>\n        <h2>Limitation of Liability</h2>\n        <p>\n          In no event shall we be liable for any damages arising from the use of the Website, including but not limited to indirect, incidental, special, punitive, or consequential damages, loss of profits, or data, or loss of goodwill.\n        </p>\n        <h2>External Links</h2>\n        <p>\n          Our Website may contain links to third-party websites or services that are not owned or controlled by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites or services. You acknowledge and agree that we shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.\n        </p>\n        <h2>Changes to the Terms</h2>\n        <p>\n          We reserve the right to modify these Terms at any time without prior notice. Your continued use of the Website after any such changes constitutes your acceptance of the new Terms.\n        </p>\n        <h2>Governing Law</h2>\n        <p>\n          These Terms shall be governed by and construed in accordance with the laws of the state where the apartments proprietor has her/his primary residency, without giving effect to any principles of conflicts of law.\n        </p>\n      </section>\n      <h1>Open Source Software Notice</h1>\n      <section>\n        <p>\n          Our website makes use of various open source software solutions that are released under the MIT or Apache licenses. Utilizing these solutions allows us to provide our services efficiently and reliably.\n        </p>\n        <p>\n          We would like to take this opportunity to extend our gratitude to all the developers who are involved in these projects and make them available.\n        </p>\n        <p>\n          The original license terms for the software used can be found at the following links:\n        </p>\n        <ul>\n          <li>MIT License: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></li>\n          <li>Apache License: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></li>\n        </ul>\n        <p>\n          Please note that these license terms are part of the terms of use for our website and must be adhered to in order to utilize our services.\n        </p>\n        <p>\n          This site primarily uses <a href=\"https://kit.svelte.dev/\" rel=\"noreferrer noopener\" target=\"_blank\">SvelteKit</a>. For a complete list of open source libraries and frameworks used, please contact the <a href=\"mailto:dirk@accoma.de\">developers</a>.\n        </p>\n      </section>\n      <h1>3rd Party Services</h1>\n      <section>\n        <p>\n          This Website is made with or makes direct use of cloud services provided by the following companies (in no particular order). By using this Website you might disclose certain usage information to these companies. We don't have control over and can not be held liable nor responsible, directly or indirectly, for any damage or loss caused or alleged to be caused by this disclosure:\n        </p>\n        <ul>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://vercel.com/\">Vercel</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://render.com/\">Render</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.twicpics.com/\">TwicPics</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://supabase.com/\">Supabase</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gemini.google.com/\">Google Gemini</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/\">Github</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gitlab.com/\">Gitlab</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.openstreetmap.org/\">Open Street Map</a>\n          </li>\n        </ul>\n      </section>\n      <h1>Further Questions</h1>\n      <section>\n        <p>\n          If you have any questions regarding these Terms or our services, please contact us.\n        </p>\n      </section>",
+					"footer-html": "\n      <p><strong>Contact:</strong><br>\n        Dirk Porsche<br>\n        Sollbrüggenstr. 14<br>\n        <br>\n        47800 Krefeld - Germany<br>\n        Phone: <br>\n        \n        Email: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n      </p>",
+					"title": "Welcome to your Holidays",
+					"usedom": "Usedom",
+					"weatherHeader1": "Usedom",
+					"weatherHeader2": "Weather",
+					"headerTitle": "Holiday Accommodations",
+					"headerSlug": "Relax and enjoy the sunshine.",
+					"landing_town_html": "",
+					"home": "Home",
+					"town": "Town",
+					"location": "Location",
+					"accommodations": "Apartments",
+					"lang": "Language",
+					"imprint": "Imprint",
+					"terms": "Terms",
+					"acco_default_alt": "Photo of Accommodation",
+					"acco_card_slug": "For details please visit this accommodation's page.",
+					"missing_cal_url": "unknown",
+					"de": "Deutsch",
+					"en": "English",
+					"pl": "Polski",
+					"es": "Español",
+					"fr": "Français",
+					"impressions": "Some Impressions",
+					"directions": "Directions",
+					"weather": "Weather",
+					"calendarHeader": "Occupancy Plan",
+					"pricing": "Dates and Prices",
+					"adults": "Adults",
+					"shortPriceLabel": "Price range",
+					"availability": "Availability",
+					"globalPricing": "Common Prices",
+					"globalNightlyRate": "Per Night",
+					"globalMinimumStay": "Minimum Nights to Stay",
+					"globalPeopleCount": "Number Of Guests",
+					"globalAdditionalPerson": "Additional Guest",
+					"from": "From",
+					"to": "To",
+					"timeRange": "Range",
+					"firstNight": "First Night",
+					"eachNight": "Every Other Night",
+					"peopleNum": "Number Of Guests",
+					"extraPerson": "Add. Guest",
+					"minNumNights": "Min. Stay"
+				}
+			},
+			"de": {
+				"calendar": {
+					"weekdayLabels": {
+						"1": "Mo",
+						"2": "Di",
+						"3": "Mi",
+						"4": "Do",
+						"5": "Fr",
+						"6": "Sa",
+						"7": "So"
+					},
+					"monthLabels": {
+						"1": "Jan",
+						"2": "Feb",
+						"3": "Mär",
+						"4": "Apr",
+						"5": "Mai",
+						"6": "Jun",
+						"7": "Jul",
+						"8": "Aug",
+						"9": "Sep",
+						"10": "Okt",
+						"11": "Nov",
+						"12": "Dez"
+					},
+					"weekendLabel": "Wochenende",
+					"typeLabels": {
+						"one": "Belegt",
+						"two": "Geblockt",
+						"three": "Anfrage"
+					}
+				},
+				"cookies": {
+					"heading": "Diese Webseite verwendet Cookies",
+					"description": "Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.",
+					"acceptLabel": "Alle akzeptieren",
+					"rejectLabel": "Nur Essentielle",
+					"settingsLabel": "Cookie Einstellungen",
+					"closeLabel": "Schließen & Speichern",
+					"editLabel": "Einstellungen anpassen",
+					"cookieDescriptions": {
+						"necessary": "Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.",
+						"preferences": "Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden.",
+						"analytics": "Analyse-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.",
+						"marketing": "Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu folgen. Die Absicht ist, Anzeigen zu zeigen, die relevant und ansprechend für den einzelnen Benutzer sind und daher wertvoller für Publisher und werbetreibende Drittparteien sind."
+					},
+					"cookieLabels": {
+						"necessary": "Notwendige Cookies",
+						"preferences": "Präferenz-Cookies",
+						"analytics": "Analyse-Cookies",
+						"marketing": "Marketing-Cookies"
+					}
+				},
+				"site": {
+					"hero-title": "Willkommen in Ihrem Urlaub",
+					"imprint-header": "Impressum",
+					"imprint-content": "\n      <h1>Impressum</h1>\n      <section class=\"contact\">\n        <h2>Verantwortlich für den Inhalt</h2>\n        <p>\n        <strong>Dirk Porsche</strong>\n        </p>\n        <p>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany <br>\n          Telefon: <br>\n          \n          E-Mail: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>\n      <section>\n        <h2>Haftungsausschluss</h2>\n        <p>\n          Trotz sorgfältiger Kontrolle übernimmt Dirk Porsche (der Betreiber der Website) keine Haftung für den Inhalt externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.\n        </p>\n      </section>\n      <section>\n        <h2>Urheberrechtshinweis</h2>\n        <p>\n          Die vom Betreiber dieser Seiten erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.\n        </p>\n        <p>\n          Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.\n        </p>\n        <p>\n          Alle auf dieser Website verwendeten Fotografien sind das Eigentum der jeweiligen Künstler und unterliegen dem internationalen Urheberrecht. Die Fotografien dürfen ohne die vorherige schriftliche Genehmigung des Künstlers in keiner Weise verwendet, kopiert, reproduziert, manipuliert oder verteilt werden.\n        </p>\n        <p>\n          Von Dritten erstellte Fotografien sind Eigentum der jeweiligen Eigentümer und werden auf dieser Website mit Genehmigung verwendet. Die Verwendung dieser Fotografien impliziert keine Billigung des Betreibers der Website durch die Fotografen oder die Eigentümer der Fotografien. Fotografien, die Dritten gehören, sind als solche gekennzeichnet.\n        </p>\n        <p>\n          Unmarkierte Fotografien werden vom Betreiber der Website erstellt oder sind das ausschließliche Eigentum des Betreibers und unterliegen dem internationalen Urheberrecht.\n        </p>\n        <p>\n          Wenn Sie die Rechte an einer der auf dieser Website angezeigten Fotografien lizenzieren oder erwerben möchten, wenden Sie sich bitte direkt an den jeweiligen Künstler.\n        </p>\n        <p>\n          Wir möchten uns bei den talentierten Fotografen bedanken, die uns erlaubt haben, ihre Arbeit auf unserer Website zu präsentieren. Ihre Beiträge sind sehr geschätzt.\n        </p>\n      </section>\n      <section>\n        <h2>Europäische Online-Streitbeilegung (ODR)</h2>\n        <p>\n          Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a> finden.\n        </p>\n        <p>\n          Bitte beachten Sie, dass der Betreiber dieser Website nicht am Europäischen Online-Streitbeilegungsverfahren (ODR) teilnimmt und nicht dazu verpflichtet ist. Daher können wir nicht für Streitigkeiten haftbar gemacht werden, die aus unseren Produkten oder Dienstleistungen resultieren.\n        </p>\n        <p>\n          Wir ermutigen alle Kunden, sich im Falle eines Streits direkt an uns zu wenden. Wir sind bestrebt, eine faire und gegenseitig akzeptable Lösung für alle Probleme zu finden.\n        </p>\n        <p>\n          Wenn Sie Fragen oder Bedenken haben, zögern Sie bitte nicht, uns zu kontaktieren:\n        </p>\n        <p>\n          <strong>Dirk Porsche</strong><br>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany<br>\n          Telefon: <br>\n          E-Mail <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>\n    ",
+					"tos-header": "Nutzungsbedingungen",
+					"tos-content": "\n      <h1>Allgemeine Geschäftsbedingungen - Vermietung</h1>\n      <section>\n        <h2>Einführung</h2>\n        <p>\n          Willkommen auf unserer Ferienwohnungen-Website (im Folgenden als \"Website\" bezeichnet), auf der Sie eine Ferienwohnung finden und Ihre nächste Auszeit buchen können. Durch die Nutzung unserer Website erklären Sie sich damit einverstanden, diese allgemeinen Geschäftsbedingungen zu akzeptieren, die Ihre Nutzung unserer Website und die von uns bereitgestellten Dienste regeln.\n        </p>\n      </section>\n      <section>\n        <h2>Buchung und Bezahlung</h2>\n        <p>\n          Um eine Buchung vorzunehmen, kontaktieren Sie uns bitte per E-Mail oder Telefon.\n        </p>\n      </section>\n      <section>\n        <h2>Stornierung und Erstattungen</h2>\n        <p>\n          Sie können jederzeit bis 60 Tage vor Ihrem Anreisetag kostenlos stornieren. Wenn Sie innerhalb dieses Zeitrahmens stornieren, werden alle bereits geleisteten Zahlungen erstattet. Wenn Sie danach stornieren, behalten wir uns vor 60% der vollständigen Buchungskosten einzufordern.\n        </p>\n        <h2>An- und Abreise</h2>\n        <p>\n          Ihre Wohnung steht Ihnen am Anreisetag ab 14:00 Uhr zur Verfügung und muss bis spätestens 10:00 Uhr am Abreisetag geräumt sein. Später Check-out und früherer Check-in kann je nach Verfügbarkeit und gegen eine Gebühr vereinbart werden.\n        </p>\n        <h2>Schaden und Verlust</h2>\n        <p>\n          Sie sind verantwortlich für jeglichen Schaden oder Verlust, der an der Wohnung oder den zur Verfügung gestellten Gegenständen während Ihres Aufenthalts entsteht. Sie sind haftbar für die Kosten der Reparatur oder des Ersatzes solcher Schäden oder Verluste.\n        </p>\n        <h2>Haftung</h2>\n        <p>\n          Wir haften nicht für Schäden oder Verluste, die Ihnen aufgrund Ihrer Nutzung unseres Mietobjekts oder sonstiger angebotener Dienste entstehen, es sei denn, es ist gesetzlich vorgeschrieben.\n        </p>\n        <h2>Änderungen der Allgemeinen Geschäftsbedingungen</h2>\n        <p>\n          Wir behalten uns das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern. Mit der weiteren Nutzung unseres Angebotes nach solchen Änderungen erklären Sie sich mit den neuen Allgemeinen Geschäftsbedingungen einverstanden. \n        </p>\n      </section>\n      <h1>Datenschutzrichtlinie</h1>\n      <section>\n        <h2>Einführung</h2>\n        <p>\n          Wir respektieren Ihre Privatsphäre und sind bestrebt, Ihre personenbezogenen Daten zu schützen. Diese Datenschutzrichtlinie erklärt, wie wir Ihre personenbezogenen Daten erheben, verwenden und offenlegen.\n        </p>\n        <h2>Erhebung von Informationen</h2>\n        <p>\n          Wir erheben personenbezogene Daten wie Ihren Namen, Ihre Adresse, Ihre E-Mail-Adresse und Ihre Telefonnummer, wenn Sie eine Buchung anfordern oder vornehmen oder sich für andere von uns angebotene Dienste wie unseren Newsletter registrieren. Wir erheben auch Informationen über Ihre Buchung, einschließlich An- und Abreisedatum, Anzahl der Gäste, ggf. spezielle Bedürfnisse (Allergien, oder Ähnliches) und Zahlungsinformationen.\n        </p>\n        <h2>Verwendung von Informationen</h2>\n        <p>\n          Wir verwenden Ihre personenbezogenen Daten, um Ihre Buchungsanfrage, Ihre Buchung zu bearbeiten, mit Ihnen zu kommunizieren und Ihnen Updates über unsere Dienstleistungen und Sonderangebote zu liefern. Wir verwenden Ihre anonymisierten Informationen auch für interne Zwecke wie Auswertungen und Analysen.\n        </p>\n        <p>\n          Während Ihres Aufenthalts werden wir Ihre schriftliche Zustimmung hierzu einholen, wenn Sie damit einverstanden sind.\n        </p>\n        <h2>Offenlegung von Informationen</h2>\n        <p>\n          Wir geben Ihre personenbezogenen Daten nicht an Dritte weiter, es sei denn, es ist gesetzlich vorgeschrieben oder zur Bearbeitung Ihrer Buchung erforderlich.\n        </p>\n        <h2>Datensicherheit</h2>\n        <p>\n          Wir treffen angemessene Maßnahmen, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Nutzung oder Offenlegung zu schützen.\n        </p>\n        <h2>Änderungen der Datenschutzrichtlinie</h2>\n        <p>\n          Wir behalten uns das Recht vor, diese Datenschutzrichtlinie jederzeit zu ändern. Mit der fortgesetzten Nutzung unserer Services nach solchen Änderungen erklären Sie sich mit der neuen Datenschutzrichtlinie automatisch einverstanden.\n        </p>\n      </section>\n      <h1>Nutzungsbedingungen - Webseite</h1>\n      <section>\n        <p>\n          Diese Website wird von uns betrieben, verwendet Dienste Dritter (siehe unten) und wird Ihnen zu Ihrem persönlichen Gebrauch unter den folgenden Nutzungsbedingungen (im Folgenden als „Bedingungen“ bezeichnet) zur Verfügung gestellt.\n        </p>\n      </section>\n      <section>\n        <h2>Zweck der Website</h2>\n        <p>\n          Unsere Website bietet Informationen über Ferienwohnungen, die zur Miete stehen, einschließlich ihrer Preise und Verfügbarkeit. Diese Website bietet auch Links zu anderen Websites, die für Sie von Interesse sein können.\n        </p>\n        <h2>Nutzung der Website</h2>\n        <p>\n          Sie dürfen die Website nur für rechtmäßige Zwecke und in Übereinstimmung mit den Bedingungen nutzen. Sie stimmen zu, die Website nicht zu nutzen:\n        </p>\n        <ul>\n          <li>Auf irgendeine Weise, die gegen geltende Bundes-, Landes-, lokale oder internationale Gesetze oder Bestimmungen verstößt.</li>\n          <li>Zum Zweck der Ausbeutung, Schädigung oder Versuch der Ausbeutung oder Schädigung von Minderjährigen auf irgendeine Weise, indem sie ihnen unangemessene Inhalte vorstellen, nach persönlichen identifizierbaren Informationen fragen oder auf andere Weise.</li>\n          <li>Zur Übertragung oder Erhalt der Übertragung jeglicher Werbung oder sonstiger Werbematerialien, einschließlich jeglicher „Werbung“, „Kettenbriefe“, „Spam“ oder jegliche andere ähnliche Anfragen.</li>\n          <li>Zur Imitation oder zum Versuch der Imitation einer anderen Person oder einer anderen Einheit.</li>\n        </ul>\n        <h2>Haftungsausschluss</h2>\n        <p>\n          Unsere Website wird „wie sie ist“ und „wie verfügbar“ ohne jegliche Gewährleistung jeglicher Art, ausdrücklich oder stillschweigend, einschließlich, aber nicht beschränkt auf die stillschweigenden Gewährleistungen der Marktgängigkeit, Eignung für einen bestimmten Zweck und Nichtverletzung bereitgestellt.\n        </p>\n        <h2>Haftungsbeschränkung</h2>\n        <p>\n          In keinem Fall haften wir für Schäden, die aus der Nutzung der Website entstehen, einschließlich, aber nicht beschränkt auf indirekte, zufällige, besondere, strafrechtliche oder Folgeschäden, Gewinnverluste oder Daten oder Verlust des guten Willens.\n        </p>\n        <h2>Externe Links</h2>\n        <p>\n          Unsere Website kann Links zu Websites oder Diensten Dritter enthalten, die nicht von uns besessen oder kontrolliert werden. Wir haben keine Kontrolle über und übernehmen keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder die Praktiken von Websites oder Diensten Dritter. Sie bestätigen und erklären sich damit einverstanden, dass wir nicht verantwortlich oder haftbar sind, direkt oder indirekt, für jeglichen Schaden oder Verlust, der durch oder im Zusammenhang mit der Nutzung oder dem Vertrauen auf solche Inhalte, Waren oder Dienstleistungen, die auf oder über solche Websites oder Dienste verfügbar sind, entstanden ist oder angeblich entstanden ist.\n        </p>\n        <h2>Änderungen der Bedingungen</h2>\n        <p>\n          Wir behalten uns das Recht vor, diese Bedingungen jederzeit ohne vorherige Ankündigung zu ändern. Ihre fortgesetzte Nutzung der Website nach solchen Änderungen stellt Ihre Annahme der neuen Bedingungen dar.\n        </p>\n        <h2>Geltendes Recht</h2>\n        <p>\n          Diese Bedingungen unterliegen und werden in Übereinstimmung mit den Gesetzen des Staates ausgelegt, in dem der Eigentümer der Wohnungen seinen Hauptwohnsitz hat, unter Ausschluss der Kollisionsnormen.\n        </p>\n      </section>\n      <h1>Hinweis zu Open-Source-Software</h1>\n      <section>\n        <p>\n          Unsere Website nutzt verschiedene Open-Source-Softwarelösungen, die unter den MIT- oder Apache-Lizenzen veröffentlicht werden. Durch die Verwendung dieser Lösungen können wir unsere Dienste effizient und zuverlässig bereitstellen.\n        </p>\n        <p>\n          Wir möchten diese Gelegenheit nutzen, um allen Entwicklern, die an diesen Projekten beteiligt sind und sie verfügbar machen, unseren Dank auszusprechen.\n        </p>\n        <p>\n          Die ursprünglichen Lizenzbedingungen für die verwendete Software finden Sie unter den folgenden Links:\n        </p>\n        <ul>\n          <li>MIT-Lizenz: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></li>\n          <li>Apache-Lizenz: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></li>\n        </ul>\n        <p>\n          Bitte beachten Sie, dass diese Lizenzbedingungen Teil der Nutzungsbedingungen für unsere Website sind und eingehalten werden müssen, um unsere Dienste nutzen zu können.\n        </p>\n        <p>\n          Diese Seite verwendet hauptsächlich <a href=\"https://kit.svelte.dev/\" rel=\"noreferrer noopener\" target=\"_blank\">SvelteKit</a>. Eine vollständige Liste der verwendeten Open-Source-Bibliotheken und -Frameworks erhalten Sie bei den <a href=\"mailto:dirk@accoma.de\">Entwicklern</a>.\n        </p>\n      </section>\n      <h1>3rd Party Services</h1>\n      <section>\n        <p>\n          Diese Website wird mit oder macht direkten Gebrauch von Cloud-Diensten, die von den folgenden Unternehmen bereitgestellt werden (in keiner bestimmten Reihenfolge). Durch die Verwendung dieser Website können Sie bestimmte Nutzungsinformationen an diese Unternehmen weitergeben. Wir haben keine Kontrolle darüber und können weder direkt noch indirekt für Schäden oder Verluste haftbar gemacht werden, die durch diese Weitergabe verursacht oder angeblich verursacht wurden:\n        </p>\n        <ul>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://vercel.com/\">Vercel</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://render.com/\">Render</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.twicpics.com/\">TwicPics</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://supabase.com/\">Supabase</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gemini.google.com/\">Google Gemini</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/\">Github</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gitlab.com/\">Gitlab</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.openstreetmap.org/\">Open Street Map</a>\n          </li>\n        </ul>\n      </section>\n      <h1>Weitere Fragen</h1>\n      <section>\n        <p>\n          Wenn Sie Fragen zu diesen Nutzungsbedingungen oder unseren Dienstleistungen haben, kontaktieren Sie uns bitte.\n        </p>\n      </section>",
+					"footer-html": "\n      <p><strong>Kontakt:</strong><br>\n        Dirk Porsche<br>\n        Sollbrüggenstr. 14<br>\n        <br>\n        47800 Krefeld - Germany<br>\n        Telefon: <br>\n        \n        E-Mail: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n      </p>",
+					"title": "Willkommen in Ihrem Urlaub",
+					"usedom": "Usedom",
+					"weatherHeader1": "Usedom",
+					"weatherHeader2": "Wetter",
+					"headerTitle": "Ferienunterkünfte",
+					"headerSlug": "Entspannung und Sonnenschein",
+					"landing_town_html": "",
+					"home": "Home",
+					"town": "Ort",
+					"location": "Ort",
+					"accommodations": "Ferienwohnungen",
+					"lang": "Sprache",
+					"imprint": "Impressum",
+					"terms": "AGB",
+					"acco_default_alt": "Foto dis Mietobjekts",
+					"acco_card_slug": "Weitere Informationen finden Sie auf der Seite dieses Mietobjekts.",
+					"missing_cal_url": "unbekannt",
+					"de": "Deutsch",
+					"en": "English",
+					"pl": "Polski",
+					"es": "Español",
+					"fr": "Français",
+					"impressions": "Einige Eindrücke",
+					"directions": "Anfahrt",
+					"weather": "Wetter",
+					"calendarHeader": "Buchungsplan",
+					"pricing": "Termine und Preise",
+					"adults": "Erwachsene",
+					"shortPriceLabel": "Preisspanne",
+					"availability": "Verfügbarkeit",
+					"globalPricing": "Allgemeine Preise",
+					"globalNightlyRate": "Pro Nacht",
+					"globalMinimumStay": "Mindestaufenthalt",
+					"globalPeopleCount": "Anzahl der Gäste",
+					"globalAdditionalPerson": "Zusätzlicher Gast",
+					"from": "Von",
+					"to": "Bis",
+					"timeRange": "Bereich",
+					"firstNight": "Erste Nacht",
+					"eachNight": "Jede weitere Nacht",
+					"peopleNum": "Anzahl der Gäste",
+					"extraPerson": "Zus. Gast",
+					"minNumNights": "Min. Aufenthalt"
+				}
+			},
+			"pl": {
+				"calendar": {
+					"weekdayLabels": {
+						"1": "Pon",
+						"2": "Wt",
+						"3": "Śr",
+						"4": "Czw",
+						"5": "Pt",
+						"6": "Sob",
+						"7": "Ndz"
+					},
+					"monthLabels": {
+						"1": "Sty",
+						"2": "Lut",
+						"3": "Mar",
+						"4": "Kwi",
+						"5": "Maj",
+						"6": "Cze",
+						"7": "Lip",
+						"8": "Sie",
+						"9": "Wrz",
+						"10": "Paź",
+						"11": "Lis",
+						"12": "Gru"
+					},
+					"weekendLabel": "Weekend",
+					"typeLabels": {
+						"one": "Zajęty",
+						"two": "Zajęty",
+						"three": ""
+					}
+				},
+				"cookies": {
+					"heading": "Ta strona używa ciasteczek",
+					"description": "Używamy ciasteczek, aby dostosować treści i reklamy, zapewnić funkcje mediów społecznościowych i analizować nasz ruch. Udostępniamy również informacje o Twoim korzystaniu z naszej strony partnerom mediów społecznościowych, reklamowym i analitycznym, którzy mogą je połączyć z innymi informacjami, które im dostarczyłeś lub które zebrali w wyniku korzystania z ich usług.",
+					"acceptLabel": "Akceptuj wszystkie ciasteczka",
+					"rejectLabel": "Tylko niezbędne ciasteczka",
+					"settingsLabel": "Ustawienia ciasteczek",
+					"closeLabel": "Zapisz i zamknij ustawienia",
+					"editLabel": "Edytuj ustawienia ciasteczek",
+					"cookieDescriptions": {
+						"necessary": "Niezbędne ciasteczka pomagają w użyteczności strony internetowej, umożliwiając podstawowe funkcje, takie jak nawigacja po stronie i dostęp do bezpiecznych obszarów witryny. Strona internetowa nie może prawidłowo działać bez tych ciasteczek.",
+						"preferences": "Ciasteczka preferencji umożliwiają witrynie internetowej zapamiętywanie informacji, które zmieniają sposób, w jaki witryna działa lub wygląda, takie jak preferowany język lub region, w którym się znajdujesz.",
+						"analytics": "Ciasteczka analityczne pomagają właścicielom witryn internetowych zrozumieć, w jaki sposób odwiedzający interagują z witrynami, gromadząc i raportując informacje w sposób anonimowy.",
+						"marketing": "Ciasteczka marketingowe służą do śledzenia odwiedzających w witrynach internetowych. Celem jest wyświetlanie reklam odpowiednich i angażujących dla indywidualnego użytkownika, a tym samym bardziej wartościowych dla wydawców i reklamodawców zewnętrznych."
+					},
+					"cookieLabels": {
+						"necessary": "Niezbędne ciasteczka",
+						"preferences": "Ciasteczka preferencji",
+						"analytics": "Ciasteczka analityczne",
+						"marketing": "Ciasteczka marketingowe"
+					}
+				},
+				"site": {
+					"hero-title": "",
+					"imprint-header": "Informacje o wydawcy",
+					"imprint-content": "\n      <h1>Informacje o wydawcy</h1>\n      <section class=\"contact\">\n        <h2>Odpowiedzialny za treść</h2>\n        <strong>Dirk Porsche</strong>\n        <br>\n        <p>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany <br>\n          Telefon: <br>\n          \n          E-Mail: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>\n      <section>\n        <h2>Oświadczenie</h2>\n        <p>\n          Pomimo starannej kontroli treści, Dirk Porsche (operator strony) nie ponosi odpowiedzialności za treść linków zewnętrznych. Zawartość stron powiązanych jest wyłączną odpowiedzialnością ich operatorów.\n        </p>\n      </section>\n      <section>\n        <h2>Informacja o prawach autorskich</h2>\n        <p>\n          Zawartość i prace stworzone przez operatora strony na tych stronach podlegają niemieckiemu prawu autorskiemu. Reprodukcja, przetwarzanie, dystrybucja i wszelkiego rodzaju wykorzystanie poza granicami prawa autorskiego wymagają pisemnej zgody odpowiedniego autora lub twórcy. Pobieranie i kopiowanie tych stron jest dozwolone wyłącznie do użytku prywatnego i niekomercyjnego.\n        </p>\n        <p>\n          Jeśli treści na tej stronie nie zostały stworzone przez operatora, szanowane są prawa autorskie stron trzecich. W szczególności treści stron trzecich są oznaczone jako takie. Jeśli jednak zostaniesz świadomy naruszenia praw autorskich, poinformuj nas o tym. Jeśli stanie się nam znanym jakiekolwiek naruszenia, natychmiast usuniemy taką zawartość.\n        </p>\n        <p>\n          Wszystkie zdjęcia użyte na tej stronie internetowej są własnością odpowiednich artystów i chronione są przez międzynarodowe prawa autorskie. Zdjęcia nie mogą być używane, kopiowane, reprodukowane, manipulowane ani rozpowszechniane w żaden sposób bez wcześniejszej pisemnej zgody artysty.\n        </p>\n        <p>\n          Zdjęcia stworzone przez artystów stron trzecich są własnością ich odpowiednich właścicieli i są używane na tej stronie internetowej za zgodą. Użycie tych zdjęć nie oznacza poparcia operatora strony przez fotografów lub właścicieli zdjęć. Zdjęcia należące do stron trzecich są oznaczone jako takie.\n        </p>\n        <p>\n          Zdjęcia nieoznaczone są stworzone lub własnością operatora strony, są wyłączną własnością operatora strony i są chronione przez międzynarodowe prawa autorskie.\n        </p>\n        <p>\n          Jeśli chcesz wynająć lub kupić prawa do któregokolwiek z wyświetlanych na tej stronie internetowej zdjęć, skontaktuj się bezpośrednio z odpowiednimi artystami.\n        </p>\n        <p>\n          Chcielibyśmy wyrazić naszą wdzięczność utalentowanym fotografom, którzy pozwolili nam prezentować ich prace na naszej stronie internetowej. Ich wkład jest bardzo ceniony.\n        </p>\n      </section>\n      <section>\n        <h2>Europejska platforma rozstrzygania sporów online (ODR)</h2>\n        <p>\n          Komisja Europejska zapewnia platformę internetową do rozstrzygania sporów, która może zostać znaleziona pod adresem <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a>.\n        </p>\n        <p>\n          Należy pamiętać, że operator strony nie uczestniczy w procesie Europejskiego Rozstrzygania Sporów Online (ODR) i nie jest do tego zobowiązany. W związku z tym nie możemy ponosić odpowiedzialności za spory wynikające z naszych produktów lub usług.\n        </p>\n        <p>\n          Zachęcamy wszystkich klientów do bezpośredniego kontaktu z nami w przypadku wystąpienia sporu. Jesteśmy zobowiązani do znalezienia uczciwego i wzajemnie akceptowalnego rozwiązania dla wszelkich problemów, które mogą wystąpić.\n        </p>\n        <p>\n          Jeśli masz jakiekolwiek pytania lub wątpliwości, prosimy o kontakt z nami pod adresem:\n        </p>\n        <p>\n          <strong>Dirk Porsche</strong><br>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany<br>\n          Telefon: <br>\n          E-Mail <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>",
+					"tos-header": "Warunki i zasady",
+					"tos-content": "\n      <h1>Warunki i zasady - Wynajem</h1>\n      <section>\n        <h2>Wprowadzenie</h2>\n        <p>\n          Witamy na naszej stronie internetowej wynajmu wakacyjnego (zwanej dalej „Stroną internetową”), gdzie możesz znaleźć i zarezerwować zakwaterowanie na swoje następne wakacje. Korzystając z naszych usług, zgadzasz się być związanym tymi warunkami i zasadami, które regulują Twoje korzystanie z naszej strony i usług, które świadczymy.\n        </p>\n      </section>\n      <section>\n        <h2>Rezerwacja i płatność</h2>\n        <p>\n          Aby dokonać rezerwacji, skontaktuj się z nami drogą mailową lub telefonicznie.\n        </p>\n      </section>\n      <section>\n        <h2>Anulowanie i zwroty</h2>\n        <p>\n          Możesz anulować rezerwację bez opłaty anulacyjnej w dowolnym momencie do 60 dni przed datą przyjazdu. Jeśli anulujesz w tym czasie, zwrócimy wszelkie dokonane wpłaty. Jeśli anulujesz po tym czasie, obciążymy Cię 60% całkowitych kosztów rezerwacji.\n        </p>\n        <h2>Przyjazd i wyjazd</h2>\n        <p>\n          Twoje zakwaterowanie będzie dostępne do zameldowania od godziny 14:00 w dniu przyjazdu, a należy je opuścić do godziny 10:00 w dniu wyjazdu. Możliwe jest ustalenie późniejszego wymeldowania i wcześniejszego zameldowania, w zależności od dostępności i opłaty.\n        </p>\n        <h2>Uszkodzenia i utrata</h2>\n        <p>\n          Jesteś odpowiedzialny za wszelkie uszkodzenia lub utraty spowodowane w zakwaterowaniu lub jego zawartości podczas Twojego pobytu. Będziesz odpowiedzialny za koszty naprawy lub wymiany takich uszkodzeń lub utrat.\n        </p>\n        <h2>Odpowiedzialność</h2>\n        <p>\n          Nie ponosimy odpowiedzialności za jakiekolwiek szkody lub straty poniesione przez Ciebie w wyniku korzystania z naszych usług, z wyjątkiem wymaganym przez prawo.\n        </p>\n        <h2>Zmiany w warunkach i zasadach</h2>\n        <p>\n          Zastrzegamy sobie prawo do zmiany tych warunków i zasad w dowolnym momencie. Twoje kontynuowanie korzystania z naszych usług po wprowadzeniu jakichkolwiek zmian stanowi Twoją akceptację nowych warunków i zasad.\n        </p>\n      </section>\n      <h1>Polityka prywatności</h1>\n      <section>\n        <h2>Wprowadzenie</h2>\n        <p>\n          Szanujemy Twoją prywatność i jesteśmy zobowiązani do ochrony Twoich danych osobowych. Niniejsza polityka prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy i ujawniamy Twoje dane osobowe.\n        </p>\n        <h2>Zbieranie informacji</h2>\n        <p>\n          Zbieramy dane osobowe, takie jak Twoje imię, adres, adres e-mail i numer telefonu, gdy składasz zamówienie lub rejestrujesz się w innych usługach, które oferujemy, takich jak nasz biuletyn. Zbieramy również informacje o Twoim zamówieniu, w tym o przyjeździe i wyjeździe, specjalnych wymaganiach (np. alergiach lub podobnych) oraz informacjach o płatności.\n        </p>\n        <h2>Wykorzystanie informacji</h2>\n        <p>\n          Wykorzystujemy Twoje dane osobowe do przetwarzania Twojego zamówienia, Twojego zamówienia, do komunikacji z Tobą i dostarczania Ci aktualizacji dotyczących naszych usług i promocji. Wykorzystujemy również Twoje dane anonimowe do celów wewnętrznych, takich jak badania i analiza.\n        </p>\n        <p>\n          Podczas Twojego pobytu będziemy zbierać Twoją pisemną zgodę na to, jeśli będziesz skłonny to zrobić.\n        </p>\n        <h2>Ujawnienie informacji</h2>\n        <p>\n          Nie ujawniamy Twoich danych osobowych osobom trzecim, chyba że wymaga tego prawo lub w celu przetwarzania Twojego zamówienia.\n        </p>\n        <h2>Bezpieczeństwo danych</h2>\n        <p>\n          Podejmujemy odpowiednie środki w celu ochrony Twoich danych osobowych przed nieupoważnionym dostępem, wykorzystaniem lub ujawnieniem.\n        </p>\n        <h2>Zmiany w polityce prywatności</h2>\n        <p>\n          Zastrzegamy sobie prawo do zmiany niniejszej polityki prywatności w dowolnym momencie. Twoje kontynuowanie korzystania z naszej witryny po wprowadzeniu jakichkolwiek takich zmian stanowi Twoje przyjęcie nowej polityki prywatności.\n        </p>\n      </section>\n      <h1>Warunki i zasady - Strona internetowa</h1>\n      <section>\n        <p>\n          Niniejsza strona internetowa jest prowadzona przez nas, korzysta z usług stron trzecich (patrz poniżej) i jest dostarczana do Państwa użytku osobistego zgodnie z następującymi Warunkami świadczenia usług (zwanymi dalej „Warunkami”).\n        </p>\n      </section>\n      <section>\n        <h2>Cel strony internetowej</h2>\n        <p>\n          Nasza strona internetowa zawiera informacje na temat apartamentów wakacyjnych dostępnych do wynajęcia, w tym ich cen i dostępności. Ta strona internetowa zawiera również linki do innych stron internetowych, które mogą być dla Państwa interesujące.\n        </p>\n        <h2>Używanie strony internetowej</h2>\n        <p>\n          Możesz korzystać z witryny tylko w celach zgodnych z prawem i zgodnie z Warunkami. Zgadzasz się nie używać witryny:\n        </p>\n        <ul>\n          <li>W jakikolwiek sposób naruszający jakiekolwiek obowiązujące federalne, stanowe, lokalne lub międzynarodowe prawo lub przepisy.</li>\n          <li>W celu wykorzystywania, szkodzenia lub próby wykorzystywania lub szkodzenia nieletnim w jakikolwiek sposób, poprzez ujawnianie im nieodpowiedniej zawartości, proszenie o osobowe dane lub w inny sposób.</li>\n          <li>Do przesyłania lub uzyskiwania wysyłania jakiejkolwiek reklamy lub materiałów promocyjnych, w tym jakichkolwiek „listów śmieciowych”, „łańcuchów listów”, „spamu” lub jakichkolwiek innych podobnych zachęt.</li>\n          <li>Do podszywania się lub próby podszywania się do innej osoby lub podmiotu.</li>\n        </ul>\n        <h2>Zrzeczenie się gwarancji</h2>\n        <p>\n          Nasza strona internetowa jest dostarczana „tak jak jest” i „tak jak jest dostępna” bez jakiejkolwiek gwarancji jakiejkolwiek rodzaju, wyrażonej lub dorozumianej, w tym, ale nie ograniczając się do gwarancji przydatności do określonego celu i braku naruszenia.\n        </p>\n        <h2>Ograniczenie odpowiedzialności</h2>\n        <p>\n          W żadnym wypadku nie będziemy odpowiedzialni za jakiekolwiek szkody wynikające z korzystania z witryny, w tym, ale nie ograniczając się do pośrednich, przypadkowych, specjalnych, karnych lub wynikowych szkód, utraty zysków lub danych lub utraty dobrego imienia.\n        </p>\n        <h2>Linki zewnętrzne</h2>\n        <p>\n          Nasza strona internetowa może zawierać linki do stron internetowych lub usług stron trzecich, które nie są własnością ani nie są kontrolowane przez nas. Nie mamy żadnej kontroli ani nie ponosimy odpowiedzialności za treść, polityki prywatności ani praktyki jakichkolwiek stron internetowych lub usług stron trzecich. Przyznajesz i zgadzasz się, że nie będziemy odpowiedzialni ani odpowiedzialni, bezpośrednio lub pośrednio, za jakiekolwiek szkody lub straty spowodowane lub przypisywane użyciu lub zależności od jakiejkolwiek takiej zawartości, towarów lub usług dostępnych lub dostępnych poprzez takie strony internetowe lub usługi.\n        </p>\n        <h2>Zmiany w Warunkach</h2>\n        <p>\n          Zastrzegamy sobie prawo do modyfikowania tych Warunków w dowolnym momencie bez uprzedniego powiadomienia. Kontynuowanie korzystania z witryny po wprowadzeniu jakichkolwiek takich zmian stanowi Twoją akceptację nowych Warunków.\n        </p>\n        <h2>Prawo właściwe</h2>\n        <p>\n          Niniejsze Warunki podlegają i będą interpretowane zgodnie z prawem państwa, w którym właściciel apartamentu ma swoje główne miejsce zamieszkania, bez uwzględnienia jakichkolwiek zasad konfliktu prawa.\n        </p>\n      </section>\n      <h1>Powiadomienie o oprogramowaniu o otwartym kodzie źródłowym</h1>\n      <section>\n        <p>\n          Nasza strona internetowa wykorzystuje różne rozwiązania oprogramowania o otwartym kodzie źródłowym, które są udostępniane na licencji MIT lub Apache. Korzystanie z tych rozwiązań pozwala nam świadczyć nasze usługi w sposób efektywny i niezawodny.\n        </p>\n        <p>\n          Chcielibyśmy wykorzystać tę okazję, aby wyrazić naszą wdzięczność wszystkim programistom, którzy uczestniczą w tych projektach i udost����pniają je.\n        </p>\n        <p>\n          Oryginalne warunki licencji dla używanego oprogramowania można znaleźć pod następującymi linkami:\n        </p>\n        <ul>\n          <li>Licencja MIT: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></li>\n          <li>Licencja Apache: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></li>\n        </ul>\n        <p>\n          Należy pamiętać, że te warunki licencji są częścią warunków korzystania z naszej strony internetowej i muszą być przestrzegane, aby korzystać z naszych usług.\n        </p>\n        <p>\n          Ta strona wykorzystuje głównie <a href=\"https://kit.svelte.dev/\" rel=\"noreferrer noopener\" target=\"_blank\">SvelteKit</a>. Aby uzyskać pełną listę bibliotek i frameworków o otwartym kodzie źródłowym, skontaktuj się z <a href=\"mailto:dirk@accoma.de\">programistami</a>.\n        </p>\n      </section>\n      <h1>Usługi stron trzecich</h1>\n      <section>\n        <p>\n          Ta strona internetowa jest wykonana lub bezpośrednio wykorzystuje usługi w chmurze świadczone przez następujące firmy (bez kolejności). Korzystając z tej strony internetowej możesz ujawnić określone informacje o użytkowaniu tym firmom. Nie mamy kontroli i nie możemy być pociągani do odpowiedzialności, bezpośrednio lub pośrednio, za jakiekolwiek szkody lub straty spowodowane lub przypisywane temu ujawnieniu:\n        </p>\n        <ul>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://vercel.com/\">Vercel</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://render.com/\">Render</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.twicpics.com/\">TwicPics</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://supabase.com/\">Supabase</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://openai.com/\">OpenAI</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/\">Github</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gitlab.com/\">Gitlab</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.openstreetmap.org/\">Open Street Map</a>\n          </li>\n        </ul>\n      </section>\n      <h1>Dalsze pytania</h1>\n      <section>\n        <p>\n          Jeśli masz jakieś pytania dotyczące tych Warunków lub naszych usług, skontaktuj się z nami.\n        </p>\n      </section>",
+					"footer-html": "\n      <p><strong>Kontakt:</strong><br>\n        Dirk Porsche<br>\n        Sollbrüggenstr. 14<br>\n        <br>\n        47800 Krefeld - Germany<br>\n        Telefon: <br>\n        \n        E-mail: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n      </p>",
+					"title": "Witamy na wakacjach!",
+					"usedom": "Usedom",
+					"weatherHeader1": "Usedom",
+					"weatherHeader2": "Pogoda",
+					"headerTitle": "Zakwaterowanie wakacyjne",
+					"headerSlug": "Zrelaksuj się i ciesz się słońcem.",
+					"landing_town_html": "",
+					"home": "Strona główna",
+					"town": "Miasto",
+					"location": "Lokalizacja",
+					"accommodations": "Apartamenty",
+					"lang": "Język",
+					"imprint": "Odbitka",
+					"terms": "Warunki",
+					"acco_default_alt": "Zdjęcie zakwaterowania",
+					"acco_card_slug": "Aby uzyskać szczegółowe informacje, odwiedź stronę tego zakwaterowania.",
+					"missing_cal_url": "nieznany",
+					"de": "Deutsch",
+					"en": "English",
+					"pl": "Polski",
+					"es": "Español",
+					"fr": "Français",
+					"impressions": "Niektóre wrażenia",
+					"directions": "Kierunki",
+					"weather": "Pogoda",
+					"calendarHeader": "Plan rezerwacji",
+					"pricing": "Daty i ceny",
+					"adults": "Dorośli",
+					"shortPriceLabel": "Zakres cenowy",
+					"availability": "Dostępność",
+					"globalPricing": "Ceny ogólne",
+					"globalNightlyRate": "Za noc",
+					"globalMinimumStay": "Minimalna liczba nocy",
+					"globalPeopleCount": "Liczba gości",
+					"globalAdditionalPerson": "Dodatkowy gość",
+					"from": "Od",
+					"to": "Do",
+					"timeRange": "Zakres",
+					"firstNight": "Pierwsza noc",
+					"eachNight": "Każda kolejna noc",
+					"peopleNum": "Liczba gości",
+					"extraPerson": "Dodatkowy gość",
+					"minNumNights": "Min. pobyt"
+				}
+			},
+			"fr": {
+				"calendar": {
+					"weekdayLabels": {
+						"1": "Lu",
+						"2": "Ma",
+						"3": "Me",
+						"4": "Je",
+						"5": "Ve",
+						"6": "Sa",
+						"7": "Di"
+					},
+					"monthLabels": {
+						"1": "Jan",
+						"2": "Fév",
+						"3": "Mar",
+						"4": "Avr",
+						"5": "Mai",
+						"6": "Juin",
+						"7": "Juil",
+						"8": "Août",
+						"9": "Sept",
+						"10": "Oct",
+						"11": "Nov",
+						"12": "Déc"
+					},
+					"weekendLabel": "Week-end",
+					"typeLabels": {
+						"one": "Occupé",
+						"two": "Occupé",
+						"three": ""
+					}
+				},
+				"cookies": {
+					"heading": "Ce site utilise des cookies",
+					"description": "Nous utilisons des cookies pour personnaliser le contenu et les annonces, fournir des fonctionnalités relatives aux médias sociaux et analyser notre trafic. Nous partageons également des informations sur votre utilisation de notre site avec nos partenaires de médias sociaux, publicitaires et d'analyse, qui peuvent les combiner avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services.",
+					"acceptLabel": "Accepter tous les cookies",
+					"rejectLabel": "Seuls les cookies nécessaires",
+					"settingsLabel": "Paramètres de cookie",
+					"closeLabel": "Enregistrer et fermer les paramètres",
+					"editLabel": "Modifier les paramètres de cookie",
+					"cookieDescriptions": {
+						"necessary": "Les cookies nécessaires permettent à un site Web d'être utilisable en activant des fonctions de base telles que la navigation de page et l'accès aux zones sécurisées du site Web. Le site Web ne peut pas fonctionner correctement sans ces cookies.",
+						"preferences": "Les cookies de préférence permettent à un site Web de se souvenir des informations qui modifient le comportement ou l'apparence du site Web, comme votre langue préférée ou la région dans laquelle vous vous trouvez.",
+						"analytics": "Les cookies d'analyse aident les propriétaires de sites Web à comprendre comment les visiteurs interagissent avec les sites Web en collectant et en signalant des informations de manière anonyme.",
+						"marketing": "Les cookies publicitaires sont utilisés pour suivre les visiteurs sur les sites Web. L'intention est d'afficher des annonces pertinentes et engageantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et les annonceurs tiers."
+					},
+					"cookieLabels": {
+						"necessary": "Cookies nécessaires",
+						"preferences": "Cookies de préférence",
+						"analytics": "Cookies d'analyse",
+						"marketing": "Cookies publicitaires"
+					}
+				},
+				"site": {
+					"hero-title": "",
+					"imprint-header": "Mentions légales",
+					"imprint-content": "\n      <h1>Mentions légales</h1>\n      <section class=\"contact\">\n        <h2>Responsable du contenu</h2>\n        <p>\n        <strong>Dirk Porsche</strong>\n        </p>\n        <p>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany <br>\n          Téléphone: <br>\n          \n          E-Mail: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>\n      <section>\n        <h2>Avertissement</h2>\n        <p>\n          Malgré un contrôle minutieux du contenu, Dirk Porsche (l'exploitant du site) n'assume aucune responsabilité quant au contenu des liens externes. Le contenu des pages liées est de la seule responsabilité de leurs exploitants.\n        </p>\n      </section>\n      <section>\n        <h2>Avis de droit d'auteur</h2>\n        <p>\n          Le contenu et les œuvres créés par l'exploitant du site sur ces pages sont soumis au droit d'auteur allemand. La reproduction, le traitement, la distribution et toute forme d'exploitation en dehors des limites du droit d'auteur nécessitent le consentement écrit de l'auteur ou du créateur respectif. Les téléchargements et les copies de ces pages sont autorisés uniquement à des fins privées et non commerciales.\n        </p>\n        <p>\n          Dans la mesure où les contenus de ce site n'ont pas été créés par l'exploitant, les droits d'auteur de tiers sont respectés. En particulier, les contenus de tiers sont marqués comme tels. Si vous deviez malgré tout prendre connaissance d'une violation du droit d'auteur, veuillez nous en informer. Si nous prenons connaissance de violations, nous supprimerons immédiatement les contenus correspondants.\n        </p>\n        <p>\n          Toutes les photographies utilisées sur ce site sont la propriété de leurs artistes respectifs et sont protégées par les lois internationales sur le droit d'auteur. Les photographies ne peuvent pas être utilisées, copiées, reproduites, manipulées ou distribuées de quelque manière que ce soit sans l'autorisation écrite préalable de l'artiste.\n        </p>\n        <p>\n          Les photographies créées par des tiers sont la propriété de leurs propriétaires respectifs et sont utilisées sur ce site avec la permission. L'utilisation de ces photographies n'implique pas l'approbation de l'exploitant du site par les photographes ou les propriétaires des photographies. Les photographies appartenant à des tiers sont étiquetées en tant que telles.\n        </p>\n        <p>\n          Les photographies non étiquetées sont créées ou appartiennent à l'exploitant du site, sont la propriété exclusive de l'exploitant du site et sont protégées par les lois internationales sur le droit d'auteur.\n        </p>\n        <p>\n          Si vous souhaitez obtenir une licence ou acheter les droits sur l'une des photographies affichées sur ce site, veuillez contacter directement les artistes respectifs.\n        </p>\n        <p>\n          Nous tenons à exprimer notre gratitude aux talentueux photographes qui nous ont permis de présenter leur travail sur notre site Web. Nous apprécions grandement leurs contributions.\n        </p>\n      </section>\n      <section>\n        <h2>Résolution des litiges en ligne européenne (ODR)</h2>\n        <p>\n          La Commission européenne fournit une plateforme de résolution des litiges en ligne, accessible à l'adresse <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a>.\n        </p>\n        <p>\n          Veuillez noter que l'exploitant du site ne participe pas au processus de résolution des litiges en ligne européenne (ODR) et n'est pas tenu de le faire. Par conséquent, nous ne pouvons être tenus responsables des litiges découlant de nos produits ou services.\n        </p>\n        <p>\n          Nous encourageons tous les clients à nous contacter directement en cas de litige. Nous nous engageons à trouver une solution équitable et mutuellement acceptable à tout problème qui pourrait survenir.\n        </p>\n        <p>\n          Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter à l'adresse suivante:\n        </p>\n        <p>\n          <strong>Dirk Porsche</strong><br>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany<br>\n          Téléphone: <br>\n          E-Mail <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>\n    ",
+					"tos-header": "Conditions et Termes",
+					"tos-content": "\n      <h1>Conditions et Termes - Locations</h1>\n      <section>\n        <h2>Introduction</h2>\n        <p>\n          Bienvenue sur notre site de location de vacances (ci-après désigné « Site »), où vous pouvez trouver et réserver un hébergement pour votre prochaine escapade. En utilisant nos services, vous acceptez d'être lié par ces conditions générales, qui régissent votre utilisation de notre site et des services que nous fournissons.\n        </p>\n      </section>\n      <section>\n        <h2>Réservation et Paiement</h2>\n        <p>\n          Pour effectuer une réservation, veuillez nous contacter par e-mail ou par téléphone.\n        </p>\n      </section>\n      <section>\n        <h2>Annulation et Remboursements</h2>\n        <p>\n          Vous pouvez annuler votre réservation sans frais d'annulation à tout moment jusqu'à 60 jours avant votre date d'arrivée. Si vous annulez dans ce délai, nous rembourserons tous les paiements déjà effectués. Si vous annulez après ce délai, nous vous facturerons 60% des coûts totaux de réservation.\n        </p>\n        <h2>Arrivée et Départ</h2>\n        <p>\n          Votre hébergement sera disponible pour le check-in à partir de 14h00 le jour de votre arrivée et doit être libéré avant 10h00 le jour de votre départ. Un check-out tardif et un check-in anticipé peuvent être organisés, sous réserve de disponibilité et de frais supplémentaires.\n        </p>\n        <h2>Dommages et Perte</h2>\n        <p>\n          Vous êtes responsable de tout dommage ou perte causé à l'hébergement ou à ses contenus pendant votre séjour. Vous serez responsable du coût de réparation ou de remplacement de tout tel dommage ou perte.\n        </p>\n        <h2>Responsabilité</h2>\n        <p>\n          Nous ne sommes pas responsables des dommages ou pertes subis par vous résultant de votre utilisation de nos services, sauf dans la mesure requise par la loi.\n        </p>\n        <h2>Modifications des Conditions et Termes</h2>\n        <p>\n          Nous nous réservons le droit de modifier ces conditions à tout moment. Votre utilisation continue de nos services après de telles modifications constitue votre acceptation des nouvelles conditions.\n        </p>\n      </section>\n      <h1>Politique de confidentialité</h1>\n      <section>\n        <h2>Introduction</h2>\n        <p>\n          Nous respectons votre vie privée et nous nous engageons à protéger vos informations personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons et divulguons vos informations personnelles.\n        </p>\n        <h2>Collecte d'informations</h2>\n        <p>\n          Nous recueillons des informations personnelles telles que votre nom, adresse, adresse e-mail et numéro de téléphone lorsque vous faites une demande ou une réservation ou lorsque vous vous inscrivez à d'autres services que nous fournissons, comme notre newsletter. Nous recueillons également des informations sur votre réservation, notamment votre arrivée et votre départ, vos exigences spéciales (allergies, etc.) et les informations de paiement.\n        </p>\n        <h2>Utilisation des informations</h2>\n        <p>\n          Nous utilisons vos informations personnelles pour traiter votre demande de réservation, votre réservation, communiquer avec vous et vous fournir des mises à jour sur nos services et promotions. Nous utilisons également vos informations anonymisées à des fins internes, telles que la recherche et l'analyse.\n        </p>\n        <p>\n          Pendant votre séjour, nous recueillerons votre consentement écrit à cet égard si vous êtes disposé à le faire.\n        </p>\n        <h2>Divulgation des informations</h2>\n        <p>\n          Nous ne divulguerons pas vos informations personnelles à des tiers, sauf si la loi l'exige ou dans le but de traiter votre réservation.\n        </p>\n        <h2>Sécurité des données</h2>\n        <p>\n          Nous prenons les mesures appropriées pour protéger vos informations personnelles contre l'accès, l'utilisation ou la divulgation non autorisés.\n        </p>\n        <h2>Modifications de la politique de confidentialité</h2>\n        <p>\n          Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Votre utilisation continue de notre site Web après tout changement constitue votre acceptation de la nouvelle politique de confidentialité.\n        </p>\n      </section>\n      <h1>Conditions générales - Site Web</h1>\n      <section>\n        <p>\n          Ce site Web est exploité par nous, utilise des services tiers (voir ci-dessous) et vous est fourni à des fins personnelles, sous réserve des présentes conditions d'utilisation (ci-après dénommées les « Conditions »).\n        </p>\n      </section>\n      <section>\n        <h2>Objectif du site Web</h2>\n        <p>\n          Notre site Web fournit des informations sur les appartements de vacances disponibles à la location, y compris leurs prix et leur disponibilité. Ce site Web fournit également des liens vers d'autres sites Web qui peuvent vous intéresser.\n        </p>\n        <h2>Utilisation du site Web</h2>\n        <p>\n          Vous pouvez utiliser le site Web uniquement à des fins légales et conformément aux Conditions. Vous acceptez de ne pas utiliser le site Web :\n        </p>\n        <ul>\n          <li>De quelque manière que ce soit qui viole toute loi fédérale, étatique, locale ou internationale applicable.</li>\n          <li>A des fins d'exploitation, de préjudice ou de tentative d'exploitation ou de préjudice des mineurs de quelque manière que ce soit, en les exposant à un contenu inapproprié, en leur demandant des informations personnellement identifiables ou autrement.</li>\n          <li>Pour transmettre ou obtenir l'envoi de toute publicité ou matériel promotionnel, y compris tout « courrier indésirable », « chaîne de lettres », « spam » ou toute autre sollicitation similaire.</li>\n          <li>Pour se faire passer pour ou tenter de se faire passer pour une autre personne ou entité.</li>\n        </ul>\n        <h2>Avis de non-responsabilité des garanties</h2>\n        <p>\n          Notre site Web est fourni « en l'état » et « tel quel » sans aucune garantie de quelque nature que ce soit, expresse ou implicite, y compris, mais sans s'y limiter, les garanties de qualité marchande, d'adéquation à un usage particulier et de non-contrefaçon.\n        </p>\n        <h2>Limitation de responsabilité</h2>\n        <p>\n          Nous ne serons pas responsables des dommages découlant de l'utilisation du site Web, y compris, mais sans s'y limiter, les dommages indirects, accessoires, spéciaux, punitifs ou consécutifs, perte de bénéfices, données ou bonne volonté.\n        </p>\n        <h2>Liens externes</h2>\n        <p>\n          Notre site Web peut contenir des liens vers des sites Web ou des services tiers qui ne sont pas exploités ou contrôlés par nous. Nous n'avons aucun contrôle et n'assumons aucune responsabilité quant au contenu, aux politiques de confidentialité ou aux pratiques de tout site Web ou service tiers. Vous reconnaissez et acceptez que nous ne serons pas responsables ou responsables, directement ou indirectement, de tout dommage ou perte causé ou allégué être causé par ou en relation avec l'utilisation ou la confiance accordée à tout tel contenu, biens ou services disponibles sur ou via tels sites Web ou services.\n        </p>\n        <h2>Modifications des conditions</h2>\n        <p>\n          Nous nous réservons le droit de modifier ces Conditions à tout moment sans préavis. Votre utilisation continue du site Web après tout changement constitue votre acceptation des nouvelles conditions.\n        </p>\n        <h2>Loi applicable</h2>\n        <p>\n          Ces Conditions seront régies et interprétées conformément aux lois de l'état où le propriétaire des appartements a sa résidence principale, sans donner effet à aucun principe de conflit de lois.\n        </p>\n      </section>\n      <h1>Avis sur le logiciel libre</h1>\n      <section>\n        <p>\n          Notre site Web utilise diverses solutions logicielles libres qui sont publiées sous les licences MIT ou Apache. L'utilisation de ces solutions nous permet de fournir nos services efficacement et de manière fiable.\n        </p>\n        <p>\n          Nous souhaitons profiter de cette occasion pour exprimer notre gratitude à tous les développeurs impliqués dans ces projets et qui les rendent disponibles.\n        </p>\n        <p>\n          Les conditions d'utilisation d'origine du logiciel utilisé peuvent être trouvées aux liens suivants:\n        </p>\n        <ul>\n          <li>Licence MIT: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></li>\n          <li>Licence Apache: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></li>\n        </ul>\n        <p>\n          Veuillez noter que ces conditions de licence font partie des conditions d'utilisation de notre site Web et doivent être respectées pour pouvoir utiliser nos services.\n        </p>\n        <p>\n          Ce site utilise principalement <a href=\"https://kit.svelte.dev/\" rel=\"noreferrer noopener\" target=\"_blank\">SvelteKit</a>. Pour obtenir une liste complète des bibliothèques et frameworks libres utilisés, veuillez contacter les <a href=\"mailto:dirk@accoma.de\">développeurs</a>.\n        </p>\n      </section>\n      <h1>Services tiers</h1>\n      <section>\n        <p>\n          Ce site Web est conçu ou utilise directement des services cloud fournis par les sociétés suivantes (dans aucun ordre particulier). En utilisant ce site Web, vous pouvez divulguer certaines informations d'utilisation à ces sociétés. Nous n'avons pas le contrôle et ne pouvons être tenus responsables, directement ou indirectement, de tout dommage ou perte causé ou allégué être causé par cette divulgation:\n        </p>\n        <ul>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://vercel.com/\">Vercel</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://render.com/\">Render</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.twicpics.com/\">TwicPics</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://supabase.com/\">Supabase</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gemini.google.com/\">Google Gemini</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/\">Github</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gitlab.com/\">Gitlab</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.openstreetmap.org/\">Open Street Map</a>\n          </li>\n        </ul>\n      </section>\n      <h1>Questions supplémentaires</h1>\n      <section>\n        <p>\n          Si vous avez des questions concernant ces conditions ou nos services, veuillez nous contacter.\n        </p>\n      </section>",
+					"footer-html": "\n      <p><strong>Contact:</strong><br>\n        Dirk Porsche<br>\n        Sollbrüggenstr. 14<br>\n        <br>\n        47800 Krefeld - Germany<br>\n        Téléphone: <br>\n        \n        Courriel: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n      </p>",
+					"title": "Bienvenue à vos vacances",
+					"usedom": "Usedom",
+					"weatherHeader1": "Usedom",
+					"weatherHeader2": "Météo",
+					"headerTitle": "Hébergements de vacances",
+					"headerSlug": "Détendez-vous et profitez du soleil.",
+					"landing_town_html": "",
+					"home": "Accueil",
+					"town": "Ville",
+					"location": "Emplacement",
+					"accommodations": "Appartements",
+					"lang": "Langue",
+					"imprint": "Impression",
+					"terms": "Conditions",
+					"acco_default_alt": "Photo du logement",
+					"acco_card_slug": "Pour plus de détails, veuillez visiter la page de cet hébergement.",
+					"missing_cal_url": "inconnue",
+					"de": "Deutsch",
+					"en": "English",
+					"pl": "Polski",
+					"es": "Español",
+					"fr": "Français",
+					"impressions": "Quelques impressions",
+					"directions": "Directions",
+					"weather": "Météo",
+					"calendarHeader": "Plan de réservation",
+					"pricing": "Dates et prix",
+					"adults": "Adultes",
+					"shortPriceLabel": "Fourchette de prix",
+					"availability": "Disponibilité",
+					"globalPricing": "Prix communs",
+					"globalNightlyRate": "Par nuit",
+					"globalMinimumStay": "Nombre minimum de nuits",
+					"globalPeopleCount": "Nombre de personnes",
+					"globalAdditionalPerson": "Personne supplémentaire",
+					"from": "De",
+					"to": "À",
+					"timeRange": "Plage",
+					"firstNight": "Première nuit",
+					"eachNight": "Chaque autre nuit",
+					"peopleNum": "Nombre de personnes",
+					"extraPerson": "Personne suppl.",
+					"minNumNights": "Nuit min."
+				}
+			},
+			"es": {
+				"calendar": {
+					"weekdayLabels": {
+						"1": "Lu",
+						"2": "Ma",
+						"3": "Mi",
+						"4": "Ju",
+						"5": "Vi",
+						"6": "Sa",
+						"7": "Do"
+					},
+					"monthLabels": {
+						"1": "Ene",
+						"2": "Feb",
+						"3": "Mar",
+						"4": "Abr",
+						"5": "May",
+						"6": "Jun",
+						"7": "Jul",
+						"8": "Ago",
+						"9": "Sep",
+						"10": "Oct",
+						"11": "Nov",
+						"12": "Dic"
+					},
+					"weekendLabel": "Fin de Semana",
+					"typeLabels": {
+						"one": "Ocupado",
+						"two": "Ocupade",
+						"three": ""
+					}
+				},
+				"cookies": {
+					"heading": "Este sitio usa cookies",
+					"description": "Usamos cookies para personalizar el contenido y los anuncios, para proporcionar funciones de redes sociales y para analizar nuestro tráfico. También compartimos información sobre su uso de nuestro sitio con nuestras redes sociales, publicidad y partners de análisis, que pueden combinarla con otra información que hayan recopilado a partir del uso de sus servicios.",
+					"acceptLabel": "Aceptar todas las cookies",
+					"rejectLabel": "Sólo cookies necesarias",
+					"settingsLabel": "Configuración de cookies",
+					"closeLabel": "Guardar y cerrar configuración",
+					"editLabel": "Editar configuración de cookies",
+					"cookieDescriptions": {
+						"necessary": "Las cookies necesarias ayudan a hacer un sitio web utilizable al habilitar funciones básicas como la navegación de páginas y el acceso a áreas seguras del sitio web. El sitio web no puede funcionar correctamente sin estas cookies.",
+						"preferences": "Las cookies de preferencia permiten que un sitio web recuerde información que cambia la forma en que se comporta o se ve el sitio web, como su idioma preferido o la región en la que se encuentra.",
+						"analytics": "Las cookies de análisis ayudan a los propietarios de sitios web a comprender cómo los visitantes interactúan con los sitios web recopilando y reportando información de forma anónima.",
+						"marketing": "Las cookies de marketing se utilizan para rastrear a los visitantes en los sitios web. La intención es mostrar anuncios relevantes y atractivos para el usuario individual y, por lo tanto, más valiosos para los editores y anunciantes de terceros."
+					},
+					"cookieLabels": {
+						"necessary": "Cookies necesarias",
+						"preferences": "Cookies de preferencia",
+						"analytics": "Cookies de análisis",
+						"marketing": "Cookies de marketing"
+					}
+				},
+				"site": {
+					"hero-title": "",
+					"imprint-header": "Impronta",
+					"imprint-content": "\n      <h1>Impronta</h1>\n      <section class=\"contact\">\n        <h2>Responsable del contenido</h2>\n        <p>\n          <strong>Dirk Porsche</strong>\n        </p>\n        <p>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany <br>\n          Teléfono: <br>\n          \n          Correo electrónico: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>\n      <section>\n        <h2>Descargo de responsabilidad</h2>\n        <p>\n          A pesar del control cuidadoso del contenido, Dirk Porsche (el operador del sitio) no asume ninguna responsabilidad por el contenido de los enlaces externos. El contenido de las páginas vinculadas es responsabilidad exclusiva de sus operadores.\n        </p>\n      </section>\n      <section>\n        <h2>Aviso de derechos de autor</h2>\n        <p>\n          El contenido y las obras creadas por el operador del sitio en estas páginas están sujetos a la ley de derechos de autor alemana. La reproducción, procesamiento, distribución y cualquier tipo de explotación fuera de los límites del derecho de autor requieren el consentimiento por escrito del autor o creador respectivo. Los descargas y copias de estas páginas solo están permitidas para uso privado y no comercial.\n        </p>\n        <p>\n          En la medida en que los contenidos de este sitio no hayan sido creados por el operador, se observan los derechos de autor de terceros. En particular, los contenidos de terceros se marcan como tales. Si aún así se da cuenta de una infracción de derechos de autor, infórmenos de inmediato. Si nos enteramos de cualquier infracción, eliminaremos inmediatamente dicho contenido.\n        </p>\n        <p>\n          Todas las fotografías utilizadas en este sitio web son propiedad de sus respectivos artistas y están protegidas por las leyes internacionales de derechos de autor. Las fotografías no pueden ser utilizadas, copiadas, reproducidas, manipuladas ni distribuidas de ninguna manera sin el permiso previo por escrito del artista.\n        </p>\n        <p>\n          Las fotografías creadas por artistas de terceros son propiedad de sus respectivos dueños y se utilizan en este sitio web con permiso. El uso de estas fotografías no implica el respaldo del operador del sitio por parte de los fotógrafos o los dueños de las fotografías. Las fotografías propiedad de terceros se etiquetan como tales.\n        </p>\n        <p>\n          Las fotografías sin etiqueta son creadas o propiedad del operador del sitio, son la propiedad exclusiva del operador del sitio y están protegidas por las leyes internacionales de derechos de autor.\n        </p>\n        <p>\n          Si desea obtener una licencia o comprar los derechos de cualquiera de las fotografías mostradas en este sitio web, comuníquese directamente con los respectivos artistas.\n        </p>\n        <p>\n          Nos gustaría expresar nuestra gratitud a los talentosos fotógrafos que nos han permitido mostrar su trabajo en nuestro sitio web. Sus contribuciones son muy apreciadas.\n        </p>\n      </section>\n      <section>\n        <h2>Resolución de disputas en línea europea (ODR)</h2>\n        <p>\n          La Comisión Europea proporciona una plataforma en línea para la resolución de disputas, que se puede encontrar en <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"http://ec.europa.eu/odr\">http://ec.europa.eu/odr</a>.\n        </p>\n        <p>\n          Tenga en cuenta que el operador del sitio no participa en el proceso de Resolución de Disputas en Línea Europea (ODR) y no está obligado a hacerlo. Por lo tanto, no podemos ser responsables de ninguna disputa que surja de nuestros productos o servicios.\n        </p>\n        <p>\n          Alentamos a todos los clientes a que nos contacten directamente en caso de disputa. Estamos comprometidos a encontrar una solución justa y mutuamente aceptable a cualquier problema que pueda surgir.\n        </p>\n        <p>\n          Si tiene alguna pregunta o inquietud, no dude en comunicarse con nosotros en:\n        </p>\n        <p>\n          <strong>Dirk Porsche</strong><br>\n          Sollbrüggenstr. 14<br>\n          <br>\n          47800 Krefeld - Germany<br>\n          Teléfono: <br>\n          Correo electrónico <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n        </p>\n      </section>\n    ",
+					"tos-header": "Términos y condiciones",
+					"tos-content": "\n      <h1>Términos y condiciones - Alquileres</h1>\n      <section>\n        <h2>Introducción</h2>\n        <p>\n          Bienvenido a nuestro sitio web de alquiler de vacaciones (en adelante denominado \"Sitio web\"), donde puede encontrar y reservar un alojamiento de vacaciones para su próxima escapada. Al usar nuestros servicios, acepta estar sujeto a estos términos y condiciones, que rigen su uso de nuestro sitio y los servicios que ofrecemos.\n        </p>\n      </section>\n      <section>\n        <h2>Reservas y pagos</h2>\n        <p>\n          Para realizar una reserva, contáctenos por correo electrónico o teléfono.\n        </p>\n      </section>\n      <section>\n        <h2>Cancelación y reembolsos</h2>\n        <p>\n          Puede cancelar su reserva sin cargo de cancelación en cualquier momento hasta 60 días antes de su fecha de llegada. Si cancela dentro de este plazo, le devolveremos cualquier pago ya realizado. Si cancela después de este tiempo, le cobraremos el 60% del costo total de la reserva.\n        </p>\n        <h2>Llegada y salida</h2>\n        <p>\n          Su alojamiento estará disponible para el registro de entrada a partir de las 14:00 del día de su llegada, y debe ser desalojado antes de las 10:00 del día de su salida. El check-out tardío y el check-in temprano pueden ser organizados, sujeto a disponibilidad y una tarifa.\n        </p>\n        <h2>Daños y pérdidas</h2>\n        <p>\n          Usted es responsable de cualquier daño o pérdida causada al alojamiento o sus contenidos durante su estadía. Usted será responsable del costo de reparar o reemplazar cualquier daño o pérdida.\n        </p>\n        <h2>Responsabilidad</h2>\n        <p>\n          No somos responsables de ningún daño o pérdida sufrida por usted como resultado de su uso de nuestros servicios, excepto según lo requerido por la ley.\n        </p>\n        <h2>Cambios en los términos y condiciones</h2>\n        <p>\n          Nos reservamos el derecho de cambiar estos términos y condiciones en cualquier momento. Su uso continuo de nuestros servicios después de cualquier cambio de estos constituye su aceptación de los nuevos términos y condiciones.\n        </p>\n      </section>\n      <h1>Política de Privacidad</h1>\n      <section>\n        <h2>Introducción</h2>\n        <p>\n          Respetamos su privacidad y estamos comprometidos a proteger su información personal. Esta política de privacidad explica cómo recopilamos, usamos y divulgamos su información personal.\n        </p>\n        <h2>Recopilación de información</h2>\n        <p>\n          Recopilamos información personal como su nombre, dirección, correo electrónico y número de teléfono cuando solicita o hace una reserva o cuando se registra para otros servicios que ofrecemos, como nuestro boletín. También recopilamos información sobre su reserva, incluida la llegada y salida, requisitos especiales (por ejemplo, alergias u otros) y información de pago.\n        </p>\n        <h2>Uso de la información</h2>\n        <p>\n          Utilizamos su información personal para procesar su solicitud de reserva, su reserva, para comunicarnos con usted y brindarle actualizaciones sobre nuestros servicios y promociones. También usamos su información anónima para fines internos, como investigación y análisis.\n        </p>\n        <p>\n          Durante su estancia recopilaremos su consentimiento escrito para esto si está inclinado a hacerlo.\n        </p>\n        <h2>Divulgación de información</h2>\n        <p>\n          No divulgaremos su información personal a terceros, excepto cuando así lo exija la ley o con el fin de procesar su reserva.\n        </p>\n        <h2>Seguridad de datos</h2>\n        <p>\n          Tomamos medidas apropiadas para proteger su información personal de acceso no autorizado, uso o divulgación.\n        </p>\n        <h2>Cambios a la Política de Privacidad</h2>\n        <p>\n          Nos reservamos el derecho de cambiar esta política de privacidad en cualquier momento. Su uso continuo de nuestro sitio web después de cualquier cambio de este tipo constituye su aceptación de la nueva política de privacidad.\n        </p>\n      </section>\n      <h1>Términos y condiciones - Sitio web</h1>\n      <section>\n        <p>\n          Este sitio web es operado por nosotros, usa servicios de terceros (ver abajo) y se le proporciona para su uso personal sujeto a los siguientes Términos de Servicio (en adelante denominados \"Términos\").\n        </p>\n      </section>\n      <section>\n        <h2>Propósito del sitio web</h2>\n        <p>\n          Nuestro sitio web proporciona información sobre apartamentos de vacaciones disponibles para alquilar, incluyendo su precio y disponibilidad. Este sitio web también proporciona enlaces a otros sitios web que pueden ser de su interés.\n        </p>\n        <h2>Uso del sitio web</h2>\n        <p>\n          Puede usar el sitio web solo para fines legales y de acuerdo con los Términos. Usted acepta no usar el sitio web:\n        </p>\n        <ul>\n          <li>De ninguna manera que viole cualquier ley o reglamento federal, estatal, local o internacional aplicable.</li>\n          <li>Con el propósito de explotar, dañar o intentar explotar o dañar a los menores de ninguna manera exponiéndolos a contenido inapropiado, pidiendo información de identificación personal o de otra manera.</li>\n          <li>Para transmitir o obtener el envío de cualquier material publicitario o promocional, incluyendo cualquier \"correo no deseado\", \"cadena de correo\", \"spam\" u otra solicitud similar.</li>\n          <li>Para personificar o intentar personificar a otra persona o entidad.</li>\n        </ul>\n        <h2>Descargo de responsabilidad de garantías</h2>\n        <p>\n          Nuestro sitio web se proporciona \"tal cual\" y \"según esté disponible\" sin ningún tipo de garantía, ya sea expresa o implícita, incluyendo pero no limitado a las garantías implícitas de comerciabilidad, aptitud para un propósito particular y no infracción.\n        </p>\n        <h2>Limitación de responsabilidad</h2>\n        <p>\n          En ningún caso nosotros seremos responsables por cualquier daño que surja del uso del sitio web, incluyendo pero no limitado a daños indirectos, incidentales, especiales, punitivos o consecuenciales, pérdida de beneficios, o datos, o pérdida de buena voluntad.\n        </p>\n        <h2>Enlaces externos</h2>\n        <p>\n          Nuestro sitio web puede contener enlaces a sitios web o servicios de terceros que no son propiedad o están controlados por nosotros. No tenemos control sobre y no asumimos ninguna responsabilidad por el contenido, las políticas de privacidad o las prácticas de cualquier sitio web o servicio de terceros. Usted reconoce y acepta que no seremos responsables ni directa ni indirectamente por ningún daño o pérdida causado o presuntamente causado por o en conexión con el uso o la confianza en cualquier contenido, bienes o servicios disponibles en o a través de cualquiera de esos sitios web o servicios.\n        </p>\n        <h2>Cambios en los términos</h2>\n        <p>\n          Nos reservamos el derecho de modificar estos Términos en cualquier momento sin previo aviso. Su uso continuo del sitio web después de cualquier cambio constituye su aceptación de los nuevos Términos.\n        </p>\n        <h2>Ley aplicable</h2>\n        <p>\n          Estos Términos se regirán e interpretarán de acuerdo con las leyes del estado donde el propietario de los apartamentos tenga su residencia principal, sin dar efecto a ningún principio de conflictos de leyes.\n        </p>\n      </section>\n      <h1>Aviso de software de código abierto</h1>\n      <section>\n        <p>\n          Nuestro sitio web hace uso de varias soluciones de software de código abierto que se liberan bajo los licencias MIT o Apache. El uso de estas soluciones nos permite ofrecer nuestros servicios de manera eficiente y fiable.\n        </p>\n        <p>\n          Nos gustaría aprovechar esta oportunidad para extender nuestro agradecimiento a todos los desarrolladores que están involucrados en estos proyectos y los hacen disponibles.\n        </p>\n        <p>\n          Los términos de licencia originales para el software utilizado se pueden encontrar en los siguientes enlaces:\n        </p>\n        <ul>\n          <li>Licencia MIT: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://opensource.org/licenses/MIT\">https://opensource.org/licenses/MIT</a></li>\n          <li>Licencia Apache: <a target=\"_bank\" rel=\"noreferrer noopener\" href=\"https://www.apache.org/licenses/LICENSE-2.0\">https://www.apache.org/licenses/LICENSE-2.0</a></li>\n        </ul>\n        <p>\n          Tenga en cuenta que estos términos de licencia son parte de los términos de uso de nuestro sitio web y deben cumplirse para utilizar nuestros servicios.\n        </p>\n        <p>\n          Este sitio utiliza principalmente <a href=\"https://kit.svelte.dev/\" rel=\"noreferrer noopener\" target=\"_blank\">SvelteKit</a>. Para obtener una lista completa de bibliotecas y marcos de código abierto utilizados, comuníquese con los <a href=\"mailto:dirk@accoma.de\">desarrolladores</a>.\n        </p>\n      </section>\n      <h1>Servicios de terceros</h1>\n      <section>\n        <p>\n          Este sitio web se crea con o hace uso directo de servicios en la nube proporcionados por las siguientes empresas (en ningún orden particular). Al usar este sitio web, es posible que divulgue cierta información de uso a estas empresas. No tenemos control sobre ellos y no podemos ser responsables, directa o indirectamente, por ningún daño o pérdida causada o presuntamente causada por esta divulgación:\n        </p>\n        <ul>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://vercel.com/\">Vercel</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://render.com/\">Render</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.twicpics.com/\">TwicPics</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://supabase.com/\">Supabase</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gemini.google.com/\">Google Gemini</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/\">Github</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://gitlab.com/\">Gitlab</a>\n          </li>\n          <li>\n            <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://www.openstreetmap.org/\">Open Street Map</a>\n          </li>\n        </ul>\n      </section>\n      <h1>Preguntas Adicionales</h1>\n      <section>\n        <p>\n          Si tiene alguna pregunta sobre estos Términos o nuestros servicios, contáctenos.\n        </p>\n      </section>",
+					"footer-html": "\n      <p><strong>Contacto:</strong><br>\n        Dirk Porsche<br>\n        Sollbrüggenstr. 14<br>\n        <br>\n        47800 Krefeld - Germany<br>\n        Teléfono: <br>\n        \n        Correo electrónico: <a href=\"mailto:dirk@accoma.de\">dirk@accoma.de</a>\n      </p>",
+					"title": "Bienvenido a tus vacaciones",
+					"usedom": "Usedom",
+					"weatherHeader1": "Usedom",
+					"weatherHeader2": "Clima",
+					"headerTitle": "Alojamiento de vacaciones",
+					"headerSlug": "Relájate y disfruta del sol.",
+					"landing_town_html": "",
+					"home": "Página Principal",
+					"town": "Ciudad",
+					"location": "Ubicación",
+					"accommodations": "Apartamentos",
+					"lang": "Idioma",
+					"imprint": "Impresión",
+					"terms": "Términos",
+					"acco_default_alt": "Foto del alojamiento",
+					"acco_card_slug": "Para obtener más información, visite la página de este alojamiento.",
+					"missing_cal_url": "desconocida",
+					"de": "Deutsch",
+					"en": "English",
+					"pl": "Polski",
+					"es": "Español",
+					"fr": "Français",
+					"impressions": "Algunas Impresiones",
+					"directions": "Direcciones",
+					"weather": "Clima",
+					"calendarHeader": "Plan de Reservas",
+					"pricing": "Fechas y Precios",
+					"adults": "Adultos",
+					"shortPriceLabel": "Rango de precios",
+					"availability": "Disponibilidad",
+					"globalPricing": "Precios Comunes",
+					"globalNightlyRate": "Por Noche",
+					"globalMinimumStay": "Noches Mínimas para Permanecer",
+					"globalPeopleCount": "Número de Invitados",
+					"globalAdditionalPerson": "Invitado Adicional",
+					"from": "Desde",
+					"to": "Hasta",
+					"timeRange": "Rango",
+					"firstNight": "Primera Noche",
+					"eachNight": "Cada Otra Noche",
+					"peopleNum": "Número de Invitados",
+					"extraPerson": "Invitado Adicional",
+					"minNumNights": "Estadía Mínima"
+				}
+			}
+		}
+	},
+	"css": {
+		"base": "\n    body,html {\n      font-family: var(--main-font-family, 'sans-serif');\n      font-variant: var(--main-font-variant, 'small-caps');\n    }\n    \n    * {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n\n      font-family: var(--main-font-family, 'sans-serif');\n      font-variant: var(--main-font-variant, 'small-caps');\n    }\n\n    *::after {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    *::before {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n    }\n\n    hr {\n      margin-top: 1rem;\n      margin-bottom: 1rem;\n    }\n\n    h4 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 1.2rem;\n      text-align: center;\n      margin-bottom: 0.2rem;\n      margin-top: 0.4rem;\n    } \n\n\n    h3 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      text-align: center;\n      font-size: 1.8rem;\n      margin-bottom: 0.6rem;\n      margin-top: 1rem;\n    } \n\n    h2 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 2.2rem;\n      text-align: center;\n      margin-bottom: 0.8rem;\n      margin-top: 1.2rem;\n    } \n\n\n    h1 {\n      font-family: var(--header-font-family, 'sans-serif');\n      font-variant: var(--header-font-variant, 'small-caps');\n      font-size: 3rem;\n      text-align: center;\n      margin-bottom: 0.8rem;\n      margin-top: 1.2rem;\n    } \n\n    ol {\n      padding-left: 0.5rem;\n      margin: 1rem;\n    }\n\n    ul {\n      margin-left: 1rem;\n      padding-left: 0.2rem;\n    }",
+		"themes": {
+			"light": "\n--main-font-color: rgba(34, 49, 63, 1); /* Darker, more readable text */\n--main-bg-color: rgba(240, 248, 255, 1); /* Light, airy background (AliceBlue) */\n--main-border-color: rgba(52, 152, 219, 1); /* Softer, more inviting blue */\n--main-border: 1px solid var(--main-border-color);\n--accept-font-color: rgba(46, 204, 113, 1); /* Emerald green */\n--alert-font-color: rgba(231, 76, 60, 1); /* Tomato red */\n--invalid-border-color: rgba(231, 76, 60, 1); /* Tomato red */\n--invalid-border: 0.15rem solid var(--invalid-border-color);\n--disable-font-color: rgba(52, 73, 94, 0.4); /* Dimmed blue-gray */\n--disabled-border-color: rgba(52, 73, 94, 0.5); /* Dimmed blue-gray */\n--disabled-border: 0.1rem solid var(--disabled-border-color);\n--focussed-border-color: rgba(41, 128, 185, 0.9); /* Deeper blue focus */\n--focussed-border: 0.15rem solid var(--focussed-border-color);\n--focussed-filter: drop-shadow(0 0 0.75rem rgba(41, 128, 185, 0.9));\n--avatar-border: 0.15rem solid rgba(34, 49, 63, 0.9);\n--hamburger-color: rgba(41, 128, 185, 1); /* Deeper blue */\n--hamburger-bg-color: rgba(0,0,0,0);\n--hamburger-filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(255,255,255,1));\n--gallery-button-bg-color: rgba(220, 235, 245, 0.5); /* Light blue overlay */\n--gallery-button-font-color: rgba(52, 73, 94, 0.8); /* Blue-gray */\n--button-font-color: rgba(255, 255, 255, 1);\n--button-bg-color: rgba(52, 152, 219, 1); /* Medium blue call to action */\n--button-danger-bg-color: rgba(231, 76, 60, 1); /* Tomato red */\n--button-danger-font-color: rgba(255,255,255,1);\n--button-focus-filter: drop-shadow(0 0 0.75rem rgba(41, 128, 185, 0.9));\n--icon-not-color: rgba(192, 57, 43, 1); /* Darker, muted red */\n--icon-disabled-color: rgba(52, 73, 94, 0.4);\n--icon-color: rgba(34, 49, 63, 1);\n--table-odd-bg-color: rgba(236, 240, 241, 1); /* Light gray */\n--table-odd-font-color: rgba(34, 49, 63, 1);\n--table-even-bg-color: rgba(220, 225, 229, 1); /* Light gray */\n--table-even-font-color: rgba(34, 49, 63, 1);\n--table-header-bg-color: rgba(44, 62, 80, 1); /* Dark blue-gray */\n--table-header-font-color: rgba(255, 255, 255, 1);\n--table-footer-bg-color: rgba(44, 62, 80, 1);\n--table-footer-font-color: rgba(255, 255, 255, 1);\n--picture-link-bg-color: rgba(52, 73, 94, 0.8); /* Darker overlay */\n--picture-link-font-color: rgba(173, 216, 230, 1); /* Light blue */\n--external-link-font-color: rgba(41, 128, 185, 1);\n--attribution-bg-color: rgba(236, 240, 241, 0.6); /* Light gray */\n--attribution-font-color: rgba(34, 49, 63, 1);\n--picture-frame-shadow: 0px 1.1px 2.2px rgba(0,0,0,0.02),0px 2.7px 5.3px rgba(0,0,0,0.028),0px 5px 10px rgba(0,0,0,0.035),0px 8.9px 17.9px rgba(0,0,0,0.042),0px 16.7px 33.4px rgba(0,0,0,0.05),0px 40px 80px rgba(0,0,0,0.07);\n--nav-font-color: rgba(255, 255, 255, 1);\n--nav-bg-color: rgba(44, 62, 80, 0.8); /* Dark blue-gray */\n--title-font-color: rgba(255, 255, 255, 1);\n--title-filter: drop-shadow(0.2rem 0.3rem 0.2rem rgba(0,0,0,1));\n--footer-font-color: rgba(255, 255, 255, 1);\n--footer-bg-color: rgba(44, 62, 80, 1); /* Dark blue-gray */\n--acco-card-shadow: -1.2px -3.7px 4.5px rgba(0,0,0,0.017),-1.4px -4.4px 8.9px rgba(0,0,0,0.024),-0.4px -1.3px 13.3px rgba(0,0,0,0.03),1.7px 5.5px 17.9px rgba(0,0,0,0.035),4.9px 15.5px 23.3px rgba(0,0,0,0.04),8.9px 28.2px 30.7px rgba(0,0,0,0.046),13.7px 43.1px 43.8px rgba(0,0,0,0.053),19px 60px 80px rgba(0,0,0,0.07);\n--acco-card-font: rgba(34, 49, 63, 1);\n--acco-card-bg: rgba(255, 255, 255, 1);\n--occuplan-main-border-color: rgba(52, 152, 219, 1);\n--occuplan-main-border: 1px solid var(--occuplan-main-border-color);\n--occuplan-grid-border-color: rgba(52, 152, 219, 0.2);\n--occuplan-grid-border: 0.2px solid var(--occuplan-grid-border-color);\n--occuplan-main-font-color: rgba(52, 152, 219, 1);\n--occuplan-main-bg-color: rgba(255,255,255,0);\n--occuplan-days-font-color: rgba(52, 152, 219, 1);\n--occuplan-days-bg-color: rgba(0,0,0,0);\n--occuplan-days-header-font-color: rgba(255, 255, 255, 1);\n--occuplan-days-header-bg-color: rgba(52, 152, 219, 1);\n--occuplan-weeknum-font-color: rgba(52, 152, 219, 0.5);\n--occuplan-weeknum-bg-color: rgba(0,0,0,0);\n--occuplan-months-font-color: rgba(255, 255, 255, 1);\n--occuplan-months-bg-color: rgba(52, 152, 219, 1);\n--occuplan-invalid-days-font-color: rgba(52, 73, 94, 1);\n--occuplan-invalid-days-bg-color: rgba(149, 165, 166, 0.6); /* Gray */\n--occuplan-weekend-bg-color: rgba(41, 128, 185, 1);\n--occupation-type-1-font-color: rgba(255, 255, 255, 1);\n--occupation-type-1-bg-color: rgba(41, 128, 185, 1);\n--occupation-type-2-font-color: rgba(34, 49, 63, 1);\n--occupation-type-2-bg-colog: rgba(173, 216, 230, 1); /* Light blue */\n--occupation-type-3-font-color: rgba(34, 49, 63, 1);\n--occupation-type-3-bg-color: rgba(144, 238, 144, 1); /* Light green */\n--notes-vert-line: 0.5px dashed rgba(52, 152, 219, 0.5);\n--notes-font-color: rgba(44, 62, 80, 1);\n--notes-bg-color: rgba(255, 255, 224, 1); /* Light yellow */\n--notes-disabled-font-color: rgba(44, 62, 80, 1);\n--notes-disabled-bg-color: rgba(236, 240, 241, 1); /* Light gray */\n",
+			"dark": "\n    --main-font-color: rgba(255, 255, 255, 1);\n    --main-bg-color: rgba(20, 20, 20, 1);\n    --main-border-color: rgba(200, 200, 200, 1);\n    --main-border: 1px solid var(--main-border-color);\n    --accept-font-color: rgba(13, 157, 0, 1);\n    --alert-font-color: rgba(255, 0, 0, 1);\n    --invalid-border-color: rgba(255, 100, 100, 1);\n    --invalid-border: 0.15rem solid var(--invalid-border-color);\n    --disable-font-color: rgba(255, 255, 255, 0.4);\n    --disabled-border-color: rgba(255, 255, 255, 0.5);\n    --disabled-border: 0.1rem solid var(--disabled-border-color);\n    --focussed-border-color: rgba(102, 120, 243, 0.9);\n    --focussed-border: 0.15rem solid var(--focussed-border-color);\n    --focussed-filter: drop-shadow(0 0 0.75rem rgba(102, 120, 243, 0.9));\n    --avatar-border: 0.15rem solid rgba(255, 255, 255, 0.9);\n    --hamburger-color: rgba(255, 255, 255, 1);\n    --hamburger-bg-color: rgba(0, 0, 0, 0);\n    --hamburger-filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(20, 20, 20, 1));\n    --gallery-button-bg-color: rgba(30, 30, 30, 0.5);\n    --gallery-button-font-color: rgba(255, 255, 255, 0.8);\n    --button-font-color: rgba(255, 255, 255, 1);\n    --button-bg-color: rgba(30, 30, 30, 1);\n    --button-danger-bg-color: rgba(255, 0, 0, 1);\n    --button-danger-font-color: rgba(255, 255, 255, 1);\n    --button-focus-filter: drop-shadow(0 0 0.75rem rgba(102, 120, 243, 0.9));\n    --icon-not-color: rgba(255, 50, 50, 1);\n    --icon-disabled-color: rgba(255, 255, 255, 0.4);\n    --icon-color: rgba(255, 255, 255, 1);\n    --table-odd-bg-color: rgba(40, 40, 40, 1);\n    --table-odd-font-color: rgba(255, 255, 255, 1);\n    --table-even-bg-color: rgba(50, 50, 50, 1);\n    --table-even-font-color: rgba(255, 255, 255, 1);\n    --table-header-bg-color: rgba(20, 20, 20, 1);\n    --table-header-font-color: rgba(200, 200, 200, 1);\n    --table-footer-bg-color: rgba(20, 20, 20, 1);\n    --table-footer-font-color: rgba(200, 200, 200, 1);\n    --picture-link-bg-color: rgba(100, 100, 100, 0.8);\n    --picture-link-font-color: rgba(168, 194, 250, 1);\n    --external-link-font-color: rgba(105, 152, 252, 1);\n    --attribution-bg-color: rgba(30, 30, 30, 0.9);\n    --attribution-font-color: rgba(255, 255, 255, 1);\n    --picture-frame-shadow: none; /* Replaced shadows with borders */\n    --nav-font-color: rgba(255, 255, 255, 1);\n    --nav-bg-color: rgba(20, 20, 20, 0.9);\n    --title-font-color: rgba(255, 255, 255, 1);\n    --footer-font-color: rgba(255, 255, 255, 1);\n    --footer-bg-color: rgba(20, 20, 20, 1);\n    --acco-card-shadow: none; /* Replaced shadows with borders */\n    --acco-card-font: rgba(255, 255, 255, 1);\n    --acco-card-bg: rgba(30, 30, 30, 1);\n    --occuplan-main-border-color: rgba(200, 200, 200, 1);\n    --occuplan-main-border: 1px solid var(--occuplan-main-border-color);\n    --occuplan-grid-border-color: rgba(200, 200, 200, 0.2);\n    --occuplan-grid-border: 0.2px solid var(--occuplan-grid-border-color);\n    --occuplan-main-font-color: rgba(200, 200, 200, 1);\n    --occuplan-main-bg-color: rgba(30, 30, 30, 0);\n    --occuplan-days-font-color: rgba(200, 200, 200, 1);\n    --occuplan-days-bg-color: rgba(0, 0, 0, 0);\n    --occuplan-days-header-font-color: rgba(200, 200, 200, 1);\n    --occuplan-days-header-bg-color: rgba(50, 50, 50, 1);\n    --occuplan-weeknum-font-color: rgba(200, 200, 200, 0.5);\n    --occuplan-weeknum-bg-color: rgba(0, 0, 0, 0);\n    --occuplan-months-font-color: rgba(200, 200, 200, 1);\n    --occuplan-months-bg-color: rgba(50, 50, 50, 1);\n    --occuplan-invalid-days-font-color: rgba(255, 255, 255, 1);\n    --occuplan-invalid-days-bg-color: rgba(110, 110, 110, 0.8);\n    --occuplan-weekend-bg-color: rgba(200, 200, 200, 1);\n    --occupation-type-1-font-color: rgba(200, 200, 200, 1);\n    --occupation-type-1-bg-color: rgba(33, 158, 188, 1);\n    --occupation-type-2-font-color: rgba(255, 255, 255, 1);\n    --occupation-type-2-bg-color: rgba(249, 112, 249, 1);\n    --occupation-type-3-font-color: rgba(255, 255, 255, 1);\n    --occupation-type-3-bg-color: rgba(0, 112, 23, 1);\n    --notes-vert-line: 0.5px dashed rgba(200, 200, 200, 0.5);\n    --notes-font-color: rgba(255, 255, 255, 1);\n    --notes-bg-color: rgba(50, 50, 50, 1);\n    --notes-disabled-font-color: rgba(255, 255, 255, 1);\n    --notes-disabled-bg-color: rgba(70, 70, 70, 1);\n  "
+		}
+	},
+	"pages": {
+		"/": {
+			"id": "hard-shadblow",
+			"path": "/",
+			"lastChange": "2025-05-09T19:54:17.601Z",
+			"created": "2025-05-09T19:54:17.601Z",
+			"nav": {
+				"main": [
+					{
+						"key": "home",
+						"path": "/",
+						"external": false
+					}
+				],
+				"footer": [
+					{
+						"key": "home",
+						"path": "/",
+						"external": false
+					},
+					{
+						"key": "imprint",
+						"path": "/imprint",
+						"external": false
+					},
+					{
+						"key": "terms",
+						"path": "/tos",
+						"external": false
+					}
+				]
+			},
+			"title": "rural-feverbush",
+			"slug": "colonial-belle-isle-cress",
+			"header": "mild-buffalo-weed",
+			"logoLink": "http://localhost:54321/storage/v1/object/public/users/d1c0fdd3-ad0d-44db-a197-9578bf4e9a51/logo.svg",
+			"showFooter": true,
+			"footerRef": "footer-html",
+			"fixedHamburger": true,
+			"navbarOverHamburger": false,
+			"content": [
+				{
+					"id": "fuzzy-olive",
+					"name": "Reluctant Brittlebush",
+					"header": "town",
+					"columnCount": 2,
+					"padding": "10vw",
+					"maxWidth": "100%",
+					"blocks": [
+						{
+							"id": "shallow-winter-rocket",
+							"kind": "text",
+							"content": {
+								"ref": "victorian-swamp-spanish-oak",
+								"minHeight": "fit-content",
+								"textFontSize": "1rem",
+								"headerFontSize": "1.5rem",
+								"extendedHeaders": false,
+								"extendedHeaders1Size": "3.5rem",
+								"extendedHeaders2Size": "2.5rem",
+								"extendedHeaders3Size": "1.6rem",
+								"extendedHeaders4Size": "1.2rem"
+							}
+						},
+						{
+							"id": "drab-land-cress",
+							"kind": "photo",
+							"content": {
+								"photoPath": "prev/users/template1/town_3.jpg",
+								"alt": "nervous-flowering-dogwood",
+								"height": "30vh",
+								"external": false,
+								"link": "",
+								"eager": false,
+								"frame": true,
+								"attribution": "Free image by <a href=\"https://shutterstock.com\" target=\"_blank\" rel=\"noopener noreferrer\">Shutterstock</a>",
+								"width": "100%",
+								"transition": "none",
+								"ratio": "1/1"
+							}
+						}
+					]
+				},
+				{
+					"id": "secondary-tuber-root",
+					"header": "weather",
+					"name": "Defiant Kimberly Queen Fern",
+					"columnCount": 1,
+					"padding": "0",
+					"maxWidth": "100%",
+					"blocks": [
+						{
+							"id": "angry-western-wake-robin",
+							"kind": "weather",
+							"content": {
+								"header1": "weatherHeader1",
+								"header2": "weatherHeader2",
+								"location": "53d8813d92/usedom/"
+							}
+						}
+					]
+				},
+				{
+					"id": "supposed-boston-fern-or-sword-fern",
+					"name": "Additional Winter Rocket",
+					"header": "impressions",
+					"columnCount": 1,
+					"padding": "0",
+					"maxWidth": "100%",
+					"blocks": [
+						{
+							"id": "slippery-coyote-willow",
+							"kind": "gallery",
+							"content": {
+								"gridPhotoWidth": 300,
+								"photos": [
+									{
+										"id": "provincial-white-ash",
+										"kind": "photo",
+										"content": {
+											"photoPath": "prev/users/template1/town_2.jpg",
+											"alt": ""
+										}
+									},
+									{
+										"id": "permanent-garget",
+										"kind": "photo",
+										"content": {
+											"photoPath": "prev/users/template1/town_1.jpg",
+											"alt": ""
+										}
+									},
+									{
+										"id": "sufficient-dyers-oak",
+										"kind": "photo",
+										"content": {
+											"photoPath": "prev/users/template1/beach_1.jpg",
+											"alt": ""
+										}
+									},
+									{
+										"id": "angry-toothwort",
+										"kind": "photo",
+										"content": {
+											"photoPath": "prev/users/template1/beach_2.jpg",
+											"alt": ""
+										}
+									},
+									{
+										"id": "residential-black-eyed-susan",
+										"kind": "photo",
+										"content": {
+											"photoPath": "prev/users/template1/beach_3.jpg",
+											"alt": ""
+										}
+									},
+									{
+										"id": "unlikely-saffron-crocus",
+										"kind": "photo",
+										"content": {
+											"photoPath": "prev/users/template1/beach_4.jpg",
+											"alt": ""
+										}
+									},
+									{
+										"id": "secret-red-ink-plant",
+										"kind": "photo",
+										"content": {
+											"photoPath": "prev/users/template1/beach_5.jpg",
+											"alt": ""
+										}
+									},
+									{
+										"id": "amateur-polecat-weed",
+										"kind": "photo",
+										"content": {
+											"photoPath": "prev/users/template1/beach_6.jpg",
+											"alt": ""
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": "commercial-corn-sow-thistle",
+					"name": "Outrageous Pleurisy Root",
+					"header": "directions",
+					"columnCount": 1,
+					"padding": "10vw",
+					"maxWidth": "100%",
+					"blocks": [
+						{
+							"id": "corresponding-indian-posy",
+							"kind": "leaflet-map",
+							"content": {
+								"address": "Usedom",
+								"lat": 53.9889945,
+								"long": 13.8813083,
+								"zoom": 11
+							}
+						}
+					]
+				}
+			],
+			"hero": {
+				"id": "extraordinary-cherry",
+				"title": "hero-title",
+				"photoPath": "prev/users/template1/hero.jpg"
+			}
+		},
+		"tos": {
+			"id": "accused-baobab",
+			"path": "/tos",
+			"lastChange": "2025-05-09T19:54:17.601Z",
+			"created": "2025-05-09T19:54:17.602Z",
+			"nav": {
+				"main": [
+					{
+						"key": "home",
+						"path": "/",
+						"external": false
+					}
+				],
+				"footer": [
+					{
+						"key": "home",
+						"path": "/",
+						"external": false
+					},
+					{
+						"key": "imprint",
+						"path": "/imprint",
+						"external": false
+					},
+					{
+						"key": "terms",
+						"path": "/tos",
+						"external": false
+					}
+				]
+			},
+			"title": "early-bank-cress",
+			"slug": "payable-chrysanthemum",
+			"header": "tos-header",
+			"logoLink": "http://localhost:54321/storage/v1/object/public/users/d1c0fdd3-ad0d-44db-a197-9578bf4e9a51/logo.svg",
+			"showFooter": true,
+			"footerRef": "footer-html",
+			"fixedHamburger": true,
+			"navbarOverHamburger": false,
+			"content": [
+				{
+					"id": "decent-goldenglow",
+					"name": "Asleep Gallberry",
+					"columnCount": 1,
+					"maxWidth": "50vw",
+					"padding": "10vw",
+					"header": "unable-black-cap",
+					"blocks": [
+						{
+							"id": "endless-tree-tobacco",
+							"kind": "text",
+							"content": {
+								"extendedHeaders": true,
+								"ref": "tos-content",
+								"minHeight": "fit-content",
+								"textFontSize": "1rem",
+								"headerFontSize": "1.5rem",
+								"extendedHeaders1Size": "3.5rem",
+								"extendedHeaders2Size": "2.5rem",
+								"extendedHeaders3Size": "1.6rem",
+								"extendedHeaders4Size": "1.2rem"
+							}
+						}
+					]
+				}
+			]
+		},
+		"imprint": {
+			"id": "associated-polecat-weed",
+			"path": "/imprint",
+			"lastChange": "2025-05-09T19:54:17.602Z",
+			"created": "2025-05-09T19:54:17.602Z",
+			"nav": {
+				"main": [
+					{
+						"key": "home",
+						"path": "/",
+						"external": false
+					}
+				],
+				"footer": [
+					{
+						"key": "home",
+						"path": "/",
+						"external": false
+					},
+					{
+						"key": "imprint",
+						"path": "/imprint",
+						"external": false
+					},
+					{
+						"key": "terms",
+						"path": "/tos",
+						"external": false
+					}
+				]
+			},
+			"title": "modern-viburnum",
+			"slug": "fond-marsh-ragwort",
+			"header": "imprint-header",
+			"logoLink": "http://localhost:54321/storage/v1/object/public/users/d1c0fdd3-ad0d-44db-a197-9578bf4e9a51/logo.svg",
+			"showFooter": true,
+			"footerRef": "footer-html",
+			"fixedHamburger": true,
+			"navbarOverHamburger": false,
+			"content": [
+				{
+					"id": "beautiful-virginia-winterberry",
+					"name": "Rotten Rheumatism Root",
+					"columnCount": 1,
+					"maxWidth": "50vw",
+					"padding": "10vw",
+					"header": "wasteful-common-daisy-daisy",
+					"blocks": [
+						{
+							"id": "condemned-western-trillium",
+							"kind": "text",
+							"content": {
+								"extendedHeaders": true,
+								"ref": "imprint-content",
+								"textFontSize": "1rem",
+								"headerFontSize": "1.5rem",
+								"minHeight": "fit-content",
+								"extendedHeaders1Size": "3.5rem",
+								"extendedHeaders2Size": "2.5rem",
+								"extendedHeaders3Size": "1.6rem",
+								"extendedHeaders4Size": "1.2rem"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

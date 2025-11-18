@@ -13,7 +13,7 @@ const entries = [];
 for (const l of siteConfig.lang.supportedLangs) {
   for (const p of Object.keys(siteConfig.pages)) {
     if (p != '/') {
-      entries.push(`/${l}/${p}`);
+      entries.push(`/${l}${p}`);
     } else {
       entries.push(`/${l}`);
     }

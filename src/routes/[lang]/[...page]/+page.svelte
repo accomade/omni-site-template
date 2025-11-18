@@ -10,7 +10,7 @@
   const pages: Record<string, PageProps> = siteConfig.pages as Record<string, PageProps>;
 
   let pageParam = $derived(page.params.page ?? '/');
-  let thePage = $derived(pages[pageParam]);
+  let thePage = $derived(pages[`/${pageParam}`]);
   const ss: SiteState = getContext('SITE_STATE');
 
   onMount(() => {
