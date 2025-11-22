@@ -24,8 +24,8 @@ importers:
         specifier: ^0.31.4
         version: 0.31.4
       accomadesc:
-        specifier: ^0.3.32
-        version: 0.3.32(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.43.14)(vite@6.4.1))(svelte@5.43.14)(vite@6.4.1))(svelte@5.43.14)
+        specifier: ^0.3.34
+        version: 0.3.34(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.43.14)(vite@6.4.1))(svelte@5.43.14)(vite@6.4.1))(svelte@5.43.14)
       gdpr-cooco-banner:
         specifier: ^0.0.11
         version: 0.0.11(svelte@5.43.14)
@@ -434,8 +434,8 @@ packages:
   '@types/squirrelly@7.1.5':
     resolution: {integrity: sha512-bJ3Q5FBDjC4Q+ytiPy3sHxXivubl74xtDiWvOrlLcF3+WqjUcGI3aOmVUdAI/Qc8y1fevubFrWCtYgRT6CPBhA==}
 
-  accomadesc@0.3.32:
-    resolution: {integrity: sha512-jayN9KWyNXNz555oavxV33YggPtDvHL2m71m2jR/h8TcJyFb7MEwt0f7duftaprfxH2gYDPIK6+4RFRPDhgVKw==}
+  accomadesc@0.3.34:
+    resolution: {integrity: sha512-fN+negSNByu6OF1/ljJyIjC8itCdmzeCg6zTXf45J2wlf0ozmITY274uZtyQkEErVSuK4wIRwg2b9cMdaCI2rA==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -917,7 +917,7 @@ snapshots:
 
   '@types/squirrelly@7.1.5': {}
 
-  accomadesc@0.3.32(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.43.14)(vite@6.4.1))(svelte@5.43.14)(vite@6.4.1))(svelte@5.43.14):
+  accomadesc@0.3.34(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.43.14)(vite@6.4.1))(svelte@5.43.14)(vite@6.4.1))(svelte@5.43.14):
     dependencies:
       '@dinero.js/currencies': 2.0.0-alpha.14
       '@fontsource/raleway': 5.2.8

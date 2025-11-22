@@ -94,8 +94,7 @@ export class SiteState implements I18nFacade {
     return formatted;
   };
 
-  public formatDateFunc(d: DateTime | string) {
-    console.log('Called')
+  public formatDateFunc = (d: DateTime | string) => {
 
     let f = 'yyyy-MM-dd';
     if (this.formats[this.currentLang]?.dateFormat) {
