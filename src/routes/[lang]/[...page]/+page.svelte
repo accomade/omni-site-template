@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-  {#if thePage.title}
+  {#if thePage?.title}
     <title>{ss.translateFunc(thePage.title)}</title>
   {/if}
 </svelte:head>

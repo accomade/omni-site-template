@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-  {#if landing.title}
+  {#if landing?.title}
     <title>{ss.translateFunc(landing.title)}</title>
   {/if}
 </svelte:head>

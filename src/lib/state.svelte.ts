@@ -2,6 +2,7 @@ import Cookie from 'js-cookie';
 import { format, type I18nFacade, type OccuplanTranslations } from 'accomadesc';
 import siteConfig from './config.json' with { type: 'json' };
 import type { CookieSelection, Translation as CookieTranslation } from 'gdpr-cooco-banner';
+import { DateTime } from 'luxon';
 
 interface FullTranslation {
   calendar: OccuplanTranslations;
@@ -91,5 +92,20 @@ export class SiteState implements I18nFacade {
 
     let formatted = format(fString, props);
     return formatted;
+  };
+
+  public formatDateFunc(d: DateTime | string) {
+    console.log('Called')
+
+    let f = 'yyyy-MM-dd';
+    if (this.formats[this.currentLang]?.dateFormat) {
+      f = this.formats[this.currentLang].dateFormat;
+    }
+
+    let date: DateTime;
+    if (typeof d === 'string') date = DateTime.fromISO(d);
+    else date = d;
+
+    return date.toFormat(f);
   };
 }

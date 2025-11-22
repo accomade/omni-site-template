@@ -13,14 +13,14 @@
 		"lint": "prettier --check ."
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^2.48.5",
+		"@sveltejs/kit": "^2.49.0",
 		"@sveltejs/vite-plugin-svelte": "^5.1.1",
 		"@types/js-cookie": "^3.0.6",
 		"@types/luxon": "^3.7.1",
 		"@types/squirrelly": "^7.1.5",
 		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^3.4.0",
-		"svelte": "^5.43.11",
+		"svelte": "^5.43.14",
 		"svelte-check": "^4.3.4",
 		"typescript": "^5.9.3",
 		"vite": "^6.4.1"
@@ -31,7 +31,7 @@
 		"@fontsource/raleway": "^5.2.8",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@twicpics/components": "^0.31.4",
-		"accomadesc": "^0.3.31",
+		"accomadesc": "^0.3.32",
 		"gdpr-cooco-banner": "^0.0.11",
 		"js-cookie": "^3.0.5",
 		"luxon": "^3.7.2"
