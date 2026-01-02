@@ -3,9 +3,8 @@
   import { page } from '$app/state';
   import { goto } from '$app/navigation';
   import { browser } from '$app/environment';
-  import { PageComponent, type PageProps } from 'accomadesc';
+  import { PageComponent, type PageProps, type SiteState } from 'accomadesc';
   import { getContext, onMount } from 'svelte';
-  import type { SiteState } from '$lib/state.svelte';
 
   const pages: Record<string, PageProps> = siteConfig.pages as Record<string, PageProps>;
 

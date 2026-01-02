@@ -2,9 +2,10 @@
   import { page } from '$app/state';
   import { onMount, setContext, type Snippet } from 'svelte';
   import { Banner, type CookieType } from 'gdpr-cooco-banner';
-  import { SiteState } from '$lib/state.svelte';
+  import { SiteState, type SiteConfig } from 'accomadesc';
   import siteConfig from '$lib/config.json' with { type: 'json' };
   import { browser } from '$app/environment';
+  import { handleCookie } from '$lib/cookieHelper';
 
   let {
     children,
@@ -23,7 +24,7 @@
     pathLang = siteConfig.lang.defaultLang;
   }
 
-  const ss = new SiteState(pathLang);
+  const ss = new SiteState(() => siteConfig as SiteConfig, pathLang);
   setContext('SITE_STATE', ss);
 
   $effect(() => {
@@ -50,12 +51,15 @@
 
   const analyticsCookies = (enabled: boolean) => {
     ss.cookieSelection.analytics = enabled;
+    handleCookie(ss);
   };
   const preferenceCookies = (enabled: boolean) => {
     ss.cookieSelection.preferences = enabled;
+    handleCookie(ss);
   };
   const marketingCookies = (enabled: boolean) => {
     ss.cookieSelection.marketing = enabled;
+    handleCookie(ss);
   };
 </script>
 
