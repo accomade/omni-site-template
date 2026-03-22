@@ -2,12 +2,6 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import adapter from '@sveltejs/adapter-static';
 import siteConfig from './src/lib/config.json' with { type: 'json' };
 
-let domain = process.env.PRIMARY_DOMAIN;
-if (!domain) {
-  domain = process.env.RENDER_EXTERNAL_URL;
-}
-console.log('Using domain:', domain);
-
 const entries = [];
 
 for (const l of siteConfig.lang.supportedLangs) {
@@ -22,6 +16,21 @@ for (const l of siteConfig.lang.supportedLangs) {
 
 console.log(entries);
 
+// Check if the variable exists, and if it doesn't already have 'http', prepend 'https://'
+const domain = process.env.PRIMARY_DOMAIN;
+
+let prerenderOrigin = domain
+  ? (domain.startsWith('http') ? domain : `https://${domain}`)
+  : undefined; // undefined tells SvelteKit to fallback to defaults if not set
+
+if (!prerenderOrigin) {
+  prerenderOrigin = process.env.RENDER_EXTERNAL_URL;
+}
+console.log('Using domain:', domain);
+
+
+
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   // Consult https://svelte.dev/docs/kit/integrations
@@ -35,7 +44,7 @@ const config = {
     adapter: adapter(),
     prerender: {
       entries: ['*', '/robots.txt', '/sitemap.xml', ...entries],
-      origin: domain,
+      origin: prerenderOrigin,
       handleHttpError: 'ignore',
     },
   },
