@@ -26,10 +26,7 @@ let prerenderOrigin = domain
 if (!prerenderOrigin) {
   prerenderOrigin = process.env.RENDER_EXTERNAL_URL;
 }
-console.log('Using domain:', domain);
-
-
-
+console.log('using origin:', prerenderOrigin);
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
