@@ -18,7 +18,7 @@
 
 <svelte:head>
   <meta name="description" content="ACCOMADE powered website to present holiday accomodations." />
-  {@html `<` + `style>${siteConfig.css.base}</style>`}
+  {@html `<style>${siteConfig.css.base}</style>`}
 </svelte:head>
 
 <div>
