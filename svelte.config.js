@@ -40,7 +40,7 @@ const config = {
     // See https://svelte.dev/docs/kit/adapters for more information about adapters.
     adapter: adapter(),
     prerender: {
-      entries: ['*', '/robots.txt', '/sitemap.xml', ...entries],
+      entries: ['*', '/robots.txt', '/sitemap.xml', '/.well-known/ucp', ...entries],
       origin: prerenderOrigin,
       handleHttpError: 'ignore',
     },
