@@ -1,7 +1,6 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import siteConfig from '$lib/config.json';
-import type { BookingRequest, Section } from 'accomadesc';
 import { UCP_API_BASE_URL } from '$env/static/private';
 
 const API_BASE = UCP_API_BASE_URL || 'https://accoma.de/api/ucp/v1';
@@ -11,6 +10,29 @@ interface UcpAccommodation {
 	name: string;
 	availability_url: string;
 	reservation_url: string;
+}
+
+interface BookingRequestBlock {
+	id: string;
+	kind: 'booking-request';
+	content: {
+		userID: string;
+		accoID: string;
+		accoName?: string;
+		calUrl: string;
+		[name: string]: unknown;
+	};
+	acco?: string;
+}
+
+interface Section {
+	id: string;
+	name?: string;
+	header?: string;
+	columnCount?: number;
+	padding?: string;
+	maxWidth?: string;
+	blocks?: Array<{ kind: string; [key: string]: unknown }>;
 }
 
 function extractAccommodations(): UcpAccommodation[] {
@@ -23,7 +45,7 @@ function extractAccommodations(): UcpAccommodation[] {
 			if (!section.blocks) continue;
 			for (const block of section.blocks) {
 				if (block.kind === 'booking-request') {
-					const br = block as BookingRequest;
+					const br = block as BookingRequestBlock;
 					const accoID = br.content.accoID;
 					if (!accoID || seenAccoIds.has(accoID)) continue;
 					seenAccoIds.add(accoID);
