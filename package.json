@@ -17,6 +17,7 @@
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@types/js-cookie": "^3.0.6",
 		"@types/luxon": "^3.7.1",
+		"@types/node": "^25.9.1",
 		"@types/squirrelly": "^8.0.0",
 		"prettier": "^3.8.3",
 		"prettier-plugin-svelte": "^3.5.2",
