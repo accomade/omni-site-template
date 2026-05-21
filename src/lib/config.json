@@ -1,6 +1,7 @@
 {
   "settings": {
     "ACCOMADE_USER_ID": "c2884529-cc53-44e7-b8dd-35c7ecada546",
+    "UCP_API_BASE_URL": "https://accoma.de/api/ucp/v1",
     "PUBLIC_SUPABASE_URL": "http://localhost:54321"
   },
   "css": {
