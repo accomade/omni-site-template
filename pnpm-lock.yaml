@@ -24,8 +24,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0
       accomadesc:
-        specifier: ^0.4.18
-        version: 0.4.18(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))
+        specifier: ^0.4.22
+        version: 0.4.22(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))
       gdpr-cooco-banner:
         specifier: ^0.0.13
         version: 0.0.13(svelte@5.57.0(@typescript-eslint/types@8.57.1))
@@ -397,8 +397,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  accomadesc@0.4.18:
-    resolution: {integrity: sha512-6h9AsYO06UMSSQ09f3FX3c/gGFlubLhvovhPS1cv1cmpYMGZDFKXQvhvaVVL0cs8theGyUol0uUTJ35XyyJWMw==}
+  accomadesc@0.4.22:
+    resolution: {integrity: sha512-gdTEqRylksUanOwZAy2oaxPQkS+tDGIZwImC23OH3oWOxs9M9o25b+NNlrBVWEtqXGJUJ22tMKYKlFWAFjmQmQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -925,7 +925,7 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  accomadesc@0.4.18(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1)):
+  accomadesc@0.4.22(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1)):
     dependencies:
       '@fontsource/raleway': 5.3.0
       '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7))
