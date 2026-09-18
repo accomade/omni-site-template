@@ -24,8 +24,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0
       accomadesc:
-        specifier: ^0.4.22
-        version: 0.4.22(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))
+        specifier: ^0.4.23
+        version: 0.4.23(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))
       gdpr-cooco-banner:
         specifier: ^0.0.13
         version: 0.0.13(svelte@5.57.0(@typescript-eslint/types@8.57.1))
@@ -55,11 +55,11 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0
       prettier:
-        specifier: ^3.9.7
-        version: 3.9.7
+        specifier: ^3.9.8
+        version: 3.9.8
       prettier-plugin-svelte:
         specifier: ^4.1.1
-        version: 4.1.1(prettier@3.9.7)(svelte@5.57.0(@typescript-eslint/types@8.57.1))
+        version: 4.1.1(prettier@3.9.8)(svelte@5.57.0(@typescript-eslint/types@8.57.1))
       svelte:
         specifier: ^5.57.0
         version: 5.57.0(@typescript-eslint/types@8.57.1)
@@ -397,8 +397,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  accomadesc@0.4.22:
-    resolution: {integrity: sha512-gdTEqRylksUanOwZAy2oaxPQkS+tDGIZwImC23OH3oWOxs9M9o25b+NNlrBVWEtqXGJUJ22tMKYKlFWAFjmQmQ==}
+  accomadesc@0.4.23:
+    resolution: {integrity: sha512-PpQpCDTOltaTuudx72v4cF72WmZDxPdawsHT5X8dh3ga15vChYyeTZOpnbXDa9I1ICYo9/dItHohWpVtXTH43A==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -436,8 +436,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  devalue@5.9.2:
-    resolution: {integrity: sha512-po4PAY5c53tw5XMocSnf8A/5OHhbbUftpr93aEN6BBoAdntUmK7vu7wOATqvt7cXO7m1Cl4gMVn6p7n6n4mj0w==}
+  devalue@5.9.4:
+    resolution: {integrity: sha512-sPAT4pztbu6586/hrhOnMKS17IJrvg12mXiSPSS3W5qDeN2RGgvZ0diZCm31dBbnevfVmujNO3IM2wrS4Y2Rhg==}
 
   esm-env@1.2.2:
     resolution: {integrity: sha512-Epxrv+Nr/CaL4ZcFGPJIYLWFom+YeV1DqMLHJoEd9SYRxNbaFruBwfEX/kkHUJf55j2+TUbmDcmuilbP1TmXHA==}
@@ -604,8 +604,8 @@ packages:
       prettier: ^3.0.0
       svelte: ^5.0.0
 
-  prettier@3.9.7:
-    resolution: {integrity: sha512-T3mF5P7HFzZVLDQuCUNtJj6WK1pcpLMweMNUVwGb01bLNkH9AkKxtZvmInw8K6bnn2O3d6/5RHl6zSHiBAD0Og==}
+  prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -815,7 +815,7 @@ snapshots:
       '@types/cookie': 0.6.0
       acorn: 8.18.0
       cookie: 0.6.0
-      devalue: 5.9.2
+      devalue: 5.9.4
       esm-env: 1.2.2
       kleur: 4.1.5
       magic-string: 0.30.21
@@ -925,7 +925,7 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  accomadesc@0.4.22(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1)):
+  accomadesc@0.4.23(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1)):
     dependencies:
       '@fontsource/raleway': 5.3.0
       '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.3.0(svelte@5.57.0(@typescript-eslint/types@8.57.1))(vite@8.3.0(@types/node@25.9.7)))(svelte@5.57.0(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.0(@types/node@25.9.7))
@@ -953,7 +953,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  devalue@5.9.2: {}
+  devalue@5.9.4: {}
 
   esm-env@1.2.2: {}
 
@@ -1064,12 +1064,12 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-svelte@4.1.1(prettier@3.9.7)(svelte@5.57.0(@typescript-eslint/types@8.57.1)):
+  prettier-plugin-svelte@4.1.1(prettier@3.9.8)(svelte@5.57.0(@typescript-eslint/types@8.57.1)):
     dependencies:
-      prettier: 3.9.7
+      prettier: 3.9.8
       svelte: 5.57.0(@typescript-eslint/types@8.57.1)
 
-  prettier@3.9.7: {}
+  prettier@3.9.8: {}
 
   readdirp@4.1.2: {}
 
@@ -1133,7 +1133,7 @@ snapshots:
       aria-query: 5.3.1
       axobject-query: 4.1.0
       clsx: 2.1.1
-      devalue: 5.9.2
+      devalue: 5.9.4
       esm-env: 1.2.2
       esrap: 2.3.7(@typescript-eslint/types@8.57.1)
       is-reference: 3.0.3
