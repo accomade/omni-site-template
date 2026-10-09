@@ -1,9 +1,9 @@
 <script lang="ts">
   import { type Snippet } from 'svelte';
-  import '$lib/loadFonts';
+  import '#lib/loadFonts.js';
   import { installTwicPics } from '@twicpics/components/sveltekit';
   import '@twicpics/components/style.css';
-  import siteConfig from '$lib/config.json' with { type: 'json' };
+  import siteConfig from '#lib/config.json' with { type: 'json' };
 
   let {
     children,

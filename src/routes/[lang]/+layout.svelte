@@ -3,9 +3,9 @@
   import { onMount, setContext, type Snippet } from 'svelte';
   import { Banner, type CookieType } from 'gdpr-cooco-banner';
   import { SiteState, type SiteConfig } from 'accomadesc';
-  import siteConfig from '$lib/config.json' with { type: 'json' };
-  import { browser } from '$app/environment';
-  import { handleCookie } from '$lib/cookieHelper';
+  import siteConfig from '#lib/config.json' with { type: 'json' };
+  import { browser } from '$app/env';
+  import { handleCookie } from '#lib/cookieHelper.js';
 
   let {
     children,

@@ -68,8 +68,8 @@ pnpm run format     # Fix formatting
 
 ### Imports
 
-- Group imports: external libraries first, then `$lib`, then relative
-- Use `$lib` alias for imports from `src/lib/`
+- Group imports: external libraries first, then `#lib`, then relative
+- Use `#lib` alias for imports from `src/lib/`
 - Use type imports: `import type { Foo } from 'bar'`
 
 ### Error Handling

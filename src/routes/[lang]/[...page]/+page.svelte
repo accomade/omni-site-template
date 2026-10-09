@@ -1,8 +1,8 @@
 <script lang="ts">
-  import siteConfig from '$lib/config.json' with { type: 'json' };
+  import siteConfig from '#lib/config.json' with { type: 'json' };
   import { page } from '$app/state';
   import { goto } from '$app/navigation';
-  import { browser } from '$app/environment';
+  import { browser } from '$app/env';
   import { PageComponent, type PageProps, type SiteState } from 'accomadesc';
   import { getContext, onMount } from 'svelte';
 

@@ -15,5 +15,3 @@ export const handleCookie = (ss: SiteState) => {
     Cookie.remove('lang');
   }
 };
-
-

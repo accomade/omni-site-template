@@ -1,9 +1,9 @@
 <script lang="ts">
   import { getContext } from 'svelte';
   import type { SiteState } from 'accomadesc';
-  import siteConfig from '$lib/config.json' with { type: 'json' };
+  import siteConfig from '#lib/config.json' with { type: 'json' };
   import { PageComponent, type PageProps } from 'accomadesc';
-  import { browser } from '$app/environment';
+  import { browser } from '$app/env';
   import { goto } from '$app/navigation';
 
   const landing = siteConfig.pages['/'] as PageProps;

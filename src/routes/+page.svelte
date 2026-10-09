@@ -1,7 +1,7 @@
 <script lang="ts">
-  import siteConfig from '$lib/config.json';
+  import siteConfig from '#lib/config.json';
   import { goto } from '$app/navigation';
-  import { browser } from '$app/environment';
+  import { browser } from '$app/env';
 
   const defaultLang = siteConfig.lang.defaultLang;
   let browserLang: string | null = null;

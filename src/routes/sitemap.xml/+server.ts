@@ -1,33 +1,28 @@
 export const prerender = true;
-import { 
-	DEPLOY_DATE, 
-	PRIMARY_DOMAIN,
-	RENDER_EXTERNAL_HOSTNAME,
-} from '$env/static/private';
-import siteConfig from '$lib/config.json' with { type: 'json' };
+
+import { DEPLOY_DATE, PRIMARY_DOMAIN, RENDER_EXTERNAL_HOSTNAME } from '$app/env/private';
+import siteConfig from '#lib/config.json' with { type: 'json' };
 
 let domain = PRIMARY_DOMAIN;
-if(!domain) {
-	domain = RENDER_EXTERNAL_HOSTNAME;
+if (!domain) {
+  domain = RENDER_EXTERNAL_HOSTNAME;
 }
-
 
 let pages: string = '';
 for (const l of siteConfig.lang.supportedLangs) {
-	for (const p of Object.values(siteConfig.pages)) { 
-		pages += 
-`
+  for (const p of Object.values(siteConfig.pages)) {
+    pages += `
 	<url>
 		<loc>https://${domain}/${l}${p.path}</loc>
 		<lastmod>${p.lastChange ?? DEPLOY_DATE}</lastmod>
 	</url>
 `;
-	}
+  }
 }
 
 export async function GET() {
-	return new Response(
-`
+  return new Response(
+    `
 <?xml version="1.0" encoding="UTF-8" ?>
 <urlset
 	xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
@@ -45,9 +40,10 @@ export async function GET() {
 	${pages}
 </urlset>
 `.trim(),
-	{
-		headers: {
-			'Content-Type': 'application/xml'
-		}
-	});
+    {
+      headers: {
+        'Content-Type': 'application/xml',
+      },
+    },
+  );
 }

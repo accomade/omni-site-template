@@ -12,13 +12,7 @@
     }
   },
   "lang": {
-    "supportedLangs": [
-      "en",
-      "de",
-      "pl",
-      "es",
-      "fr"
-    ],
+    "supportedLangs": ["en", "de", "pl", "es", "fr"],
     "defaultLang": "en",
     "translations": {
       "en": {
@@ -1155,10 +1149,7 @@
     }
   },
   "cookies": {
-    "types": [
-      "necessary",
-      "preferences"
-    ],
+    "types": ["necessary", "preferences"],
     "showIcon": true
   }
 }
