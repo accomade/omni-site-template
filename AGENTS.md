@@ -93,7 +93,6 @@ fonts-generator/ # Font generation scripts
 
 - `accomadesc`: Site state management and components
 - `js-cookie`: Cookie handling
-- `luxon`: Date/time handling
 - `@twicpics/components`: Image optimization
 - `@fontsource/*`: Self-hosted fonts
 

@@ -17,9 +17,6 @@ importers:
       '@fontsource/raleway':
         specifier: ^5.3.0
         version: 5.3.0
-      '@sveltejs/adapter-static':
-        specifier: ^4.0.0
-        version: 4.0.0(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3)(vite@8.3.4(@types/node@26.6.5)))
       '@twicpics/components':
         specifier: ^0.33.0
         version: 0.33.0
@@ -32,10 +29,10 @@ importers:
       js-cookie:
         specifier: ^3.0.8
         version: 3.0.8
-      luxon:
-        specifier: ^3.7.2
-        version: 3.7.2
     devDependencies:
+      '@sveltejs/adapter-static':
+        specifier: ^4.0.0
+        version: 4.0.0(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3)(vite@8.3.4(@types/node@26.6.5)))
       '@sveltejs/kit':
         specifier: ^3.0.1
         version: 3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3)(vite@8.3.4(@types/node@26.6.5))
@@ -45,15 +42,9 @@ importers:
       '@types/js-cookie':
         specifier: ^3.0.6
         version: 3.0.6
-      '@types/luxon':
-        specifier: ^3.7.6
-        version: 3.7.6
       '@types/node':
         specifier: ^26.6.5
         version: 26.6.5
-      '@types/squirrelly':
-        specifier: ^8.0.0
-        version: 8.0.0
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
@@ -260,15 +251,8 @@ packages:
   '@types/leaflet@1.9.22':
     resolution: {integrity: sha512-h3lhECYEKDasG7LFHu+GiHqAvsgLuQvlJvVZzJDGONo3sEL+wUOqSFLnwkZlK0qVxnxbuGFW8iBlJNYs5wgndA==}
 
-  '@types/luxon@3.7.6':
-    resolution: {integrity: sha512-6KSjliQAXK8ZLgFQO4B7iE4Rpf/B3rItzCFuXezBY/XIAGxOdLd7vRNK9/StRPwiS/yJsVbB7HKpW46B8tcEuQ==}
-
   '@types/node@26.6.5':
     resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
-
-  '@types/squirrelly@8.0.0':
-    resolution: {integrity: sha512-SBf23XIZBDmV4TBC0+727XtXjvrbCAgb4OQZ3LMx5bb2pUlLxPWEG0GHLlwAqeovxBoZpRSpHsucsgZq30qv7Q==}
-    deprecated: This is a stub types definition. squirrelly provides its own type definitions, so you do not need this installed.
 
   '@typescript-eslint/types@8.57.1':
     resolution: {integrity: sha512-S29BOBPJSFUiblEl6RzPPjJt6w25A6XsBqRVDt53tA/tlL8q7ceQNZHTjPeONt/3S7KRI4quk+yP9jK2WjBiPQ==}
@@ -503,10 +487,6 @@ packages:
     resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
-  squirrelly@9.1.1:
-    resolution: {integrity: sha512-Nf4V9U/dvp8jC1x7SpdeqwcaGU3Yo7IxNbHASoA2jWvzrkhmYj79qXXUSf4JctN6mmvRYPkqNb6HSrqvOB6aAA==}
-    engines: {node: '>=6.0.0'}
-
   svelte-check@4.7.6:
     resolution: {integrity: sha512-t2scM//ZuVbSY/T2w6FSBw1v9s2NEmh/g+sy1lqtosW5ylBV5AF4wFb1Ts9Kf3MbfPDUDJDZ9L436YT0SPTdvw==}
     engines: {node: '>= 18.0.0'}
@@ -716,15 +696,9 @@ snapshots:
     dependencies:
       '@types/geojson': 7946.0.16
 
-  '@types/luxon@3.7.6': {}
-
   '@types/node@26.6.5':
     dependencies:
       undici-types: 8.9.0
-
-  '@types/squirrelly@8.0.0':
-    dependencies:
-      squirrelly: 9.1.1
 
   '@typescript-eslint/types@8.57.1':
     optional: true
@@ -907,8 +881,6 @@ snapshots:
       totalist: 3.0.1
 
   source-map-js@1.2.2: {}
-
-  squirrelly@9.1.1: {}
 
   svelte-check@4.7.6(picomatch@4.0.7)(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3):
     dependencies:
