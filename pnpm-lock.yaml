@@ -24,8 +24,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0
       accomadesc:
-        specifier: ^0.4.32
-        version: 0.4.32(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))
+        specifier: ^0.4.33
+        version: 0.4.33(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))
       gdpr-cooco-banner:
         specifier: ^0.0.13
         version: 0.0.13(svelte@5.57.2(@typescript-eslint/types@8.57.1))
@@ -55,11 +55,11 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0
       prettier:
-        specifier: ^3.9.9
-        version: 3.9.9
+        specifier: ^3.9.10
+        version: 3.9.10
       prettier-plugin-svelte:
         specifier: ^4.1.1
-        version: 4.1.1(prettier@3.9.9)(svelte@5.57.2(@typescript-eslint/types@8.57.1))
+        version: 4.1.1(prettier@3.9.10)(svelte@5.57.2(@typescript-eslint/types@8.57.1))
       svelte:
         specifier: ^5.57.2
         version: 5.57.2(@typescript-eslint/types@8.57.1)
@@ -394,8 +394,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  accomadesc@0.4.32:
-    resolution: {integrity: sha512-ERBMOoQJFoU4hgJkpE71D+b0dCxkSOwwzCYv/0oZ/3eE8zHC3uwDUIzqkSc4H13ffcc7KNYiuN2WvfrTz4mSJg==}
+  accomadesc@0.4.33:
+    resolution: {integrity: sha512-HyqYhyc0cVJ5sZkLlAPWSFEyZm03A2lZ8aTNRcVMRNL9ZNR1/Q3OWRDq6x+kiAN3vM603Q0BlyLs2WjkdY9+oQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -597,8 +597,8 @@ packages:
       prettier: ^3.0.0
       svelte: ^5.0.0
 
-  prettier@3.9.9:
-    resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
+  prettier@3.9.10:
+    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -909,7 +909,7 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  accomadesc@0.4.32(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1)):
+  accomadesc@0.4.33(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1)):
     dependencies:
       '@fontsource/raleway': 5.3.0
       '@sveltejs/kit': 3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@7.0.2)(vite@8.3.4(@types/node@26.6.5))
@@ -1046,12 +1046,12 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.2
 
-  prettier-plugin-svelte@4.1.1(prettier@3.9.9)(svelte@5.57.2(@typescript-eslint/types@8.57.1)):
+  prettier-plugin-svelte@4.1.1(prettier@3.9.10)(svelte@5.57.2(@typescript-eslint/types@8.57.1)):
     dependencies:
-      prettier: 3.9.9
+      prettier: 3.9.10
       svelte: 5.57.2(@typescript-eslint/types@8.57.1)
 
-  prettier@3.9.9: {}
+  prettier@3.9.10: {}
 
   readdirp@4.1.2: {}
 
