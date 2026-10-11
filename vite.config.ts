@@ -4,7 +4,7 @@ import siteConfig from './src/lib/config.json' with { type: 'json' };
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
-const entries = [];
+const entries: `/${string}`[] = [];
 
 for (const l of siteConfig.lang.supportedLangs) {
   for (const p of Object.keys(siteConfig.pages)) {

@@ -1,7 +1,7 @@
 export const prerender = true;
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import siteConfig from '$lib/config.json' with { type: 'json' };
+import siteConfig from '#lib/config.json' with { type: 'json' };
 
 const API_BASE: string = siteConfig.settings.UCP_API_BASE_URL || 'https://accoma.de/api/ucp/v1';
 
