@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import { onMount, setContext, type Snippet } from 'svelte';
+  import { setContext, type Snippet } from 'svelte';
   import { Banner, type CookieType } from 'gdpr-cooco-banner';
   import { SiteState, type SiteConfig } from 'accomadesc';
   import siteConfig from '#lib/config.json' with { type: 'json' };
@@ -36,16 +36,6 @@
     ss.currentLang = langParam;
     if (document) {
       document.documentElement.lang = ss.currentLang;
-    }
-  });
-
-  onMount(() => {
-    if (window) {
-      const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
-      if (prefersDarkMode && !ss.selectedThemeInitialized) {
-        ss.selectedTheme = 'dark';
-        ss.selectedThemeInitialized = true;
-      }
     }
   });
 
