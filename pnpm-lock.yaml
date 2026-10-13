@@ -21,8 +21,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0
       accomadesc:
-        specifier: ^0.4.33
-        version: 0.4.33(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3)(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))
+        specifier: ^0.4.34
+        version: 0.4.34(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3)(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))
       gdpr-cooco-banner:
         specifier: ^0.0.13
         version: 0.0.13(svelte@5.57.2(@typescript-eslint/types@8.57.1))
@@ -258,8 +258,8 @@ packages:
     resolution: {integrity: sha512-S29BOBPJSFUiblEl6RzPPjJt6w25A6XsBqRVDt53tA/tlL8q7ceQNZHTjPeONt/3S7KRI4quk+yP9jK2WjBiPQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  accomadesc@0.4.33:
-    resolution: {integrity: sha512-HyqYhyc0cVJ5sZkLlAPWSFEyZm03A2lZ8aTNRcVMRNL9ZNR1/Q3OWRDq6x+kiAN3vM603Q0BlyLs2WjkdY9+oQ==}
+  accomadesc@0.4.34:
+    resolution: {integrity: sha512-9VHoM0vk6AYK4dwmDqkfNCNtmq0Jf2XqwtKkVen8Pz973jleWAWTd7ClgzJxQo9xsSaLuyGLGLdIYRWs4h6XaA==}
     peerDependencies:
       '@sveltejs/kit': ^2.15.2
       svelte: ^5.0.0
@@ -450,8 +450,8 @@ packages:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
-  postcss@8.5.29:
-    resolution: {integrity: sha512-49cGhUbXj8Qenv0iTMxA1cFBzxXoctpC9Ujd77t1WcbJIr6nF/eI7g/8MgxrYldFRuAXvja7xQRwavoW7kgrxQ==}
+  postcss@8.5.30:
+    resolution: {integrity: sha512-zkd+e9S1AQHhmaBKye9zlFHWjOwVgqXl1q3ECYy8561K7qxR2cREf/STLskulBFd78k6AOFeA+ff1TtEzk9bAA==}
     engines: {node: ^10 || ^12 || >=14}
 
   prettier-plugin-svelte@4.1.1:
@@ -703,7 +703,7 @@ snapshots:
   '@typescript-eslint/types@8.57.1':
     optional: true
 
-  accomadesc@0.4.33(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3)(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1)):
+  accomadesc@0.4.34(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3)(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1)):
     dependencies:
       '@fontsource/raleway': 5.3.0
       '@sveltejs/kit': 3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.1))(vite@8.3.4(@types/node@26.6.5)))(svelte@5.57.2(@typescript-eslint/types@8.57.1))(typescript@6.0.3)(vite@8.3.4(@types/node@26.6.5))
@@ -834,7 +834,7 @@ snapshots:
 
   picomatch@4.0.7: {}
 
-  postcss@8.5.29:
+  postcss@8.5.30:
     dependencies:
       nanoid: 3.3.20
       picocolors: 1.1.1
@@ -930,7 +930,7 @@ snapshots:
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
-      postcss: 8.5.29
+      postcss: 8.5.30
       rolldown: 1.2.13
       tinyglobby: 0.2.17
     optionalDependencies:
